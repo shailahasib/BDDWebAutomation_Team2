@@ -1,4 +1,6 @@
 package memberService;
 
-public class MemberServicePage {
+import common.WebAPI;
+
+public class MemberServicePage  extends WebAPI {
 }
