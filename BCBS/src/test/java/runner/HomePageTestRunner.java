@@ -1,4 +1,6 @@
 package runner;
 
-public class HomePageTestRunner {
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+public class HomePageTestRunner extends AbstractTestNGCucumberTests {
 }
