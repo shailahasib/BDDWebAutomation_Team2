@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I at T-moble home page",
+    "steps": [
+      {
+        "name": "I at T-moble home page",
+        "aggregatedDurations": {
+          "median": 9.4215487,
+          "average": 9.4215487
+        },
+        "durations": [
+          {
+            "duration": 9.4215487,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click tmoble search box",
+    "steps": [
+      {
+        "name": "I click tmoble search box",
+        "aggregatedDurations": {
+          "median": 1.2821789,
+          "average": 1.2821789
+        },
+        "durations": [
+          {
+            "duration": 1.2821789,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:187"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter iphone {int} pro max on searchbutton",
+    "steps": [
+      {
+        "name": "I enter iphone 11 pro max on searchbutton",
+        "aggregatedDurations": {
+          "median": 1.6645424,
+          "average": 1.6645424
+        },
+        "durations": [
+          {
+            "duration": 1.6645424,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:188"
+          }
+        ]
+      }
+    ]
+  }
+]
