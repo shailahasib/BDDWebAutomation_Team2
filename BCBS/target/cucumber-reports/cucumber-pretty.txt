@@ -1,0 +1,7 @@
+
+@Test
+Scenario: Bcbs privacy policy page should be all th way down # src/test/java/features/HomePage.feature:121
+  Given I am at BcBs home page                               # stepDefinitions.HomePageStepDefinitions.i_am_at_bc_bs_home_page()
+  And I Scroll down the home page                            # stepDefinitions.HomePageStepDefinitions.i_scroll_down_the_home_page()
+  When I come to the down of the page                        # stepDefinitions.HomePageStepDefinitions.i_come_to_the_down_of_the_page()
+  Then I verify  privacy policy option exit in the page      # stepDefinitions.HomePageStepDefinitions.i_verify_privacy_policy_option_exit_in_the_page()

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am at Expedia home page",
+    "steps": [
+      {
+        "name": "I am at Expedia home page",
+        "aggregatedDurations": {
+          "median": 10.5469112,
+          "average": 10.5469112
+        },
+        "durations": [
+          {
+            "duration": 10.5469112,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click expedia Flight",
+    "steps": [
+      {
+        "name": "I click expedia Flight",
+        "aggregatedDurations": {
+          "median": 0.2678471,
+          "average": 0.2678471
+        },
+        "durations": [
+          {
+            "duration": 0.2678471,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click Departing",
+    "steps": [
+      {
+        "name": "I Click Departing",
+        "aggregatedDurations": {
+          "median": 0.1499127,
+          "average": 0.1499127
+        },
+        "durations": [
+          {
+            "duration": 0.1499127,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  }
+]

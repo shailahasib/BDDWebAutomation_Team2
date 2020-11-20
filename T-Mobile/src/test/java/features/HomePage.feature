@@ -182,7 +182,7 @@ Feature:T-Moblie Homepage Functionality check
     And I click deals submenu see all deals
     Then I verify im the right page to the page title
 
-  @Test
+  @SmokeTest
   Scenario: valided to the page title iphone 11 pro max dispaly properly after search
     And I click tmoble search box
     And I enter iphone 11 pro max on searchbutton
@@ -190,4 +190,5 @@ Feature:T-Moblie Homepage Functionality check
     When I navigate to the page
     And I click iphone 11 pro max
     Then I valided iphone 11 pro max to the page title
+
 

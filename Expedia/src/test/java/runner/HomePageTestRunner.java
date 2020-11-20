@@ -2,6 +2,7 @@ package runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 
@@ -24,7 +25,7 @@ import org.junit.runner.RunWith;
             //to check the mapping is proper between feature file and step def file
             dryRun = false,
             publish = true,
-            tags = "(@Test) and (not @SmokeTest)"
+            tags = ("(@Test) and (not @SmokeTest)")
 //        tags = "(@SmokeTest or @RegressionTest or @Test) and (not @pending)"
 //        tags = "(@SmokeTest or @Regression) and (not @pending)"
 //        //        tags = " (    @Regression or  @smokeTest    ) and not @pending    "

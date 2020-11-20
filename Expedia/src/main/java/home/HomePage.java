@@ -1,9 +1,13 @@
 package home;
 
 import common.WebAPI;
+import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
+import java.util.List;
 
 import static home.HomePageWebElements.*;
 
@@ -17,12 +21,33 @@ public class HomePage extends WebAPI {
 
 @FindBy(how = How.XPATH, using = clicksearch)
     public WebElement  expediaclicksearchbutton;
+@FindBy(how = How.ID, using =sendSearcBox)
+    public WebElement  expediasendSearcBox;
+@FindBy(how = How.XPATH, using =leavinfrom)
+    public WebElement  expedialeavinfrom;
+@FindBy(how = How.XPATH, using =leavinfrom)
+    public WebElement  expedialeavinfrom1;
+@FindBy(how = How.XPATH, using = flight)
+    public WebElement  expediaflight;
+@FindBy(how = How.XPATH,using =departing)
+    public WebElement  expediadeparting;
 
+//@FindBy(how = How.CLASS_NAME,using =pickdate)
+//    public WebElement  expediapickdate;
+//@FindBy(how = How.XPATH,using =monthpickdate)
+//    public WebElement  expediamonthpickdate;
+//
+//@FindBy(how = How.XPATH,using =monthpickdateclick)
+//    public WebElement  expediamonthpickdateclick;
+//
 
 
 
 public void expediaSearchBoxCheck(){
     expediaSearchBox.click();
+
+}public void expediasendSearcBoxCheck(){
+        expediasendSearcBox.sendKeys("Bangladesh");
 
 }
 public void expediaSearchBoxSendLocation(){
@@ -30,12 +55,51 @@ public void expediaSearchBoxSendLocation(){
 
 }
 public void expediaclicksearchbutton(){
-    expediaSearchBoxSelectBangladesh.click();
+    expediaclicksearchbutton.click();
 
 }
 
+public void expediaclicksearcvalided(String exp) throws InterruptedException {
+    Thread.sleep(5000);
+  String act=" expediasendSearcBox";
+act=driver.getTitle();
+    Assert.assertEquals("Failed",act,exp);
+}
 
 
+    public void  expedialeavinfrom(){
+        expedialeavinfrom1.click();
+
+    }
+
+    public void  expediaflight(){
+        expediaflight.click();
+
+    }
+    public void  expediadeparting(){
+        expediadeparting.click();
+
+    }
+    public void calender() throws InterruptedException {
+       ;
+
+//    while ( !expediamonthpickdate.getText().contains("December")){
+//        expediamonthpickdateclick.click();
+
+//    }
+//    Thread.sleep(5000);
+// List<WebElement> dates= driver.findElements(By.className("uitk-new-date-picker-day"));
+//  int count =driver.findElements(By.className("uitk-new-date-picker-day")).size();
+//for (int i=0;i<count;i++){
+//   String text= driver.findElements(By.className("uitk-new-date-picker-day")).get(i).getText();
+//   if(text.equalsIgnoreCase("23")){
+//       driver.findElements(By.className("uitk-new-date-picker-day")).get(i).click();
+//       break;
+//   }
+//
+//        }
+
+    }
 
 
 

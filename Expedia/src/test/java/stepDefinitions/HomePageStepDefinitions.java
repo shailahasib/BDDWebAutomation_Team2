@@ -40,25 +40,13 @@ public class HomePageStepDefinitions extends WebAPI {
     }
 
 
-    @Given("I at T-moble home page")
-    public void i_at_t_moble_home_page() throws IOException {
-        openBrowser("https://www.expedia.com/");
-
-    }
-
-
-
-
-
-
-
 
 
 
 
     @Given("I am at Expedia home page")
-    public void i_am_at_expedia_home_page() {
-
+    public void i_am_at_expedia_home_page() throws IOException {
+        openBrowser("https://www.expedia.com/");
     }
 
     @Given("I click expedia searchbox")
@@ -68,20 +56,85 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Given("I enter location")
     public void i_enter_location() {
-
+        homePage. expediasendSearcBoxCheck();
+        homePage. expediaSearchBoxSendLocation();
     }
 
     @When("I hit on search button")
     public void i_hit_on_search_button() {
-
+        homePage.expediaclicksearchbutton();
     }
 
     @Then("I verify to the page title i am at right page")
-    public void i_verify_to_the_page_title_i_am_at_right_page() {
-
+    public void i_verify_to_the_page_title_i_am_at_right_page() throws InterruptedException {
+        homePage. expediaclicksearcvalided("Bangladesh Hotel Search Results");
     }
 
 
+    @Given("I click expedia Flight")
+    public void i_click_expedia_flight() {
+        homePage.  expediaflight();
+    }
+
+    @Given("I Select one way")
+    public void i_select_one_way() {
+
+    }
+
+    @Given("I enter my location  from where im leaving")
+    public void i_enter_my_location_from_where_im_leaving() {
+
+    }
+
+    @Given("I click going box")
+    public void i_click_going_box() {
+
+    }
+
+    @Given("I enter where i want to go")
+    public void i_enter_where_i_want_to_go() {
+
+    }
+
+    @Given("I Click Departing")
+    public void i_click_departing() {
+        homePage. expediadeparting();
+    }
+
+    @Given("I select date from calander")
+    public void i_select_date_from_calander() throws InterruptedException {
+        homePage.calender();
+    }
+
+    @Given("I Click Done button on calender")
+    public void i_click_done_button_on_calender() {
+
+    }
+
+    @Then("I verify lots of flights are avalable in the page")
+    public void i_verify_lots_of_flights_are_avalable_in_the_page() {
+
+    }
+
+    @Given("I click Access My benifits")
+    public void i_click_access_my_benifits() {
+
+    }
+
+    @Given("I I enter invalid number")
+    public void i_i_enter_invalid_number() {
+
+    }
+
+    @When("I click go")
+    public void i_click_go() {
+
+    }
+
+    @Then("I verify A pop up massage shows try again")
+    public void i_verify_a_pop_up_massage_shows_try_again() {
+
+    }
 
 
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.174">
+    <testcase classname="Bcsc website Functionality check" name="Bcbs privacy policy page should be all th way down" time="18.406">
+        <system-out>
+            <![CDATA[Given I am at BcBs home page................................................passed
+And I Scroll down the home page.............................................passed
+When I come to the down of the page.........................................passed
+Then I verify  privacy policy option exit in the page.......................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
