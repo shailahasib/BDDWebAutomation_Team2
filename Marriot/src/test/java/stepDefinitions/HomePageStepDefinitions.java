@@ -4,10 +4,11 @@
 package stepDefinitions;
 
 import common.WebAPI;
-import home.homePage;
+import home.HomePage;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,16 +16,16 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 
+import javax.swing.plaf.ScrollBarUI;
 import java.io.IOException;
-import java.util.List;
 
 public class HomePageStepDefinitions extends WebAPI {
 
-    static homePage homePage;
+    static HomePage homePage;
 
     @BeforeStep
     public static void getInit() {
-        homePage = PageFactory.initElements(driver, homePage.class);
+        homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
     @Given("I am on the Marriot homepage")
@@ -101,9 +102,41 @@ public class HomePageStepDefinitions extends WebAPI {
         }
     }
 
-    @After
-    public void closeBrowser() {
-        cleanUp();
+//    @After
+//    public void closeBrowser() {
+//        cleanUp();
+//    }
+
+
+    @Then("I type location name")
+    public void iTypeLocationName() {
+
     }
 
+    @And("I click and on Where do you want to go")
+    public void iClickAndOnWhereDoYouWantToGo() {
+    }
+
+    @And("I click on the start from calendar")
+    public void iClickOnTheStartFromCalendar() {
+        homePage.clickOnCalendarFrom();
+        sleepFor(5);
+    }
+
+
+    @And("I type in NYC")
+    public void iTypeInNYC() {
+        homePage.goToNyc();
+    }
+
+    @And("scroll down and find the destination box")
+    public void scrollDownAndFindTheDestinationBox() {
+        homePage.findDestinationBox();
+    }
+
+    @And("I select start date")
+    public void iSelectStartDate() {
+        homePage.pickStartDate("NOVEMBER 2020","25");
+        sleepFor(4);
+    }
 }
