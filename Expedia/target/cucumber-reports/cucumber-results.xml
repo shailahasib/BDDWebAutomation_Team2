@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="17" time="328.083">
+    <testcase classname="Browsing Expedia Homepage" name="From Homepage I scroll down and sign up to get a mobile App download link" time="36.83">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;uitk-type-300 all-b-padding-three uitk-text-positive-theme&quot;}&#10;  (Session info: chrome=87.0.4280.66)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c2f7a656e9a32b94675bd4193dfcdd08&#10;*** Element info: {Using=css selector, value=uitk-type-300 all-b-padding-three uitk-text-positive-theme}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page.................................passed
+When I sign up using my phone number "6589584587"...........................passed
+Then I verify it shows "We’ve sent you a text message with a link to download the app.".failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"uitk-type-300 all-b-padding-three uitk-text-positive-theme"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64780}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2f7a656e9a32b94675bd4193dfcdd08
+*** Element info: {Using=css selector, value=uitk-type-300 all-b-padding-three uitk-text-positive-theme}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.getTextByCss(WebAPI.java:386)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iVerifyItShows(aldrinsHomePageStepDefinitions.java:65)
+	at ✽.I verify it shows "We’ve sent you a text message with a link to download the app."(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="From Homepage I scroll down and sign up to get a mobile App download link 2" time="16.018">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=87.0.4280.66)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2ce7bf22dede127ede689734c92a0247" type="org.openqa.selenium.StaleElementReferenceException">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page.................................passed
+When I sign up using my phone number "5698744589"...........................failed
+Then I verify it shows "We’ve sent you a text message with a link to download the app.".skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2ce7bf22dede127ede689734c92a0247
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at common.WebAPI.inputValueInTextBoxByWebElement(WebAPI.java:594)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iSignUpUsingMyPhoneNumber(aldrinsHomePageStepDefinitions.java:58)
+	at ✽.I sign up using my phone number "5698744589"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="From Homepage I scroll down and sign up to get a mobile App download link 3" time="14.461">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=87.0.4280.66)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3160a8f856360ade7700eed373d703c1" type="org.openqa.selenium.StaleElementReferenceException">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page.................................passed
+When I sign up using my phone number "2455698965"...........................failed
+Then I verify it shows "We’ve sent you a text message with a link to download the app.".skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3160a8f856360ade7700eed373d703c1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at common.WebAPI.inputValueInTextBoxByWebElement(WebAPI.java:594)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iSignUpUsingMyPhoneNumber(aldrinsHomePageStepDefinitions.java:58)
+	at ✽.I sign up using my phone number "2455698965"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="From Homepage I scroll down and sign up to get a mobile App download link 4" time="33.914">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#phoneNumber&quot;}&#10;  (Session info: chrome=87.0.4280.66)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7894a1560572b62fe572a8284fc6c162&#10;*** Element info: {Using=id, value=phoneNumber}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page.................................failed
+When I sign up using my phone number "2695558895"...........................skipped
+Then I verify it shows "We’ve sent you a text message with a link to download the app.".skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#phoneNumber"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7894a1560572b62fe572a8284fc6c162
+*** Element info: {Using=id, value=phoneNumber}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iScrollDownToTheBottomOfThePage(aldrinsHomePageStepDefinitions.java:53)
+	at ✽.I scroll down to the bottom of the page(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="From Homepage I scroll down and sign up to get a mobile App download link 5" time="15.677">
+        <failure message="element not interactable&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2da361fa0accbb49243727548590b39c" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page.................................passed
+When I sign up using my phone number "2364523695"...........................failed
+Then I verify it shows "We’ve sent you a text message with a link to download the app.".skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TSTLMB5', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\aldri\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2da361fa0accbb49243727548590b39c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at common.WebAPI.inputValueInTextBoxByWebElement(WebAPI.java:594)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iSignUpUsingMyPhoneNumber(aldrinsHomePageStepDefinitions.java:58)
+	at ✽.I sign up using my phone number "2364523695"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links" time="15.679">
+        <system-out>
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "About Expedia".............................................passed
+Then I verify the landing "https://www.expediagroup.com/"...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 2" time="21.335">
+        <system-out>
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Jobs"......................................................passed
+Then I verify the landing "https://lifeatexpediagroup.com/".................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 3" time="20.198">
+        <failure message="Test Failed, Link Does not match expected:&lt;http[://ir.expediagroup.com/]&gt; but was:&lt;http[s://ir.expediagroup.com/investors-overview/default.aspx]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Investor Relations"........................................passed
+Then I verify the landing "http://ir.expediagroup.com/".....................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Failed, Link Does not match expected:<http[://ir.expediagroup.com/]> but was:<http[s://ir.expediagroup.com/investors-overview/default.aspx]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iVerifyTheLanding(aldrinsHomePageStepDefinitions.java:79)
+	at ✽.I verify the landing "http://ir.expediagroup.com/"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 4" time="15.797">
+        <system-out>
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Advertising"...............................................passed
+Then I verify the landing "https://advertising.expedia.com/"................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 5" time="15.818">
+        <system-out>
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Newsroom"..................................................passed
+Then I verify the landing "https://newsroom.expedia.com/"...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 6" time="18.316">
+        <failure message="Test Failed, Link Does not match expected:&lt;...s://www.expedia.com/[g/pt/about-ad]s&gt; but was:&lt;...s://www.expedia.com/[deal]s&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "About Our Ads".............................................passed
+Then I verify the landing "https://www.expedia.com/g/pt/about-ads"..........failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Failed, Link Does not match expected:<...s://www.expedia.com/[g/pt/about-ad]s> but was:<...s://www.expedia.com/[deal]s>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iVerifyTheLanding(aldrinsHomePageStepDefinitions.java:79)
+	at ✽.I verify the landing "https://www.expedia.com/g/pt/about-ads"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 7" time="15.45">
+        <failure message="Test Failed, Link Does not match expected:&lt;...s://www.expedia.com/[p/info-other/privacy-policy.htm]&gt; but was:&lt;...s://www.expedia.com/[lp/lg-privacypolicy]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Privacy Policy"............................................passed
+Then I verify the landing "https://www.expedia.com/p/info-other/privacy-policy.htm".failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Failed, Link Does not match expected:<...s://www.expedia.com/[p/info-other/privacy-policy.htm]> but was:<...s://www.expedia.com/[lp/lg-privacypolicy]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iVerifyTheLanding(aldrinsHomePageStepDefinitions.java:79)
+	at ✽.I verify the landing "https://www.expedia.com/p/info-other/privacy-policy.htm"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 8" time="18.032">
+        <failure message="Test Failed, Link Does not match expected:&lt;...s://www.expedia.com/[p/info-other/legal.htm]&gt; but was:&lt;...s://www.expedia.com/[lp/lg-legal]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Terms of Use"..............................................passed
+Then I verify the landing "https://www.expedia.com/p/info-other/legal.htm"..failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Failed, Link Does not match expected:<...s://www.expedia.com/[p/info-other/legal.htm]> but was:<...s://www.expedia.com/[lp/lg-legal]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iVerifyTheLanding(aldrinsHomePageStepDefinitions.java:79)
+	at ✽.I verify the landing "https://www.expedia.com/p/info-other/legal.htm"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 9" time="16.093">
+        <system-out>
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Site Map"..................................................passed
+Then I verify the landing "https://www.expedia.com/lp/b/sitemap"............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 10" time="18.053">
+        <system-out>
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Accessibility".............................................passed
+Then I verify the landing "https://www.expedia.com/p/info-other/web-accessibility-policy".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 11" time="16.148">
+        <failure message="Test Failed, Link Does not match expected:&lt;...s://www.expedia.com/[service/]&gt; but was:&lt;...s://www.expedia.com/[]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Support"...................................................passed
+Then I verify the landing "https://www.expedia.com/service/"................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Failed, Link Does not match expected:<...s://www.expedia.com/[service/]> but was:<...s://www.expedia.com/[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.aldrinsHomePageStepDefinitions.iVerifyTheLanding(aldrinsHomePageStepDefinitions.java:79)
+	at ✽.I verify the landing "https://www.expedia.com/service/"(file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Browsing Expedia Homepage" name="I check the footer links 12" time="19.144">
+        <system-out>
+            <![CDATA[Given I am at Expedia home page.............................................passed
+And I scroll down to the bottom of the page to view footer..................passed
+When I click on "Do Not Sell My Personal Information".......................passed
+Then I verify the landing "https://www.expedia.com/dnsmpi"..................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,451 @@
+[
+  {
+    "source": "I am at Expedia home page",
+    "steps": [
+      {
+        "name": "I am at Expedia home page",
+        "aggregatedDurations": {
+          "median": 13.6812376,
+          "average": 13.815212123
+        },
+        "durations": [
+          {
+            "duration": 13.6190113,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 14.3806483,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 12.7198591,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 12.8658198,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 14.1145351,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 13.2958357,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 12.9665337,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 14.4894804,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 13.6739884,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 13.6973854,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 15.1890331,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 12.4596687,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 13.6812376,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 13.3403297,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 15.7099655,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 13.8413551,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          },
+          {
+            "duration": 14.8139192,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I scroll down to the bottom of the page",
+    "steps": [
+      {
+        "name": "I scroll down to the bottom of the page",
+        "aggregatedDurations": {
+          "median": 0.0537663,
+          "average": 0.066768175
+        },
+        "durations": [
+          {
+            "duration": 0.1069975,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:7"
+          },
+          {
+            "duration": 0.0531784,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:7"
+          },
+          {
+            "duration": 0.0525426,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:7"
+          },
+          {
+            "duration": 0.0543542,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I sign up using my phone number {string}",
+    "steps": [
+      {
+        "name": "I sign up using my phone number \"6589584587\"",
+        "aggregatedDurations": {
+          "median": 1.7999766,
+          "average": 1.7999766
+        },
+        "durations": [
+          {
+            "duration": 1.7999766,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I scroll down to the bottom of the page to view footer",
+    "steps": [
+      {
+        "name": "I scroll down to the bottom of the page to view footer",
+        "aggregatedDurations": {
+          "median": 0.0768361,
+          "average": 0.174163766
+        },
+        "durations": [
+          {
+            "duration": 0.0760121,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.5179695,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.0776601,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.0570005,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.0698083,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.0531858,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.5545189,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.1554707,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.1834716,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.0540381,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.2198298,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          },
+          {
+            "duration": 0.0709998,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string}",
+    "steps": [
+      {
+        "name": "I click on \"About Expedia\"",
+        "aggregatedDurations": {
+          "median": 1.3903312,
+          "average": 1.3903312
+        },
+        "durations": [
+          {
+            "duration": 1.3903312,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Jobs\"",
+        "aggregatedDurations": {
+          "median": 6.6310317,
+          "average": 6.6310317
+        },
+        "durations": [
+          {
+            "duration": 6.6310317,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Investor Relations\"",
+        "aggregatedDurations": {
+          "median": 4.7420894,
+          "average": 4.7420894
+        },
+        "durations": [
+          {
+            "duration": 4.7420894,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Advertising\"",
+        "aggregatedDurations": {
+          "median": 1.12206,
+          "average": 1.12206
+        },
+        "durations": [
+          {
+            "duration": 1.12206,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Newsroom\"",
+        "aggregatedDurations": {
+          "median": 1.1678881,
+          "average": 1.1678881
+        },
+        "durations": [
+          {
+            "duration": 1.1678881,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"About Our Ads\"",
+        "aggregatedDurations": {
+          "median": 2.0269638,
+          "average": 2.0269638
+        },
+        "durations": [
+          {
+            "duration": 2.0269638,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Privacy Policy\"",
+        "aggregatedDurations": {
+          "median": 1.4140606,
+          "average": 1.4140606
+        },
+        "durations": [
+          {
+            "duration": 1.4140606,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Terms of Use\"",
+        "aggregatedDurations": {
+          "median": 3.2926877,
+          "average": 3.2926877
+        },
+        "durations": [
+          {
+            "duration": 3.2926877,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Site Map\"",
+        "aggregatedDurations": {
+          "median": 1.6655251,
+          "average": 1.6655251
+        },
+        "durations": [
+          {
+            "duration": 1.6655251,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Accessibility\"",
+        "aggregatedDurations": {
+          "median": 1.4141696,
+          "average": 1.4141696
+        },
+        "durations": [
+          {
+            "duration": 1.4141696,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Support\"",
+        "aggregatedDurations": {
+          "median": 1.118405,
+          "average": 1.118405
+        },
+        "durations": [
+          {
+            "duration": 1.118405,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"Do Not Sell My Personal Information\"",
+        "aggregatedDurations": {
+          "median": 3.3564956,
+          "average": 3.3564956
+        },
+        "durations": [
+          {
+            "duration": 3.3564956,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the landing {string}",
+    "steps": [
+      {
+        "name": "I verify the landing \"https://www.expediagroup.com/\"",
+        "aggregatedDurations": {
+          "median": 0.0110328,
+          "average": 0.0110328
+        },
+        "durations": [
+          {
+            "duration": 0.0110328,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify the landing \"https://lifeatexpediagroup.com/\"",
+        "aggregatedDurations": {
+          "median": 0.0069986,
+          "average": 0.0069986
+        },
+        "durations": [
+          {
+            "duration": 0.0069986,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify the landing \"https://advertising.expedia.com/\"",
+        "aggregatedDurations": {
+          "median": 0.0070871,
+          "average": 0.0070871
+        },
+        "durations": [
+          {
+            "duration": 0.0070871,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify the landing \"https://newsroom.expedia.com/\"",
+        "aggregatedDurations": {
+          "median": 0.0070303,
+          "average": 0.0070303
+        },
+        "durations": [
+          {
+            "duration": 0.0070303,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify the landing \"https://www.expedia.com/lp/b/sitemap\"",
+        "aggregatedDurations": {
+          "median": 0.0260593,
+          "average": 0.0260593
+        },
+        "durations": [
+          {
+            "duration": 0.0260593,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify the landing \"https://www.expedia.com/p/info-other/web-accessibility-policy\"",
+        "aggregatedDurations": {
+          "median": 0.0080009,
+          "average": 0.0080009
+        },
+        "durations": [
+          {
+            "duration": 0.0080009,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify the landing \"https://www.expedia.com/dnsmpi\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/AldrinsHomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  }
+]
