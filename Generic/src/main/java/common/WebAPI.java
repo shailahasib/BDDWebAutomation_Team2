@@ -696,6 +696,9 @@ public class WebAPI {
     public void clickByName (String loc){
         driver.findElement(By.name(loc)).click();
     }
+    public void clickByClassName (String loc){
+        driver.findElement(By.className(loc)).click();
+    }
     public void clickByLinkText (String loc){
         driver.findElement(By.linkText(loc)).click();
     }

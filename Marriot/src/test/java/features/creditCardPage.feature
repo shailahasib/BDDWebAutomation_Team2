@@ -39,10 +39,41 @@ Feature: I am at the credit cards page and browsing different types of cards
       | anotheremailtwoset@gmail.com   | testPassword1 |
       | anotheremailthreeset@gmail.com | testPassword1 |
       | anotheremailfourset@gmail.com  | testPassword1 |
-      | anotheremailfiveset@gmail.com  | testPassword1
+      | anotheremailfiveset@gmail.com  | testPassword1 |
 
-    Scenario: I click "Find & Reserve" and browse the options
-      When I click on "Find & Reserve" drop down
-      And I Type in my "destination", select dates
-      And I click on "Find Hotels"
-      Then I reach "https://www.marriott.com/search/findHotels.mi" with results
+  Scenario Outline: I click "Find & Reserve" and browse the options
+    When I click on "Find & Reserve" drop down
+    And I Type in my "<destination>" for "<month>" on "<date>"
+    And I click on "Find Hotels"
+    Then I reach "https://www.marriott.com/search/findHotels.mi" with results
+    Examples:
+      | destination                         | month         | date |
+      | Brooklyn, NY, USA                   | FEBRUARY 2021 | 25   |
+      | Hamburg, Germany                    | MARCH 2021    | 12   |
+      | Delhi Gate, Daryaganj, Delhi, India | APRIL 2021    | 18   |
+      | San Francisco, CA, USA              | JUNE 2021     | 23   |
+
+  Scenario: I look into "Marriott Bonvoy Boundless™ Credit Card from Chase"
+    When I click "Marriott Bonvoy Boundless™ Credit Card from Chase" Learn more
+    Then I verify it opens up into a new tab titled "Marriott Bonvoy Boundless™ Credit Card from Chase"
+    And I veritfy the card is offering "75,000 BONUS POINTS" points for initial signup
+
+  Scenario: I checkout the mobile app page
+    When I click on "Learn More" on the footer banner for App
+    And I click on "Mobile Key" on the header link
+    Then I verify page scrolled down to "Mobile Key" view
+
+  Scenario Outline: I lookup a trip itenerary from "My trip"
+    When I navigate to "My Trip" and the pop-up opens
+    And I enter user information "<confirmationNo>","<checkInMonthYear>", "<checkInDate>","<FirstName>","<LastName>"
+    Then I am redirected to a page with appropriate error message "Reservation not found"
+    And I validate the title of the page is "Upcoming Reservations Confirmation #"
+    Examples:
+      | confirmationNo | checkInMonthYear | checkInDate | FirstName | LastName     |
+      | LMN3SFF312341  | December 2020    | 23          | Joseph    | Robinet      |
+      | J23A2I9233021  | December 2020    | 13          | Emile     | Hoosier      |
+      | 12341FGDEWQF1  | January 2021     | 11          | Chris     | Dickens      |
+      | I12341H1231S2  | February 2021    | 24          | Holly     | Smith        |
+      | R45W41H1231S2  | February 2021    | 16          | Rebecca   | Winemouth    |
+      | I1234567G31S2  | March 2021       | 19          | Menuson   | Davenport    |
+      | I1234SFXXV1S2  | February 2021    | 24          | Lilly     | Cunninlingus |

@@ -140,17 +140,98 @@ public class CreditCardsStepDefinitions extends WebAPI {
         sleepFor(2);
     }
 
-    @And("I Type in my {string}, select dates")
-    public void iTypeInMySelectDates(String arg0) {
-        creditCardPage.enterDesination("Brooklyn, NY, USA");
-
+    @And("I Type in my {string} for {string} on {string}")
+    public void iTypeInMyForOn(String destination, String month, String date) {
+        creditCardPage.enterDesination(destination);
+        creditCardPage.pickStartDate(month, date);
+        sleepFor(1);
+        clickByCss(blankSpaceElement);
+        sleepFor(1);
     }
 
     @And("I click on {string}")
     public void iClickOn(String arg0) {
+        clickByCss(findHotelsButtonElement);
     }
 
     @Then("I reach {string} with results")
-    public void iReachWithResults(String arg0) {
+    public void iReachWithResults(String expected) {
+        String actual = driver.getCurrentUrl();
+        Assert.assertEquals("Test Failed", expected, actual);
     }
+
+    @When("I click {string} Learn more")
+    public void iClickLearnMore(String arg0) {
+        clickByXpath(cardBonvoyElement);
+        sleepFor(3);
+        handleNewTab(driver);
+    }
+
+    @Then("I verify it opens up into a new tab titled {string}")
+    public void iVerifyItOpensUpIntoANewTabTitled(String expected) {
+        String actual = driver.getTitle();
+        Assert.assertEquals("Test Failed", expected, actual);
+    }
+
+    @And("I veritfy the card is offering {string} points for initial signup")
+    public void iVeritfyTheCardIsOfferingPointsForInitialSignup(String expected) {
+        expected = "75,000\nBONUS POINTS";
+        String actual = getTextByCss(cardBonvoyOfferElement);
+        Assert.assertEquals("Test Failed", expected, actual);
+    }
+
+    @When("I click on {string} on the footer banner for App")
+    public void iClickOnOnTheFooterBannerForApp(String arg0) {
+        clickByClassName(bonvoyAppElement);
+        sleepFor(2);
+        handleNewTab(driver);
+    }
+
+    @And("I click on {string} on the header link")
+    public void iClickOnOnTheHeaderLink(String arg0) {
+        driver.findElement(By.cssSelector(mobileKeyAppElement)).click();
+
+    }
+
+    @Then("I verify page scrolled down to {string} view")
+    public void iVerifyPageScrolledDownToView(String expected) {
+        sleepFor(2);
+        String actual = getTextByXpath(mobileKeyHeaderElement);
+        Assert.assertEquals("Test Failed", expected, actual);
+    }
+
+    @When("I navigate to {string} and the pop-up opens")
+    public void iNavigateToAndThePopUpOpens(String arg0) {
+        clickByXpath(myTripButtonElement);
+        sleepFor(2);
+    }
+
+    @And("I enter user information {string},{string}, {string},{string},{string}")
+    public void iEnterUserInformation(String confirmationNo, String checkInMonthYear, String checkInDate, String FirstName, String LastName) {
+        driver.findElement(By.id(confirmationNoElement)).sendKeys(confirmationNo);
+        //typeOnElement(confirmationNOElement, confirmationNo);
+        sleepFor(1);
+        driver.findElement(By.id(tripFirstNameElement)).sendKeys(FirstName);
+        driver.findElement(By.id(tripLastNameElement)).sendKeys(LastName);
+        sleepFor(1);
+        clickById(checkInDateElement);
+        sleepFor(2);
+        creditCardPage.pickCheckInDate(checkInMonthYear, checkInDate);
+        clickById(tripFindButtonElement);
+    }
+
+
+    @Then("I am redirected to a page with appropriate error message {string}")
+    public void iAmRedirectedToAPageWithAppropriateErrorMessage(String expected) {
+        String actual = getTextById(errorMessageIDElement);
+        Assert.assertEquals("Test Failed", expected, actual);
+    }
+
+    @And("I validate the title of the page is {string}")
+    public void iValidateTheTitleOfThePageIs(String expected) {
+        String actual = driver.getTitle();
+        Assert.assertEquals("Test Failed", expected, actual);
+    }
+
+
 }

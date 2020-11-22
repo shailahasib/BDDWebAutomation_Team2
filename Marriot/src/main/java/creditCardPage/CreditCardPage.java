@@ -11,6 +11,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static creditCardPage.creditCardPageWebElements.*;
@@ -30,6 +31,20 @@ public class CreditCardPage extends WebAPI {
     public WebElement inputDestination;
     @FindBy(how = How.XPATH, using = leftCalendarBoxElement)
     public WebElement leftCalendarBox;
+    @FindBy(how = How.XPATH, using = leftMonthBoxMonthElement)
+    public WebElement leftMonthBoxMonth;
+    @FindBy(how = How.XPATH, using = nextMonthArrowElement)
+    public WebElement nextMonthArrow;
+    @FindBy(how = How.XPATH, using = allDatesLeftBoxElement)
+    public List<WebElement> allDatesLeftBox;
+    @FindBy(how = How.CLASS_NAME, using = mobileKeyAppElement)
+    public WebElement mobileKeyApp;
+    @FindBy(how = How.XPATH, using = mobileKeyImgElement)
+    public WebElement mobileKeyImg;
+    @FindBy(how = How.XPATH, using = datePickerElement)
+    public List<WebElement> datePicker;
+    @FindBy(how = How.XPATH, using = calendarFrameElement)
+    public WebElement calendarFrame;
 
 
     public void covidBannerVisibility() {
@@ -55,14 +70,14 @@ public class CreditCardPage extends WebAPI {
         WebDriverWait wait = new WebDriverWait(driver, 6);
         wait.until(ExpectedConditions.visibilityOf(leftCalendarBox));
         while (true) {
-            String monthText = monthEnabled.getText();
+            String monthText = leftMonthBoxMonth.getText();
             if (monthText.equalsIgnoreCase(month)) {
                 break;
             } else {
-                nextMonth.click();
+                nextMonthArrow.click();
             }
         }
-        for (WebElement allDates : allDatesOnFirstCal) {
+        for (WebElement allDates : allDatesLeftBox) {
 
             while (allDates.equals(date)) {
                 for (int i = 0; i <= 1; i++) {
@@ -73,20 +88,56 @@ public class CreditCardPage extends WebAPI {
         }
 
     }
-//    public static void main(String[] args) {
-//        //getInit
-//        WebDriver driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-//        driver.get("https://www.marriott.com/loyalty/earn/credit-card-rewards.mi");
-//        sleepFor(5);
+
+    public void pickCheckInDate(String monthYearParam, String dateParam) {
+        //WebDriverWait wait = new WebDriverWait(driver, 6);
+
+        //wait.until(ExpectedConditions.visibilityOf(calendarFrame));
+        String actualMonth = driver.findElement(By.xpath(monthPickerElement)).getText();
+        String actualYear = driver.findElement(By.xpath(yearPickerElement)).getText();
+        String actualMonthYear = (actualMonth + " " + actualYear);
+        System.out.println(actualMonthYear);
+        while (true) {
+            if (actualMonthYear.equalsIgnoreCase(monthYearParam)) {
+                break;
+            } else {
+                clickByXpath(tripNextMonthElement);
+            }
+        }
+        for (WebElement allDates : datePicker) {
+
+            if (allDates.equals(dateParam)) {
+
+                allDates.click();
+                break;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        //getInit
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.get("https://www.marriott.com/loyalty/earn/credit-card-rewards.mi");
+        sleepFor(5);
+        driver.findElement(By.xpath(myTripButtonElement)).click();
+        sleepFor(3);
+        driver.findElement(By.id(checkInDateElement)).click();
+        String expectedMonth = driver.findElement(By.xpath(monthPickerElement)).getText().toString();
+        String expectedYear = driver.findElement(By.xpath(yearPickerElement)).getText().toString();
+        System.out.println(expectedMonth + " " + expectedYear);
+
+        String actualMonthYear = (expectedMonth + " " + expectedYear);
+        System.out.println("Test Text will come out as " + actualMonthYear);
+
 //        driver.findElement(By.className(signInOrJoinElement)).click();
 //        driver.findElement(By.className(joinInElement)).click();
 //
-//        //tearDown
-//        sleepFor(3);
-//        driver.manage().deleteAllCookies();
-//        driver.close();
-//
-//    }
+        //tearDown
+        sleepFor(3);
+        driver.manage().deleteAllCookies();
+        driver.close();
+
+    }
 }
