@@ -133,4 +133,24 @@ public class CreditCardsStepDefinitions extends WebAPI {
         String actual = driver.getCurrentUrl();
         Assert.assertEquals("Test Failed", expected, actual);
     }
+
+    @When("I click on {string} drop down")
+    public void iClickOnDropDown(String arg0) {
+        creditCardPage.clickFindReserve();
+        sleepFor(2);
+    }
+
+    @And("I Type in my {string}, select dates")
+    public void iTypeInMySelectDates(String arg0) {
+        creditCardPage.enterDesination("Brooklyn, NY, USA");
+
+    }
+
+    @And("I click on {string}")
+    public void iClickOn(String arg0) {
+    }
+
+    @Then("I reach {string} with results")
+    public void iReachWithResults(String arg0) {
+    }
 }

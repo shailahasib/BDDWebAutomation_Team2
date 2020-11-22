@@ -39,4 +39,10 @@ Feature: I am at the credit cards page and browsing different types of cards
       | anotheremailtwoset@gmail.com   | testPassword1 |
       | anotheremailthreeset@gmail.com | testPassword1 |
       | anotheremailfourset@gmail.com  | testPassword1 |
-      | anotheremailfiveset@gmail.com  | testPassword1 |
+      | anotheremailfiveset@gmail.com  | testPassword1
+
+    Scenario: I click "Find & Reserve" and browse the options
+      When I click on "Find & Reserve" drop down
+      And I Type in my "destination", select dates
+      And I click on "Find Hotels"
+      Then I reach "https://www.marriott.com/search/findHotels.mi" with results

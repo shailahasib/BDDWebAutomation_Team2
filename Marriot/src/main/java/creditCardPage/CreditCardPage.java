@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,20 +20,59 @@ public class CreditCardPage extends WebAPI {
 
     @FindBy(how = How.ID, using = covidBannerElement)
     public WebElement covidBanner;
-    @FindBy(how = How.ID, using = emailElement) public WebElement email;
-    @FindBy(how = How.ID, using = passwordElement) public WebElement password;
+    @FindBy(how = How.ID, using = emailElement)
+    public WebElement email;
+    @FindBy(how = How.ID, using = passwordElement)
+    public WebElement password;
+    @FindBy(how = How.XPATH, using = openFindReserveElement)
+    public WebElement openFindReserve;
+    @FindBy(how = How.ID, using = inputDestinationElement)
+    public WebElement inputDestination;
+    @FindBy(how = How.XPATH, using = leftCalendarBoxElement)
+    public WebElement leftCalendarBox;
+
 
     public void covidBannerVisibility() {
         covidBanner.isDisplayed();
     }
-    public void sendEmailAndPassword(String emailText, String passwordText){
+
+    public void sendEmailAndPassword(String emailText, String passwordText) {
         email.sendKeys(emailText);
         sleepFor(1);
         password.sendKeys(passwordText);
-
     }
 
+    public void clickFindReserve() {
+        openFindReserve.click();
+    }
 
+    public void enterDesination(String destination) {
+        inputDestination.sendKeys(destination);
+    }
+
+    public void pickStartDate(String month, String date) {
+
+        WebDriverWait wait = new WebDriverWait(driver, 6);
+        wait.until(ExpectedConditions.visibilityOf(leftCalendarBox));
+        while (true) {
+            String monthText = monthEnabled.getText();
+            if (monthText.equalsIgnoreCase(month)) {
+                break;
+            } else {
+                nextMonth.click();
+            }
+        }
+        for (WebElement allDates : allDatesOnFirstCal) {
+
+            while (allDates.equals(date)) {
+                for (int i = 0; i <= 1; i++) {
+                    allDates.click();
+                    break;
+                }
+            }
+        }
+
+    }
 //    public static void main(String[] args) {
 //        //getInit
 //        WebDriver driver = new ChromeDriver();

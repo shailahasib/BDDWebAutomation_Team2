@@ -23,6 +23,11 @@ public class creditCardPageWebElements {
 
     public static final String joinInElement = "//a[normalize-space()='Join Now']";
 
+    public static final String openFindReserveElement = "//li[@id='MainNavLinkca52']//a[@class='m-nav-link m-list-item l-padding-left-none l-padding-right-none l-padding-bottom l-padding-top']";
+    public static final String inputDestinationElement = "83RNXVCU_search-location";
+    public static final String leftCalendarBoxElement = "//div[@class='t-check-in']//div[1]//table[1]";
+public static final String leftMonthBoxMonthElement = "//div[contains(@class,'t-check-in')]//div[1]//table[1]//thead[1]//tr[1]";
+
 
 
 }
