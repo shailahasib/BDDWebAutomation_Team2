@@ -1,0 +1,2 @@
+
+Scenario Outline: I change the language of the Site to Portugues    # src/test/java/features/CreditCardPage.feature:16

@@ -127,7 +127,7 @@ public class WebAPI {
     static DataReader dataReader = new DataReader();
 
     public void openBrowser(String url) throws IOException {
-        setUp(false,"browserstack","windows","10","chrome","8",url);
+        setUp(false,"browserstack","windows","10","chrome","87",url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "OS", "os_version", "browserName", "browserVersion", "url"})
@@ -147,8 +147,9 @@ public class WebAPI {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
-        driver.get(url);
         driver.manage().window().maximize();
+        driver.get(url);
+
     }
 
     public WebDriver getLocalDriver(String OS, String browserName) {
@@ -591,7 +592,7 @@ public class WebAPI {
     }
 
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
-        webElement.sendKeys(value + Keys.ENTER);
+        webElement.sendKeys(value , Keys.ENTER);
     }
 
     public void clearInputBox(WebElement webElement) {

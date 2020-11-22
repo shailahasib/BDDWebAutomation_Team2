@@ -5,15 +5,15 @@ Feature: Browsing Expedia Homepage
 
   Scenario Outline: From Homepage I scroll down and sign up to get a mobile App download link
     And I scroll down to the bottom of the page
-    When I sign up using my phone number "<phoneNumber>"
+    When I sign up using my phone number "<phoneNumberBox>"
     Then I verify it shows "We’ve sent you a text message with a link to download the app."
     Examples:
-      | phoneNumber |
-      | 6589584587  |
-      | 5698744589  |
-      | 2455698965  |
-      | 2695558895  |
-      | 2364523695  |
+      | phoneNumberBox |
+      | 6589584587     |
+      | 5698744589     |
+      | 2455698965     |
+      | 2695558895     |
+      | 2364523695     |
 
   Scenario Outline: I check the footer links
     And I scroll down to the bottom of the page to view footer
@@ -33,3 +33,5 @@ Feature: Browsing Expedia Homepage
       | Accessibility                       | https://www.expedia.com/p/info-other/web-accessibility-policy |
       | Support                             | https://www.expedia.com/service/                              |
       | Do Not Sell My Personal Information | https://www.expedia.com/dnsmpi                                |
+
+    Scenario: I am switching the default region

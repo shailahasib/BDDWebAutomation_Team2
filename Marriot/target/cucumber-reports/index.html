@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cucumber</title>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<style>
+.cucumber-react .cucumber-status--passed {
+  color: #2CB14A;
+}
+.cucumber-react .cucumber-status--skipped {
+  color: #00A0CC;
+}
+.cucumber-react .cucumber-status--pending {
+  color: #FFAD33;
+}
+.cucumber-react .cucumber-status--undefined {
+  color: #FFAD33;
+}
+.cucumber-react .cucumber-status--ambiguous {
+  color: #F4EBFD;
+}
+.cucumber-react .cucumber-status--failed {
+  color: #BB0000;
+}
+.cucumber-react .cucumber-status--unknown {
+  color: #B6BECB;
+}
+.cucumber-react h1, .cucumber-react h2, .cucumber-react h3 {
+  padding: 0;
+  margin: 0;
+}
+.cucumber-react a {
+  color: inherit;
+}
+.cucumber-react .gherkin-document-list {
+  font: 14px "Open Sans", sans-serif;
+  color: #161C24;
+  background: #fff;
+  overflow-x: hidden;
+}
+.cucumber-react .cucumber-title {
+  margin-top: 0.3em;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.cucumber-react .cucumber-title__keyword {
+  font-weight: bold;
+}
+.cucumber-react .cucumber-title__text {
+  font-weight: normal;
+}
+.cucumber-react .cucumber-tags {
+  padding: 0;
+  margin-bottom: 0;
+}
+.cucumber-react .cucumber-tags .cucumber-tag {
+  display: inline;
+  list-style-type: none;
+  padding: 4px 8px 4px 8px;
+  margin-right: 6px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+.cucumber-react .cucumber-feature__icon {
+  padding-top: 0.35em;
+  padding-right: 0.5em;
+}
+.cucumber-react .cucumber-description,
+.cucumber-react .cucumber-children {
+  margin-left: 1em;
+}
+.cucumber-react .cucumber-feature,
+.cucumber-react .cucumber-rule,
+.cucumber-react .cucumber-scenario,
+.cucumber-react .cucumber-background {
+  margin-bottom: 1em;
+}
+.cucumber-react .cucumber-steps {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.cucumber-react .cucumber-steps .cucumber-step {
+  display: flex;
+}
+.cucumber-react .cucumber-steps .cucumber-step__status {
+  padding-top: 0.2em;
+  padding-right: 0.5em;
+}
+.cucumber-react .cucumber-steps .cucumber-step__content {
+  flex-grow: 1;
+}
+.cucumber-react .cucumber-steps .cucumber-step__keyword {
+  font-weight: bold;
+}
+.cucumber-react .cucumber-steps .cucumber-step__text {
+  font-weight: normal;
+}
+.cucumber-react .cucumber-steps .cucumber-step__param {
+  font-weight: normal;
+  font-style: italic;
+}
+.cucumber-react .cucumber-table {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.cucumber-react .cucumber-table__header-cell {
+  border: 1px solid #4B5662;
+  padding: 0.3em;
+}
+.cucumber-react .cucumber-table__cell {
+  border: 1px solid #4B5662;
+  padding: 0.3em;
+}
+.cucumber-react .cucumber-table__cell__status {
+  padding: 0.5em 3px 3px 3px;
+}
+.cucumber-react .cucumber-table__cell__step {
+  flex-grow: 1;
+}
+.cucumber-react .cucumber-code {
+  padding: 0.25em;
+  background-color: #ebebeb;
+}
+.cucumber-react .cucumber-error {
+  padding: 0.5em;
+  margin: 0;
+  overflow: scroll;
+}
+.cucumber-react .cucumber-no-documents {
+  font: 14px "Open Sans", sans-serif;
+}
+.cucumber-react .cucumber-attachment {
+  background-color: #ebebeb;
+  padding: 0.5em;
+}
+.cucumber-react .cucumber-attachment__icon {
+  margin-right: 0.5em;
+}
+.cucumber-react .cucumber-attachment__image {
+  margin-top: 1em;
+}
+.cucumber-react .cucumber-anchor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0.3em;
+}
+.cucumber-react .cucumber-anchor__link {
+  opacity: 0;
+  transition: all 0.35s ease-in-out;
+  position: absolute;
+  left: -20px;
+  display: flex;
+  align-items: center;
+}
+.cucumber-react .cucumber-anchor__icon {
+  margin-right: 0.5em;
+}
+.cucumber-react .cucumber-anchor:hover a {
+  opacity: 1;
+  width: max-content;
+  transition: all 0.35s ease-in-out;
+}
+.cucumber-react .cucumber-anchor > * {
+  height: 100%;
+  margin-top: 0px;
+}
+
+.cucumber-report-header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font: 11px "Open Sans", sans-serif;
+  margin-bottom: 1em;
+}
+.cucumber-report-header > * {
+  padding: 1em;
+}
+.cucumber-report-header .cucumber-status-filter {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cucumber-report-header .cucumber-status-filter table {
+  width: 100%;
+}
+.cucumber-report-header .cucumber-execution-data {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cucumber-report-header .cucumber-search-bar {
+  border-right: 0;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search input {
+  padding: 0.4em;
+  border-radius: 0;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search button {
+  height: 2.2em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+.cucumber-report-header .cucumber-search-bar p.help {
+  font-size: 80%;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul {
+  display: inline;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li input {
+  display: inline-block;
+  width: auto;
+  height: 0.6em;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li label {
+  padding-right: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  .cucumber-report-header {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cucumber-report-header .cucumber-status-filter {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .cucumber-report-header .cucumber-search-bar {
+    grid-column: 1/-1;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cucumber-report-header {
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  .cucumber-report-header .cucumber-status-filter {
+    border-bottom: 0;
+  }
+  .cucumber-report-header .cucumber-execution-data {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0;
+  }
+  .cucumber-report-header .cucumber-search-bar {
+    grid-column: auto;
+  }
+}
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color: #f4f4f4;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:hover {
+    background-color: #ddd;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+.accordion__panel {
+    padding: 20px;
+    animation: fadein 0.35s ease-in;
+}
+
+	</style>
+</head>
+<body>
+<div id="content">
+</div>
+<script>
+window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"13.1.0","implementation":{"name":"cucumber-jvm","version":"6.8.2"},"runtime":{"name":"Java HotSpot(TM) 64-Bit Server VM","version":"11.0.9+7-LTS"},"os":{"name":"Windows 10"},"cpu":{"name":"amd64"}}},{"testRunStarted":{"timestamp":{"seconds":"1606005238","nanos":30709100}}},{"source":{"uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","data":"Feature: I am at the credit cards page and browsing different types of cards\r\n  I am changing the language from header options\r\n  I am trying to access \"My trips\" part\r\n  I am trying to sign-in\r\n  I am trying to Join\r\n\r\n  Background:\r\n    Given I am at the credit cards page\r\n\r\n  Scenario Outline: I change the language of the Site to Portugues\r\n    When I change the language to \"\u003clanguageTitle\u003e\"\r\n    Then I verify the page Header Title is \"\u003cverifyHeaderText\u003e\"\r\n    And the homepage is \"\u003cverifyCorrespondingURL\u003e\"\r\n    Examples:\r\n      | languageTitle | verifyHeaderText         | verifyCorrespondingURL                      |\r\n      | Espanol       | DESCUBRA NUESTRAS MARCAS | https://www.espanol.marriott.com/default.mi |\r\n      | Francais      | DÉCOUVREZ NOS ENSEIGNES  | https://www.marriott.fr/default.mi          |\r\n      | Portugues     | CONHEÇA NOSSAS MARCAS    | https://www.marriott.com.br/default.mi      |\r\n\r\n  Scenario Outline: Check Convid-19 Special offers\r\n    When banner is visible I click \"\u003cspecialTab\u003e\"\r\n    Then I verify the special page Title is \"\u003cverifyTitle\u003e\"\r\n    And the special homepage is \"\u003cverifyCorrespondingURL\u003e\"\r\n    Examples:\r\n      | specialTab            | verifyTitle                                     | verifyCorrespondingURL                           |\r\n      | Best Rate Guarantee   | Marriott Cleanliness Council \\| Marriott Bonvoy | https://clean.marriott.com/#bestrate             |\r\n      | Flexible Cancellation | Marriott Cleanliness Council \\| Marriott Bonvoy | https://clean.marriott.com/#flexiblecancellation |\r\n      | Commitment to Clean   | Marriott Cleanliness Council \\| Marriott Bonvoy | https://clean.marriott.com/                      |\r\n      | Contactless Services  | Marriott Cleanliness Council \\| Marriott Bonvoy | https://clean.marriott.com/#service              |\r\n\r\n\r\n  Scenario Outline: Sign in to user account\r\n    When I click on the \"Sign In or Join\" button from header\r\n    And I enter a set of est \"\u003cemail\u003e\" address and \"\u003cpassword\u003e\" and click Sign in\r\n    Then the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"\r\n    Examples:\r\n      | email                          | password      |\r\n      | anotheremailset@gmail.com      | testPassword1 |\r\n      | anotheremailtwoset@gmail.com   | testPassword1 |\r\n      | anotheremailthreeset@gmail.com | testPassword1 |\r\n      | anotheremailfourset@gmail.com  | testPassword1 |\r\n      | anotheremailfiveset@gmail.com  | testPassword1 |","mediaType":"text/x.cucumber.gherkin+plain"}},{"gherkinDocument":{"uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","feature":{"location":{"line":1,"column":1},"language":"en","keyword":"Feature","name":"I am at the credit cards page and browsing different types of cards","description":"  I am changing the language from header options\n  I am trying to access \"My trips\" part\n  I am trying to sign-in\n  I am trying to Join","children":[{"background":{"location":{"line":7,"column":3},"keyword":"Background","steps":[{"location":{"line":8,"column":5},"keyword":"Given ","text":"I am at the credit cards page","id":"f1b5bd33-0226-4a34-972f-57bc118d92d8"}],"id":"291d72ce-8add-4a51-aa83-4910fcb9dd1d"}},{"scenario":{"location":{"line":10,"column":3},"keyword":"Scenario Outline","name":"I change the language of the Site to Portugues","steps":[{"location":{"line":11,"column":5},"keyword":"When ","text":"I change the language to \"\u003clanguageTitle\u003e\"","id":"d2c3ce11-db55-494d-bc3e-f652922db044"},{"location":{"line":12,"column":5},"keyword":"Then ","text":"I verify the page Header Title is \"\u003cverifyHeaderText\u003e\"","id":"23a7666f-27f3-4a7c-8c2c-6796d4a8ab2c"},{"location":{"line":13,"column":5},"keyword":"And ","text":"the homepage is \"\u003cverifyCorrespondingURL\u003e\"","id":"bf63e0d2-5885-4458-ae6a-f3dbd8da80c7"}],"examples":[{"location":{"line":14,"column":5},"keyword":"Examples","tableHeader":{"location":{"line":15,"column":7},"cells":[{"location":{"line":15,"column":9},"value":"languageTitle"},{"location":{"line":15,"column":25},"value":"verifyHeaderText"},{"location":{"line":15,"column":52},"value":"verifyCorrespondingURL"}],"id":"f855a6ab-9c35-4a23-8a71-c6aa3183eb84"},"tableBody":[{"location":{"line":16,"column":7},"cells":[{"location":{"line":16,"column":9},"value":"Espanol"},{"location":{"line":16,"column":25},"value":"DESCUBRA NUESTRAS MARCAS"},{"location":{"line":16,"column":52},"value":"https://www.espanol.marriott.com/default.mi"}],"id":"65047e6a-b6c9-4c44-a579-d3dce808b033"},{"location":{"line":17,"column":7},"cells":[{"location":{"line":17,"column":9},"value":"Francais"},{"location":{"line":17,"column":25},"value":"DÉCOUVREZ NOS ENSEIGNES"},{"location":{"line":17,"column":52},"value":"https://www.marriott.fr/default.mi"}],"id":"400a5a49-d303-4057-9105-a23cef5dac1a"},{"location":{"line":18,"column":7},"cells":[{"location":{"line":18,"column":9},"value":"Portugues"},{"location":{"line":18,"column":25},"value":"CONHEÇA NOSSAS MARCAS"},{"location":{"line":18,"column":52},"value":"https://www.marriott.com.br/default.mi"}],"id":"d2299f5f-7250-46b8-8b57-578b17590d98"}],"id":"7a2f2f72-97a3-4260-bcdd-de286e801104"}],"id":"8a6b8578-2770-4cb9-a7bc-1d7793006e22"}},{"scenario":{"location":{"line":20,"column":3},"keyword":"Scenario Outline","name":"Check Convid-19 Special offers","steps":[{"location":{"line":21,"column":5},"keyword":"When ","text":"banner is visible I click \"\u003cspecialTab\u003e\"","id":"1061f74c-f058-45ee-8c04-2cd372a5217e"},{"location":{"line":22,"column":5},"keyword":"Then ","text":"I verify the special page Title is \"\u003cverifyTitle\u003e\"","id":"e9fa2ec7-028e-4cc9-96c4-932fa440620a"},{"location":{"line":23,"column":5},"keyword":"And ","text":"the special homepage is \"\u003cverifyCorrespondingURL\u003e\"","id":"7fc119cc-d8f0-4866-817a-d2d9586154f2"}],"examples":[{"location":{"line":24,"column":5},"keyword":"Examples","tableHeader":{"location":{"line":25,"column":7},"cells":[{"location":{"line":25,"column":9},"value":"specialTab"},{"location":{"line":25,"column":33},"value":"verifyTitle"},{"location":{"line":25,"column":83},"value":"verifyCorrespondingURL"}],"id":"27222470-ff4c-4d30-8a80-fb150f1640f3"},"tableBody":[{"location":{"line":26,"column":7},"cells":[{"location":{"line":26,"column":9},"value":"Best Rate Guarantee"},{"location":{"line":26,"column":33},"value":"Marriott Cleanliness Council | Marriott Bonvoy"},{"location":{"line":26,"column":83},"value":"https://clean.marriott.com/#bestrate"}],"id":"6282426b-6a87-4542-b751-f38f4c55be79"},{"location":{"line":27,"column":7},"cells":[{"location":{"line":27,"column":9},"value":"Flexible Cancellation"},{"location":{"line":27,"column":33},"value":"Marriott Cleanliness Council | Marriott Bonvoy"},{"location":{"line":27,"column":83},"value":"https://clean.marriott.com/#flexiblecancellation"}],"id":"fb544e29-cf3b-45a2-b736-b39769f3a62d"},{"location":{"line":28,"column":7},"cells":[{"location":{"line":28,"column":9},"value":"Commitment to Clean"},{"location":{"line":28,"column":33},"value":"Marriott Cleanliness Council | Marriott Bonvoy"},{"location":{"line":28,"column":83},"value":"https://clean.marriott.com/"}],"id":"aab8e0a5-44ce-4393-8716-623ba2605bc4"},{"location":{"line":29,"column":7},"cells":[{"location":{"line":29,"column":9},"value":"Contactless Services"},{"location":{"line":29,"column":33},"value":"Marriott Cleanliness Council | Marriott Bonvoy"},{"location":{"line":29,"column":83},"value":"https://clean.marriott.com/#service"}],"id":"ab774d4f-246a-4b25-9063-9b38a272f6fc"}],"id":"bcb7001f-a536-48b4-9c6a-76b667533756"}],"id":"a41c9765-777d-43a5-91fe-25601b9e834e"}},{"scenario":{"location":{"line":32,"column":3},"keyword":"Scenario Outline","name":"Sign in to user account","steps":[{"location":{"line":33,"column":5},"keyword":"When ","text":"I click on the \"Sign In or Join\" button from header","id":"19eec4ce-f4cf-44e1-8c7f-e76720fcd908"},{"location":{"line":34,"column":5},"keyword":"And ","text":"I enter a set of est \"\u003cemail\u003e\" address and \"\u003cpassword\u003e\" and click Sign in","id":"c3cc9f62-01f8-4d8c-8727-e30f0f375454"},{"location":{"line":35,"column":5},"keyword":"Then ","text":"the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"","id":"3f4debca-b6d9-41fc-9073-733830050816"}],"examples":[{"location":{"line":36,"column":5},"keyword":"Examples","tableHeader":{"location":{"line":37,"column":7},"cells":[{"location":{"line":37,"column":9},"value":"email"},{"location":{"line":37,"column":42},"value":"password"}],"id":"a79cbaed-f424-44f6-911d-5b524a845771"},"tableBody":[{"location":{"line":38,"column":7},"cells":[{"location":{"line":38,"column":9},"value":"anotheremailset@gmail.com"},{"location":{"line":38,"column":42},"value":"testPassword1"}],"id":"3bffa100-e716-49b4-85d5-275070dafb97"},{"location":{"line":39,"column":7},"cells":[{"location":{"line":39,"column":9},"value":"anotheremailtwoset@gmail.com"},{"location":{"line":39,"column":42},"value":"testPassword1"}],"id":"2bd28cd6-5aca-476d-b25e-c8bce587369a"},{"location":{"line":40,"column":7},"cells":[{"location":{"line":40,"column":9},"value":"anotheremailthreeset@gmail.com"},{"location":{"line":40,"column":42},"value":"testPassword1"}],"id":"b75a6c07-c562-4d16-96db-10fecf5535a6"},{"location":{"line":41,"column":7},"cells":[{"location":{"line":41,"column":9},"value":"anotheremailfourset@gmail.com"},{"location":{"line":41,"column":42},"value":"testPassword1"}],"id":"f06ce176-798f-4daf-9f88-813b9c879316"},{"location":{"line":42,"column":7},"cells":[{"location":{"line":42,"column":9},"value":"anotheremailfiveset@gmail.com"},{"location":{"line":42,"column":42},"value":"testPassword1"}],"id":"f5464ae4-5d49-450f-9c8a-dfa4b7b5f8e4"}],"id":"6f6a3389-08e0-4bac-a0a8-9b857148f5d9"}],"id":"44272475-21aa-4536-ab04-9bcb2288a0ec"}}]}}},{"pickle":{"id":"737e64fc-7072-4465-b2d1-1a240edae120","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"I change the language of the Site to Portugues","language":"en","steps":[{"text":"I am at the credit cards page","id":"04c4c5e2-e43a-4128-aa64-dbc35ca760ab","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I change the language to \"Espanol\"","id":"48125323-69e1-4398-bddf-267a89a49a94","astNodeIds":["d2c3ce11-db55-494d-bc3e-f652922db044","65047e6a-b6c9-4c44-a579-d3dce808b033"]},{"text":"I verify the page Header Title is \"DESCUBRA NUESTRAS MARCAS\"","id":"69033759-372c-4de5-9598-20c12c893306","astNodeIds":["23a7666f-27f3-4a7c-8c2c-6796d4a8ab2c","65047e6a-b6c9-4c44-a579-d3dce808b033"]},{"text":"the homepage is \"https://www.espanol.marriott.com/default.mi\"","id":"301ae6af-bd16-4814-853a-fdca3e29aac3","astNodeIds":["bf63e0d2-5885-4458-ae6a-f3dbd8da80c7","65047e6a-b6c9-4c44-a579-d3dce808b033"]}],"astNodeIds":["8a6b8578-2770-4cb9-a7bc-1d7793006e22","65047e6a-b6c9-4c44-a579-d3dce808b033"]}},{"pickle":{"id":"fc3f275a-2947-414a-84d7-33cc322f37ed","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"I change the language of the Site to Portugues","language":"en","steps":[{"text":"I am at the credit cards page","id":"24288653-d05b-4ca4-8351-040c016494a3","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I change the language to \"Francais\"","id":"48dc3cea-2066-4fad-8236-77f67753b256","astNodeIds":["d2c3ce11-db55-494d-bc3e-f652922db044","400a5a49-d303-4057-9105-a23cef5dac1a"]},{"text":"I verify the page Header Title is \"DÉCOUVREZ NOS ENSEIGNES\"","id":"156ee0ee-b8ff-4634-935b-31fcff652a99","astNodeIds":["23a7666f-27f3-4a7c-8c2c-6796d4a8ab2c","400a5a49-d303-4057-9105-a23cef5dac1a"]},{"text":"the homepage is \"https://www.marriott.fr/default.mi\"","id":"733c8946-064c-4ebd-b279-7a98c3aa6d03","astNodeIds":["bf63e0d2-5885-4458-ae6a-f3dbd8da80c7","400a5a49-d303-4057-9105-a23cef5dac1a"]}],"astNodeIds":["8a6b8578-2770-4cb9-a7bc-1d7793006e22","400a5a49-d303-4057-9105-a23cef5dac1a"]}},{"pickle":{"id":"8d2bf80b-e5fd-4f21-814a-861b5bb06622","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"I change the language of the Site to Portugues","language":"en","steps":[{"text":"I am at the credit cards page","id":"eb64626b-b737-41b4-b224-46e9ddcda3fd","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I change the language to \"Portugues\"","id":"76280b05-f3bc-41fb-bb2b-f5ad1cffe7f7","astNodeIds":["d2c3ce11-db55-494d-bc3e-f652922db044","d2299f5f-7250-46b8-8b57-578b17590d98"]},{"text":"I verify the page Header Title is \"CONHEÇA NOSSAS MARCAS\"","id":"ff9a5571-4d4f-431c-9069-c2fac0ea4475","astNodeIds":["23a7666f-27f3-4a7c-8c2c-6796d4a8ab2c","d2299f5f-7250-46b8-8b57-578b17590d98"]},{"text":"the homepage is \"https://www.marriott.com.br/default.mi\"","id":"cf01249c-7680-4697-a663-417d9361553f","astNodeIds":["bf63e0d2-5885-4458-ae6a-f3dbd8da80c7","d2299f5f-7250-46b8-8b57-578b17590d98"]}],"astNodeIds":["8a6b8578-2770-4cb9-a7bc-1d7793006e22","d2299f5f-7250-46b8-8b57-578b17590d98"]}},{"pickle":{"id":"a96342fc-71e6-4b25-ba6b-c51f071ab7da","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Check Convid-19 Special offers","language":"en","steps":[{"text":"I am at the credit cards page","id":"7e6db184-dca3-4105-a976-e3c1f333570e","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"banner is visible I click \"Best Rate Guarantee\"","id":"bd9b75c0-90a1-4fca-a8e6-7a058ece1bf0","astNodeIds":["1061f74c-f058-45ee-8c04-2cd372a5217e","6282426b-6a87-4542-b751-f38f4c55be79"]},{"text":"I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"","id":"1aa02e72-ccf0-4354-9460-25c0745b60dc","astNodeIds":["e9fa2ec7-028e-4cc9-96c4-932fa440620a","6282426b-6a87-4542-b751-f38f4c55be79"]},{"text":"the special homepage is \"https://clean.marriott.com/#bestrate\"","id":"182a6837-7f74-4d64-ba67-3295e3cd4d52","astNodeIds":["7fc119cc-d8f0-4866-817a-d2d9586154f2","6282426b-6a87-4542-b751-f38f4c55be79"]}],"astNodeIds":["a41c9765-777d-43a5-91fe-25601b9e834e","6282426b-6a87-4542-b751-f38f4c55be79"]}},{"pickle":{"id":"d05362c5-ee85-4f95-85a4-af8a735c05c2","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Check Convid-19 Special offers","language":"en","steps":[{"text":"I am at the credit cards page","id":"a3a3f9d3-1966-4800-b103-3116332aeede","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"banner is visible I click \"Flexible Cancellation\"","id":"8b9d27a9-51b6-4911-b648-bc9fb04e90bc","astNodeIds":["1061f74c-f058-45ee-8c04-2cd372a5217e","fb544e29-cf3b-45a2-b736-b39769f3a62d"]},{"text":"I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"","id":"c473cef7-b3a0-472f-9856-d2b384c72d9c","astNodeIds":["e9fa2ec7-028e-4cc9-96c4-932fa440620a","fb544e29-cf3b-45a2-b736-b39769f3a62d"]},{"text":"the special homepage is \"https://clean.marriott.com/#flexiblecancellation\"","id":"c7ada4a2-0da9-4e16-8a2e-d980eb397b89","astNodeIds":["7fc119cc-d8f0-4866-817a-d2d9586154f2","fb544e29-cf3b-45a2-b736-b39769f3a62d"]}],"astNodeIds":["a41c9765-777d-43a5-91fe-25601b9e834e","fb544e29-cf3b-45a2-b736-b39769f3a62d"]}},{"pickle":{"id":"698f7916-68c7-480b-8828-c588cb7db2c8","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Check Convid-19 Special offers","language":"en","steps":[{"text":"I am at the credit cards page","id":"3b68e5f5-0fb0-42ad-b738-5518170e6ab3","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"banner is visible I click \"Commitment to Clean\"","id":"a7d4b0c6-d1bd-430c-b36f-30e45b49863e","astNodeIds":["1061f74c-f058-45ee-8c04-2cd372a5217e","aab8e0a5-44ce-4393-8716-623ba2605bc4"]},{"text":"I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"","id":"a8e8837b-272f-4a8e-a102-ea182ace84d8","astNodeIds":["e9fa2ec7-028e-4cc9-96c4-932fa440620a","aab8e0a5-44ce-4393-8716-623ba2605bc4"]},{"text":"the special homepage is \"https://clean.marriott.com/\"","id":"dd2056d5-abb2-4982-9149-43b4bd84ce45","astNodeIds":["7fc119cc-d8f0-4866-817a-d2d9586154f2","aab8e0a5-44ce-4393-8716-623ba2605bc4"]}],"astNodeIds":["a41c9765-777d-43a5-91fe-25601b9e834e","aab8e0a5-44ce-4393-8716-623ba2605bc4"]}},{"pickle":{"id":"71fafed4-b8f7-4e06-9837-82a0052720c9","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Check Convid-19 Special offers","language":"en","steps":[{"text":"I am at the credit cards page","id":"dab831fe-6679-4502-8708-88e9df2b6c67","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"banner is visible I click \"Contactless Services\"","id":"c007fef4-5fa9-4c10-8271-d71843ccdaeb","astNodeIds":["1061f74c-f058-45ee-8c04-2cd372a5217e","ab774d4f-246a-4b25-9063-9b38a272f6fc"]},{"text":"I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"","id":"a88613f1-fa7b-4473-8c5a-9cfdcd3564d0","astNodeIds":["e9fa2ec7-028e-4cc9-96c4-932fa440620a","ab774d4f-246a-4b25-9063-9b38a272f6fc"]},{"text":"the special homepage is \"https://clean.marriott.com/#service\"","id":"0a17ba47-598b-4bbe-b56b-e9bea3edab79","astNodeIds":["7fc119cc-d8f0-4866-817a-d2d9586154f2","ab774d4f-246a-4b25-9063-9b38a272f6fc"]}],"astNodeIds":["a41c9765-777d-43a5-91fe-25601b9e834e","ab774d4f-246a-4b25-9063-9b38a272f6fc"]}},{"pickle":{"id":"a4d056af-f80c-404c-a580-69785420de38","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Sign in to user account","language":"en","steps":[{"text":"I am at the credit cards page","id":"54b6ae8e-2019-43fe-8619-96527f1601fe","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I click on the \"Sign In or Join\" button from header","id":"bf8880b9-62df-4820-8b2b-8028deb4dce4","astNodeIds":["19eec4ce-f4cf-44e1-8c7f-e76720fcd908","3bffa100-e716-49b4-85d5-275070dafb97"]},{"text":"I enter a set of est \"anotheremailset@gmail.com\" address and \"testPassword1\" and click Sign in","id":"834d6169-b62c-4a60-a66c-98f72c36064a","astNodeIds":["c3cc9f62-01f8-4d8c-8727-e30f0f375454","3bffa100-e716-49b4-85d5-275070dafb97"]},{"text":"the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"","id":"2e8f56fa-1671-4dfc-a264-5776f7c1af62","astNodeIds":["3f4debca-b6d9-41fc-9073-733830050816","3bffa100-e716-49b4-85d5-275070dafb97"]}],"astNodeIds":["44272475-21aa-4536-ab04-9bcb2288a0ec","3bffa100-e716-49b4-85d5-275070dafb97"]}},{"pickle":{"id":"cbec9651-62b6-413e-9379-ca6b37de346a","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Sign in to user account","language":"en","steps":[{"text":"I am at the credit cards page","id":"61cb9562-778f-425b-a548-1f6cfd1b4ec5","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I click on the \"Sign In or Join\" button from header","id":"b0c4ad15-b053-4ec8-a014-2b7b864744ed","astNodeIds":["19eec4ce-f4cf-44e1-8c7f-e76720fcd908","2bd28cd6-5aca-476d-b25e-c8bce587369a"]},{"text":"I enter a set of est \"anotheremailtwoset@gmail.com\" address and \"testPassword1\" and click Sign in","id":"48b4581c-b686-44be-a6b2-b6cddd09dccf","astNodeIds":["c3cc9f62-01f8-4d8c-8727-e30f0f375454","2bd28cd6-5aca-476d-b25e-c8bce587369a"]},{"text":"the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"","id":"b1bc5216-cb4a-462f-81d2-80cbe1326a55","astNodeIds":["3f4debca-b6d9-41fc-9073-733830050816","2bd28cd6-5aca-476d-b25e-c8bce587369a"]}],"astNodeIds":["44272475-21aa-4536-ab04-9bcb2288a0ec","2bd28cd6-5aca-476d-b25e-c8bce587369a"]}},{"pickle":{"id":"8920fb08-da6b-4d06-b3b3-4cd15cb72136","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Sign in to user account","language":"en","steps":[{"text":"I am at the credit cards page","id":"6ed5eb0b-ee36-4e0f-8974-94f420c0c171","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I click on the \"Sign In or Join\" button from header","id":"dca5bef8-a439-46ba-9c82-26f3bd9e81ed","astNodeIds":["19eec4ce-f4cf-44e1-8c7f-e76720fcd908","b75a6c07-c562-4d16-96db-10fecf5535a6"]},{"text":"I enter a set of est \"anotheremailthreeset@gmail.com\" address and \"testPassword1\" and click Sign in","id":"14169f7c-42ad-41fd-b674-ab5283757ba5","astNodeIds":["c3cc9f62-01f8-4d8c-8727-e30f0f375454","b75a6c07-c562-4d16-96db-10fecf5535a6"]},{"text":"the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"","id":"eed069dc-4a40-4954-95b2-5b2715a9782f","astNodeIds":["3f4debca-b6d9-41fc-9073-733830050816","b75a6c07-c562-4d16-96db-10fecf5535a6"]}],"astNodeIds":["44272475-21aa-4536-ab04-9bcb2288a0ec","b75a6c07-c562-4d16-96db-10fecf5535a6"]}},{"pickle":{"id":"aea3b412-ca40-4a81-a30e-2690940cd566","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Sign in to user account","language":"en","steps":[{"text":"I am at the credit cards page","id":"e11c85b8-abb1-4831-9b0e-7d2d170b1163","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I click on the \"Sign In or Join\" button from header","id":"6429b9ad-a1b1-4e21-b3b2-d432f8e8df26","astNodeIds":["19eec4ce-f4cf-44e1-8c7f-e76720fcd908","f06ce176-798f-4daf-9f88-813b9c879316"]},{"text":"I enter a set of est \"anotheremailfourset@gmail.com\" address and \"testPassword1\" and click Sign in","id":"8bccd1f9-9520-4e3c-ad1b-fc18f76292c9","astNodeIds":["c3cc9f62-01f8-4d8c-8727-e30f0f375454","f06ce176-798f-4daf-9f88-813b9c879316"]},{"text":"the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"","id":"0f391448-13f0-4fdb-acab-5bd1388ffe2f","astNodeIds":["3f4debca-b6d9-41fc-9073-733830050816","f06ce176-798f-4daf-9f88-813b9c879316"]}],"astNodeIds":["44272475-21aa-4536-ab04-9bcb2288a0ec","f06ce176-798f-4daf-9f88-813b9c879316"]}},{"pickle":{"id":"5aa27dc4-a703-477b-95a6-7bca5c87207c","uri":"file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature","name":"Sign in to user account","language":"en","steps":[{"text":"I am at the credit cards page","id":"085ff37f-333d-4271-8d64-71a3cece1e75","astNodeIds":["f1b5bd33-0226-4a34-972f-57bc118d92d8"]},{"text":"I click on the \"Sign In or Join\" button from header","id":"498544d3-907e-4515-9fa5-acdac6437879","astNodeIds":["19eec4ce-f4cf-44e1-8c7f-e76720fcd908","f5464ae4-5d49-450f-9c8a-dfa4b7b5f8e4"]},{"text":"I enter a set of est \"anotheremailfiveset@gmail.com\" address and \"testPassword1\" and click Sign in","id":"6caa754e-c76c-4623-9def-ffcfcf1f185f","astNodeIds":["c3cc9f62-01f8-4d8c-8727-e30f0f375454","f5464ae4-5d49-450f-9c8a-dfa4b7b5f8e4"]},{"text":"the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"","id":"f3986d7f-b79a-48ad-8562-8b27cc42329b","astNodeIds":["3f4debca-b6d9-41fc-9073-733830050816","f5464ae4-5d49-450f-9c8a-dfa4b7b5f8e4"]}],"astNodeIds":["44272475-21aa-4536-ab04-9bcb2288a0ec","f5464ae4-5d49-450f-9c8a-dfa4b7b5f8e4"]}},{"stepDefinition":{"id":"aecf4dcd-150b-4ea9-af1e-afbad5e40c16","pattern":{"source":"the homepage is {string}"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.CreditCardsStepDefinitions","methodName":"theHomepageIs","methodParameterTypes":["java.lang.String"]}}}},{"stepDefinition":{"id":"18a524ff-00c7-490d-985c-ab3ff19c283c","pattern":{"source":"the url is {string}"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.CreditCardsStepDefinitions","methodName":"theUrlIs","methodParameterTypes":["java.lang.String"]}}}},{"stepDefinition":{"id":"1bb193f9-9e1f-4f47-8f2b-aa3cb3c155d2","pattern":{"source":"I enter a set of est {string} address and {string} and click Sign in"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.CreditCardsStepDefinitions","methodName":"iEnterASetOfEstAddressAndAndClickSignIn","methodParameterTypes":["java.lang.String","java.lang.String"]}}}},{"stepDefinition":{"id":"f7bc0550-f30e-4f4a-8d56-2f3fd04c4271","pattern":{"source":"I am at the credit cards page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.CreditCardsStepDefinitions","methodName":"iAmAtTheCreditCardsPage"}}}},{"stepDefinition":{"id":"81a45b82-4f8d-456c-b2ef-f90672fd996b","pattern":{"source":"I change the language to {string}"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.CreditCardsStepDefinitions","methodName":"iChangeTheLanguageTo","methodParameterTypes":["java.lang.String"]}}}},{"stepDefinition":{"id":"92fcbf70-8f6f-490b-a3d5-23db3e2be21a","pattern":{"source":"the special homepage is {string}"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.CreditCardsStepDefinitions","methodName":"theSpecialHomepageIs","methodParameterTy
