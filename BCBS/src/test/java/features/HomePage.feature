@@ -117,8 +117,22 @@ Then I Verify I am at the right page by page Title
     And I click  Thehealth of America
     And I enter mentalhealth health in Searchbox
     And  I want to wait until is vasible
-@Test
+  @SmokeTest
     Scenario: Bcbs privacy policy page should be all th way down
     And I Scroll down the home page
   When I come to the down of the page
 Then I verify  privacy policy option exit in the page
+
+
+  @Test
+  Scenario Outline:BcBs Find the health insurance optiop check with Valid and invalided credintial base on table
+    And I click the   on individualas $ familes
+    And I enter "<ZipCode>" in enter your Zip code box
+And I enter <"stateName"> in the choose state box
+    Examples:
+      | ZipCode  | stateName  |
+      |11427     | Ny         |
+      |11527     | Nj         |
+      |11528     | CA         |
+      |115279    | VA         |
+      |115273    | PA         |

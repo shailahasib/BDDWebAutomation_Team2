@@ -2,12 +2,13 @@ package home;
 
 import common.WebAPI;
 import org.junit.Assert;
-import org.openqa.selenium.By;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import java.util.List;
+
 
 import static home.HomePageWebElements.*;
 
@@ -31,6 +32,16 @@ public class HomePage extends WebAPI {
     public WebElement  expediaflight;
 @FindBy(how = How.XPATH,using =departing)
     public WebElement  expediadeparting;
+@FindBy(how = How.CSS,using =cars)
+    public WebElement  expediacars;
+//@FindBy(how = How.XPATH,using =pickUp)
+//    public WebElement  expediapickUp;
+@FindBy(how = How.XPATH,using = pickUplocation)
+    public WebElement  expediapickUplocation;
+@FindBy(how = How.XPATH,using =buildApagckae)
+    public WebElement  expediabuildApagckae;
+@FindBy(how = How.XPATH,using = thingsToDo)
+    public WebElement  expediathingsToDo;
 
 //@FindBy(how = How.CLASS_NAME,using =pickdate)
 //    public WebElement  expediapickdate;
@@ -101,6 +112,33 @@ act=driver.getTitle();
 
     }
 
+public void carsClick() throws InterruptedException {
+    Thread.sleep(8000);
+    expediacars.click();
+
+
+}
+//public void expediapickUp() throws InterruptedException {
+//    Thread.sleep(5000);
+//    expediapickUp.sendKeys("QueensVillage");
+//
+//
+//}
+public void pickUplocation() throws InterruptedException {
+    Thread.sleep(5000);
+    expediapickUplocation.click();
+
+
+}
+
+    public void  expediabuildApagckaecheck() throws InterruptedException {
+        Thread.sleep(8000);
+        expediabuildApagckae.click();
+    }
+public void  expediathingsToDo() throws InterruptedException {
+        Thread.sleep(7000);
+    expediathingsToDo.click();
+    }
 
 
 

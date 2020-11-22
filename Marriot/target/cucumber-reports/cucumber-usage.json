@@ -1,0 +1,20 @@
+[
+  {
+    "source": "I am at Marriott Home Page",
+    "steps": [
+      {
+        "name": "I am at Marriott Home Page",
+        "aggregatedDurations": {
+          "median": 11.851938,
+          "average": 11.851938
+        },
+        "durations": [
+          {
+            "duration": 11.851938,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

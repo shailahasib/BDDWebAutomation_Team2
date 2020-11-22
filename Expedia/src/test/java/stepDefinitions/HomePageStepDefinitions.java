@@ -136,14 +136,67 @@ public class HomePageStepDefinitions extends WebAPI {
 
     }
 
+    @Given("I click cars on expedia")
+    public void i_click_cars_on_expedia() throws InterruptedException {
+        homePage. carsClick();
+    }
+
+//    @Given("I Click pick up box")
+//    public void i_click_pick_up_box() throws InterruptedException {
+//        homePage. expediapickUp();
+//    }
+
+    @Given("I enter my location")
+    public void i_enter_my_location() {
+
+    }
+
+    @Given("I sleect my location in box")
+    public void i_sleect_my_location_in_box() throws InterruptedException {
+        homePage. pickUplocation();
+    }
+
+    @When("I click search")
+    public void i_click_search() {
+
+    }
+
+    @Then("I verify im on right page")
+    public void i_verify_im_on_right_page() {
+
+    }
 
 
+    @Given("I click cars on expedia build a package")
+    public void i_click_cars_on_expedia_build_a_package() throws InterruptedException {
+        homePage. expediabuildApagckaecheck();
 
+    }
 
+    @Given("I click Things to do")
+    public void i_click_things_to_do() {
 
+    }
 
+    @Given("I click things to do box")
+    public void i_click_things_to_do_box() throws InterruptedException {
+        homePage. expediathingsToDo();
+    }
 
+    @Given("I select the location")
+    public void i_select_the_location() {
 
+    }
+
+    @When("I click search button")
+    public void i_click_search_button() {
+
+    }
+
+    @Then("I verify its working properly")
+    public void i_verify_its_working_properly() {
+
+    }
 
 
 
