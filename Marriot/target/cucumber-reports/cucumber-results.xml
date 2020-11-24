@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.685">
-    <testcase classname="Marriott Website Functionality Check" name="varify marriot  vacation page exist" time="21.106">
-        <failure message="Cannot locate an element using xpath=//*[@id='MainNavLinkcd98']/a/p&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-NOMISI3', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="41.546">
+    <testcase classname="Marriott Website Functionality Check" name="marriort forgot accoutn functionaltiy check with vailed crediantial" time="40.765">
+        <system-out>
             <![CDATA[Given I am at Marriott Home Page............................................passed
-And I click on vacation.....................................................failed
-And I click Homes a villas..................................................skipped
-Then I verify the page to the title.........................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id='MainNavLinkcd98']/a/p
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NOMISI3', ip: '192.168.253.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy24.click(Unknown Source)
-	at home.HomePage.Marriotvactions(HomePage.java:163)
-	at stepDefinitions.HomePageStepDefinitions.i_click_on_vacation(HomePageStepDefinitions.java:157)
-	at ✽.I click on vacation(file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:52)
+And I scroll down the page and i see Signin.................................passed
+And I click on Signin.......................................................passed
+And I click forgot account..................................................passed
+And I enter user information based on box from row and colum................passed
+Then I click submit to verify...............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

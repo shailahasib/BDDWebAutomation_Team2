@@ -5,13 +5,103 @@
       {
         "name": "I am at Marriott Home Page",
         "aggregatedDurations": {
-          "median": 11.851938,
-          "average": 11.851938
+          "median": 13.5397228,
+          "average": 13.5397228
         },
         "durations": [
           {
-            "duration": 11.851938,
+            "duration": 13.5397228,
             "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I scroll down the page and i see Signin",
+    "steps": [
+      {
+        "name": "I scroll down the page and i see Signin",
+        "aggregatedDurations": {
+          "median": 0.0019978,
+          "average": 0.0019978
+        },
+        "durations": [
+          {
+            "duration": 0.0019978,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:103"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Signin",
+    "steps": [
+      {
+        "name": "I click on Signin",
+        "aggregatedDurations": {
+          "median": 5.8061705,
+          "average": 5.8061705
+        },
+        "durations": [
+          {
+            "duration": 5.8061705,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:104"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click forgot account",
+    "steps": [
+      {
+        "name": "I click forgot account",
+        "aggregatedDurations": {
+          "median": 3.2782552,
+          "average": 3.2782552
+        },
+        "durations": [
+          {
+            "duration": 3.2782552,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter user information based on box from row and colum",
+    "steps": [
+      {
+        "name": "I enter user information based on box from row and colum",
+        "aggregatedDurations": {
+          "median": 16.8952789,
+          "average": 16.8952789
+        },
+        "durations": [
+          {
+            "duration": 16.8952789,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click submit to verify",
+    "steps": [
+      {
+        "name": "I click submit to verify",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:114"
           }
         ]
       }

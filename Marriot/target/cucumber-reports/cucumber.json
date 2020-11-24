@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 11851938000,
+              "duration": 13539722800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 62495600,
+                  "duration": 104153900,
                   "status": "passed"
                 },
                 "match": {
@@ -35,29 +35,27 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-21T22:45:00.111Z",
-        "line": 51,
-        "name": "varify marriot  vacation page exist",
+        "start_timestamp": "2020-11-24T00:36:41.278Z",
+        "line": 102,
+        "name": "marriort forgot accoutn functionaltiy check with vailed crediantial",
         "description": "",
-        "id": "marriott-website-functionality-check;varify-marriot--vacation-page-exist",
+        "id": "marriott-website-functionality-check;marriort-forgot-accoutn-functionaltiy-check-with-vailed-crediantial",
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.66)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-NOMISI3\u0027, ip: \u0027192.168.253.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 788c0c33b2d5e83480f765d9e332bf63\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.HomePageStepDefinitions.tearDown(HomePageStepDefinitions.java:25)\r\n",
-              "duration": 14990500,
-              "status": "failed"
-            },
-            "match": {
-              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 933683600,
+              "duration": 897495100,
               "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -66,14 +64,13 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\u0027MainNavLinkcd98\u0027]/a/p\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-NOMISI3\u0027, ip: \u0027192.168.253.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat home.HomePage.Marriotvactions(HomePage.java:163)\r\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_vacation(HomePageStepDefinitions.java:157)\r\n\tat ✽.I click on vacation(file:///C:/Users/DELL/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/HomePage.feature:52)\r\n",
-              "duration": 8022949300,
-              "status": "failed"
+              "duration": 1997800,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1998200,
+                  "duration": 5995800,
                   "status": "passed"
                 },
                 "match": {
@@ -81,62 +78,159 @@
                 }
               }
             ],
-            "line": 52,
-            "name": "I click on vacation",
+            "line": 103,
+            "name": "I scroll down the page and i see Signin",
             "match": {
-              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_vacation()"
+              "location": "stepDefinitions.HomePageStepDefinitions.i_scroll_down_the_page_and_i_see_signin()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 999800,
-              "status": "skipped"
+              "duration": 5806170500,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999400,
-                  "status": "skipped"
+                  "duration": 3993100,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
                 }
               }
             ],
-            "line": 53,
-            "name": "I click Homes a villas",
+            "line": 104,
+            "name": "I click on Signin",
             "match": {
-              "location": "stepDefinitions.HomePageStepDefinitions.i_click_homes_a_villas()"
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_signin()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1998600,
-              "status": "skipped"
+              "duration": 3278255200,
+              "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "status": "skipped"
+                  "duration": 2998500,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
                 }
               }
             ],
-            "line": 54,
-            "name": "I verify the page to the title",
+            "line": 105,
+            "name": "I click forgot account",
             "match": {
-              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_the_page_to_the_title()"
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_forgot_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16895278900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 106,
+            "name": "I enter user information based on box from row and colum",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_enter_user_information_based_on_box_from_row_and_colum(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "FName",
+                  "LName"
+                ]
+              },
+              {
+                "cells": [
+                  "rahul11427@gmail.com",
+                  "rahul",
+                  "bishas"
+                ]
+              },
+              {
+                "cells": [
+                  "robin3564@gmail.com",
+                  "robin",
+                  "kanam"
+                ]
+              },
+              {
+                "cells": [
+                  "rakib@gmail.com",
+                  "rakib",
+                  "parija"
+                ]
+              },
+              {
+                "cells": [
+                  "raseds3456ib@gmail.com",
+                  "raseds",
+                  "bolen"
+                ]
+              },
+              {
+                "cells": [
+                  "abul3245467@gmail.com",
+                  "abul",
+                  "tito"
+                ]
+              },
+              {
+                "cells": [
+                  "kalo234567@gmail.com",
+                  "kalo",
+                  "gabri"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 114,
+            "name": "I click submit to verify",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_submit_to_verify()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Test"
+            "name": "@TestDataTable"
           }
         ]
       }

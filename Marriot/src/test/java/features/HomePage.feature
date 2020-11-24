@@ -12,18 +12,21 @@ Feature: Marriott Website Functionality Check
     Then I verify the Calender functionality is propely working as aspection
 
 
-  @SmokeTest
-  Scenario Outline:T-Moble Login  Functionality check with Valid  and invalid credintial
-    And I click sign in
-    And I enter email "<Emmail>" in searchBox
-    And I enter password  <"Password"> in searchBox
-    When  I click Sign In i verify the log in functionlit is okay
+  @Test
+  Scenario Outline:marriot Login  Functionality check with Valid  and invalid credintial
+    And I click on my tips third optiop from header
+    And I enter  "<confirmationNumber>" in searchBox
+    And I enter checkInDate  <"checkInDate"> in searchBox
+    And I enter <"FirstName"> in searchbox
+    And I click <"LastName"> in searchbox
+    When  I click find  to verify  functionlit is okay
     Examples:
-      | Email                  | Password   |
-      | runa11427@gnail.com    | runa11427  |
-      | rp.runa11427@gnail.com | runa11427@ |
-      | pr.runa11427@gnail.com | runa11427@ |
-      | erdytugjhknjmmgmmm     | 3456766890 |
+      | confirmationNumber | checkInDate    | FirstName | LastName |
+      | 134567456789       | sun,nov22 2020 | Runa      | Parvin   |
+      | 456e7856588079     | sun,nov22 2020 | sila      | akber    |
+      | 332453678909347    | sun,nov22 2020 | sila      | rahihan  |
+      | 4567890-5435678    | sun,nov22 2020 | sila      | parol    |
+
 
   @SmokeTest
   Scenario: Marriott FindHotels functionalty check
@@ -47,23 +50,65 @@ Feature: Marriott Website Functionality Check
     And I enter my location in destrination box
     And I enter my rates in reatesbox
     Then  I verify is working propely
+
   @SmokeTest
   Scenario: varify marriot  vacation page exist
     And I click on vacation
     And I click Homes a villas
     Then  I verify the page to the title
 
-  @Test
+  @SmokeTest
   Scenario:verify marriot find and reserve functionality
     When I click Find and Reserve on header
     And I click and on Where do you want to go
     Then I enter location name
     And I click on the start from calendar
 
-  @Test
+  @SmokeTest
   Scenario:I can type destination and search using homepage option
     And scroll down and find the destination box
     And I enter in NYC destanation box
     And I click on the start from calendar
     And I select start date
 
+  @SmokeTest
+  Scenario Outline:I want to check marriot My tips vaid and invalid crediantial based on table
+    And I click on my tips third optiop from header
+    And I enter a list of "<email>" address
+    And I enter "<password>" and click Sign in
+    Then i want to click sign in to verify
+
+    Examples:
+      | email                   | password  |
+      | runa 11434@t@gmail.com  | Ma7402997 |
+      | runa 114567@t@gmail.com | Ma7402997 |
+      | runa 11467@t@gmail.com  | Ma3456789 |
+      | runa 11457@t@gmail.com  | Ma74345   |
+      | runa 11446@t@gmail.com  | Ha7402997 |
+
+  @SmokeTestDataTable
+
+  Scenario: marriort signUp
+    And I scroll down the page and i see Signin
+    And I click on Signin
+    And I enter email number
+    And I enter password
+    And I enter user information
+      | runa11427@gmail.com |
+      | ma74023455          |
+    Then I click signin
+
+  @TestDataTable
+  Scenario: marriort forgot accoutn functionaltiy check with vailed crediantial
+    And I scroll down the page and i see Signin
+    And I click on Signin
+    And I click forgot account
+    And I enter user information based on box from row and colum
+      | email                  | FName  | LName  |
+      | rahul11427@gmail.com   | rahul  | bishas |
+      | robin3564@gmail.com    | robin  | kanam  |
+      | rakib@gmail.com        | rakib  | parija |
+      | raseds3456ib@gmail.com | raseds | bolen  |
+      | abul3245467@gmail.com  | abul   | tito   |
+      | kalo234567@gmail.com   | kalo   | gabri  |
+    Then I click submit to verify

@@ -1,6 +1,6 @@
 package home;
 
-public class HomePageWebElements {
+public class HomePageWebElements  {
 
     public static final String dates = "87V0XY4H_hotel-fromDate";
     public static final String datesclick = "//input[@id='CMSLP3WI_hotel-fromDate']";
@@ -19,31 +19,46 @@ public class HomePageWebElements {
     public static final String aboutMarriot = "//*[@id='MainNavLinke9c2']/a/p";
     public static final String destinations = "4AQV98ZB_search-location";
     public static final String specialrests = "//*[@id='edit-search-form']/div/div[6]/a";
-    public static final String FindReserve = "Find & Reserve";
-    public static final String destinationbox = "//input[@id='4AQV98ZB_search-location']";
     public static final String specialBox = "//*[@id='edit-search-form']/div/div[6]/a";
     public static final String vactions = "//*[@id='MainNavLinkcd98']/a/p";
     public static final String homesAndVillas = "Homes & Villas";
     public static final String clickOnCalendarFromDate = "//input[@data-target='stayDates']";
     public static final String entireCalendarBox = "//*[@id=\"find-a-hotel-homePage-form\"]/div[2]/div[4]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]";
-
+    public static final String  FirstdestinationBox= "//input[@data-target='destination']";
 
     public static final String findAndReserveTab = "//p[contains(text(),'Find & Reserve')]";
-
-
-
-
-
-
-
-
+public static final String selectNyc= "VQ5EDDMK_search-location";
 
     public static final String allDatesOnTheEnabledMonth = "//*[@id=\"find-a-hotel-homePage-form\"]/div[2]/div[4]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[1]/table/tbody/tr/td";
     public static final String monthEnableDisplay = "//th[@class='t-month'][contains(text(),'NOVEMBER 2020')]";
     public static final String nextMonthArrow = "//th[@title='Next Month'][contains(text(),'❯')]";
     public static final String previousMonthArrow = "//*[@id=\"find-a-hotel-homePage-form\"]/div[2]/div[4]/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[1]/table/thead/tr[1]/th[1]";
     public static final String destinationBoxOnHomePage = "//div[@class='search-field-box']";
-    public static final String destinationBoxForTyping= "//input[@data-target='destination']";
+
+    public static final String destinationBoxWhereToGo= "//input[@id='AVR14EF4_search-location']";
+ public static final String signInclick= "//span[normalize-space()='Sign In or Join']";
+ public static final String emailId= "user-id";
+public static final String passwordId= "password";
+public static final String clickveifySignIn= "//button[@name='submitButton']";
+public static final String mytrips= "//header/div[1]/div[2]/div[1]/div[3]/ul[1]/li[3]/a[1]/span[2]";
+public static final String confirmationNumber= "confirmationNumber";
+public static final String chekindate= "cInDate";
+public static final String chekindatepicker= "//tbody/tr[4]/td[1]/div[1]";
+public static final String fisrstName= "firstName";
+public static final String lastName= "lastName";
+public static final String find= "find-reservaton";
+public static final String signin= "/html[1]/body[1]/div[7]/div[2]/div[1]/section[5]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]";
+public static final String email= "my-account-userid";
+public static final String passworddown= "my-account-password";
+public static final String signinclick= "l-account-signin-button";
+public static final String forgotAccount= "Forgot password";
+public static final String forgotaccountEmali= "accountIdOrEmailAddress";
+public static final String forgotaccountFirtName= "field-first-name";
+public static final String forgotaccountLastName= "field-last-name";
+public static final String selectUsa= "//*[@id=\"js-form-address\"]/div[1]/div/div[2]";
+public static final String selectUsaclick= "selectric-opt0232";
+public static final String zipcode= "field-postal";
+public static final String submit= "//*[@id=\"forgotPasswordActionForm\"]/div/div[2]/button";
 
 }
 
