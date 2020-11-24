@@ -1,0 +1,20 @@
+[
+  {
+    "source": "I am on the marriott home page",
+    "steps": [
+      {
+        "name": "I am on the marriott home page",
+        "aggregatedDurations": {
+          "median": 8.9461187,
+          "average": 8.9461187
+        },
+        "durations": [
+          {
+            "duration": 8.9461187,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/homepage_functionalities.feature:10"
+          }
+        ]
+      }
+    ]
+  }
+]

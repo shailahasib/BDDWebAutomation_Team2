@@ -1,0 +1,46 @@
+
+@Test
+Scenario: Register with Blue365                              # src/test/java/features/blue365_homepage.feature:80
+  Given I am at BCBS home page                               # null
+  And I use the mouse over Member Services                   # null
+  And I click on Visit Blue Benefits                         # null
+  And I click on join                                        # null
+  And I enter 3-digit characters in your member ID card"k5f" # null
+  And I click on Check your eligibility                      # null
+  And I enter my information                                 # null
+  And I selectPlan                                           # null
+  And I click on submit button                               # null
+  Then I verify Thank you message after for register         # null
+
+@Test
+Scenario: How Blue 365 work functionality   # src/test/java/features/fore_mployee.feature:12
+  Given I am at BCBS home page.             # null
+  And I use the mouse over Member Services. # null
+  And I click on Visit Blue Benefits.       # null
+  When I click on about Blue365             # null
+  And I click on how Blue365 works          # null
+  Then I verify the employee home page      # null
+
+@Test
+Scenario: Employees register for an upcoming demo # src/test/java/features/fore_mployee.feature:18
+  Given I am at BCBS home page.                   # null
+  And I use the mouse over Member Services.       # null
+  And I click on Visit Blue Benefits.             # null
+  And I click on register for a demo              # null
+  When I enter my information in the field        # null
+  And I enter number of employees                 # null
+  And I Select BCBS Plan                          # null
+  And I select Webinar Dates                      # null
+  And I click on I agree to the policy            # null
+  And I participate in Amazon gift cart           # null
+  And I click on register button                  # null
+  Then I verify my registration                   # null
+
+@Test
+Scenario: employee will be able to try Blue365 for Employers Demo. # src/test/java/features/fore_mployee.feature:35
+  Given I am at BCBS home page.                                    # null
+  And I use the mouse over Member Services.                        # null
+  And I click on Visit Blue Benefits.                              # null
+  When I Scroll down to how Blue365 works                          # null
+  And i click on the video                                         # null
+  Then I should be able to see the video playing                   # null

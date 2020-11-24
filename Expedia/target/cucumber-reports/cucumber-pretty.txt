@@ -1,0 +1,111 @@
+
+@Smoke
+Scenario Outline: Search Jobs Functionality                                                             # src/test/java/features/HomePage.feature:91
+  Given I am at expedia home page                                                                       # stepDefinitions.HomePageStepDefinitions.iAmAtExpediaHomePage()
+  And I click on jobs                                                                                   # stepDefinitions.HomePageStepDefinitions.iClickOnJobs()
+  When I enter the "developer" in search openings                                                       # stepDefinitions.HomePageStepDefinitions.iEnterTheInSearchOpenings(java.lang.String)
+  And I enter the "United States - Washington - Seattle" in location searchbox                          # stepDefinitions.HomePageStepDefinitions.iEnterTheInLocationSearchbox(java.lang.String)
+  And I click on search logo                                                                            # stepDefinitions.HomePageStepDefinitions.iClickOnSearchLogo()
+  And I verify "36 Results for: developer, United States - Washington - Seattle" as total in the search # stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(java.lang.String)
+
+@Smoke
+Scenario Outline: Search Jobs Functionality                                                # src/test/java/features/HomePage.feature:92
+  Given I am at expedia home page                                                          # stepDefinitions.HomePageStepDefinitions.iAmAtExpediaHomePage()
+  And I click on jobs                                                                      # stepDefinitions.HomePageStepDefinitions.iClickOnJobs()
+  When I enter the "Marketing" in search openings                                          # stepDefinitions.HomePageStepDefinitions.iEnterTheInSearchOpenings(java.lang.String)
+  And I enter the "United States - New York" in location searchbox                         # stepDefinitions.HomePageStepDefinitions.iEnterTheInLocationSearchbox(java.lang.String)
+  And I click on search logo                                                               # stepDefinitions.HomePageStepDefinitions.iClickOnSearchLogo()
+  And I verify "4 Results for: marketing, United States - New York" as total in the search # stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(java.lang.String)
+
+@Smoke
+Scenario Outline: Search Jobs Functionality                                                        # src/test/java/features/HomePage.feature:93
+  Given I am at expedia home page                                                                  # stepDefinitions.HomePageStepDefinitions.iAmAtExpediaHomePage()
+  And I click on jobs                                                                              # stepDefinitions.HomePageStepDefinitions.iClickOnJobs()
+  When I enter the "software engineer" in search openings                                          # stepDefinitions.HomePageStepDefinitions.iEnterTheInSearchOpenings(java.lang.String)
+  And I enter the "united kingdom - london" in location searchbox                                  # stepDefinitions.HomePageStepDefinitions.iEnterTheInLocationSearchbox(java.lang.String)
+  And I click on search logo                                                                       # stepDefinitions.HomePageStepDefinitions.iClickOnSearchLogo()
+  And I verify "14 Results for: software engineer, United Kingdom - London" as total in the search # stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(java.lang.String)
+
+@Smoke
+Scenario Outline: Search Jobs Functionality                                                # src/test/java/features/HomePage.feature:94
+  Given I am at expedia home page                                                          # stepDefinitions.HomePageStepDefinitions.iAmAtExpediaHomePage()
+  And I click on jobs                                                                      # stepDefinitions.HomePageStepDefinitions.iClickOnJobs()
+  When I enter the "it" in search openings                                                 # stepDefinitions.HomePageStepDefinitions.iEnterTheInSearchOpenings(java.lang.String)
+  And I enter the "United States - Texas - Austin" in location searchbox                   # stepDefinitions.HomePageStepDefinitions.iEnterTheInLocationSearchbox(java.lang.String)
+  And I click on search logo                                                               # stepDefinitions.HomePageStepDefinitions.iClickOnSearchLogo()
+  And I verify "70 Results for: it, United States - Texas - Austin" as total in the search # stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(java.lang.String)
+
+@Smoke
+Scenario Outline: Search Jobs Functionality                                               # src/test/java/features/HomePage.feature:95
+  Given I am at expedia home page                                                         # stepDefinitions.HomePageStepDefinitions.iAmAtExpediaHomePage()
+  And I click on jobs                                                                     # stepDefinitions.HomePageStepDefinitions.iClickOnJobs()
+  When I enter the "technical product manager" in search openings                         # stepDefinitions.HomePageStepDefinitions.iEnterTheInSearchOpenings(java.lang.String)
+  And I enter the "United States - Washington - Seattle" in location searchbox            # stepDefinitions.HomePageStepDefinitions.iEnterTheInLocationSearchbox(java.lang.String)
+  And I click on search logo                                                              # stepDefinitions.HomePageStepDefinitions.iClickOnSearchLogo()
+  And I verify "4 Results for: it, United States - Texas - Austin" as total in the search # stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(java.lang.String)
+      org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<4 Results for: [it, United States - Texas - Austin]> but was:<4 Results for: [technical product manager, United States - Washington - Seattle]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:222)
+	at ✽.I verify "4 Results for: it, United States - Texas - Austin" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8DAJPHUM', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinitions.tearDown(HomePageStepDefinitions.java:33)
+
+
+@Smoke
+Scenario Outline: Search Jobs Functionality                                                         # src/test/java/features/HomePage.feature:96
+  Given I am at expedia home page                                                                   # stepDefinitions.HomePageStepDefinitions.iAmAtExpediaHomePage()
+  And I click on jobs                                                                               # stepDefinitions.HomePageStepDefinitions.iClickOnJobs()
+  When I enter the "Audit" in search openings                                                       # stepDefinitions.HomePageStepDefinitions.iEnterTheInSearchOpenings(java.lang.String)
+  And I enter the "United States - Washington - Bellevue" in location searchbox                     # stepDefinitions.HomePageStepDefinitions.iEnterTheInLocationSearchbox(java.lang.String)
+  And I click on search logo                                                                        # stepDefinitions.HomePageStepDefinitions.iClickOnSearchLogo()
+  And I verify "1 Results for: Audit, United States - Washington - Bellevue" as total in the search # stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(java.lang.String)
+      org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<1 Results for: [A]udit, United States ...> but was:<1 Results for: [a]udit, United States ...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:222)
+	at ✽.I verify "1 Results for: Audit, United States - Washington - Bellevue" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8DAJPHUM', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinitions.tearDown(HomePageStepDefinitions.java:33)
+
+
+@Smoke
+Scenario Outline: Search Jobs Functionality                                                                        # src/test/java/features/HomePage.feature:97
+  Given I am at expedia home page                                                                                  # stepDefinitions.HomePageStepDefinitions.iAmAtExpediaHomePage()
+  And I click on jobs                                                                                              # stepDefinitions.HomePageStepDefinitions.iClickOnJobs()
+  When I enter the "Software Tester" in search openings                                                            # stepDefinitions.HomePageStepDefinitions.iEnterTheInSearchOpenings(java.lang.String)
+  And I enter the "United States - California - San Francisco" in location searchbox                               # stepDefinitions.HomePageStepDefinitions.iEnterTheInLocationSearchbox(java.lang.String)
+  And I click on search logo                                                                                       # stepDefinitions.HomePageStepDefinitions.iClickOnSearchLogo()
+  And I verify "0 Results for: Software Tester, United States - California - San Francisco" as total in the search # stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(java.lang.String)
+      org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<0 Results for: [Software T]ester, United States...> but was:<0 Results for: [software t]ester, United States...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:222)
+	at ✽.I verify "0 Results for: Software Tester, United States - California - San Francisco" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8DAJPHUM', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinitions.tearDown(HomePageStepDefinitions.java:33)
+
