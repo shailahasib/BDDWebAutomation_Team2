@@ -1,2 +1,0 @@
-
-Scenario Outline: From Homepage I scroll down and sign up to get a mobile App download link # src/test/java/features/AldrinsHomePage.feature:12

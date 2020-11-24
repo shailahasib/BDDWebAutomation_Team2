@@ -134,10 +134,10 @@ public class CreditCardPage extends WebAPI {
 //        driver.findElement(By.className(signInOrJoinElement)).click();
 //        driver.findElement(By.className(joinInElement)).click();
 //
-        //tearDown
-        sleepFor(3);
-        driver.manage().deleteAllCookies();
-        driver.close();
+//        //tearDown
+//        sleepFor(3);
+//        driver.manage().deleteAllCookies();
+//        driver.close();
 
     }
 }
