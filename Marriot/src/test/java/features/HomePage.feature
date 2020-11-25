@@ -11,7 +11,6 @@ Feature: Marriott Website Functionality Check
     And I pick My preferable date from date picker
     Then I verify the Calender functionality is propely working as aspection
 
-
   @Test
   Scenario Outline:marriot Login  Functionality check with Valid  and invalid credintial
     And I click on my tips third optiop from header
@@ -98,17 +97,3 @@ Feature: Marriott Website Functionality Check
       | ma74023455          |
     Then I click signin
 
-  @TestDataTable
-  Scenario: marriort forgot accoutn functionaltiy check with vailed crediantial
-    And I scroll down the page and i see Signin
-    And I click on Signin
-    And I click forgot account
-    And I enter user information based on box from row and colum
-      | email                  | FName  | LName  |
-      | rahul11427@gmail.com   | rahul  | bishas |
-      | robin3564@gmail.com    | robin  | kanam  |
-      | rakib@gmail.com        | rakib  | parija |
-      | raseds3456ib@gmail.com | raseds | bolen  |
-      | abul3245467@gmail.com  | abul   | tito   |
-      | kalo234567@gmail.com   | kalo   | gabri  |
-    Then I click submit to verify

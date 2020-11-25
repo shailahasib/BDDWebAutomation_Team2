@@ -42,6 +42,17 @@ public class HomePage extends WebAPI {
     public WebElement  expediabuildApagckae;
 @FindBy(how = How.XPATH,using = thingsToDo)
     public WebElement  expediathingsToDo;
+@FindBy(how = How.XPATH,using =expediaSignin)
+    public WebElement  expediaexpediaSignin;
+@FindBy(how = How.LINK_TEXT,using =expediainsideSignin)
+    public WebElement  expediaexpediainsideSignin;
+
+@FindBy(how = How.ID,using =emaildKeys)
+    public WebElement  expediaemaildKeys;
+@FindBy(how = How.ID,using =passldKeys)
+    public WebElement  expediapassldKeys;
+@FindBy(how = How.XPATH,using =signinclick)
+    public WebElement  expediasigninclick;
 
 //@FindBy(how = How.CLASS_NAME,using =pickdate)
 //    public WebElement  expediapickdate;
@@ -140,13 +151,25 @@ public void  expediathingsToDo() throws InterruptedException {
     expediathingsToDo.click();
     }
 
+public void expediaexpediaSignin(){
+    expediaexpediaSignin.click();
+}
 
 
+    public void sendKeysinbox1( String emailList ) {
+        expediaemaildKeys.sendKeys(emailList);
+    }
 
+    public void sendKeysinbox (String passwordList) {
+        expediapassldKeys.sendKeys(passwordList);
+    }
+public void expediasigninclick(){
 
-
-
-
+    expediasigninclick.click();
+}
+public void expediaexpediainsideSignin(){
+    expediaexpediainsideSignin.click();
+}
 
 
 

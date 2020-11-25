@@ -9,7 +9,6 @@ public class HomePageWebElements {
     public static final String enterSearchKey = "edit-keys";
     public static final String clickSearch = "//*[@id='edit-submit']/span";
     public static final String WomenHealth = "Women's Health";
-
     public static final String Medicare = "Medicare";
     public static final String FindDoctor = "Find a Doctor";
     public static final String FindDoctoroutside = "//*[@id='block-bcbs-main-menu']/ul/li[2]/div/div[1]/p[3]/strong/a";
@@ -34,8 +33,7 @@ public class HomePageWebElements {
     public static final String VisitMemberServices = "Visit Member Services";
     public static final String privacyPolicy = "Privacy Policy";
     public static final String chosestateClick = "//*[@id='edit_state_chosen']/a/div/b";
-
-    public static final String chooseState = "chosen-select-list-search-49tzwrz7b";
+    public static final String chooseState = "//*[@id='edit_state_chosen']/a/span";
 
 
 }

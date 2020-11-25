@@ -8,6 +8,8 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
@@ -198,7 +200,46 @@ public class HomePageStepDefinitions extends WebAPI {
 
     }
 
+    @Given("I can click  Signin")
+    public void i_can_click_signin() throws InterruptedException {
+        sleepFor(5);
+        homePage. expediaexpediaSignin();
+    }
+
+    @Given("I click inside Signin")
+    public void i_click_inside_signin() throws InterruptedException {
+        sleepFor(5);
+        homePage. expediaexpediainsideSignin();
+    }
+
+    @Given("I enter {string} list in the searchbox")
+    public void i_enter_list_in_the_searchbox(String email) throws InterruptedException {
+        sleepFor(5);
+       homePage. sendKeysinbox1(email);
+    }
+
+    @Given("I enter {string} list in the box")
+    public void i_enter_list_in_the_box(String Password) throws InterruptedException {
+        sleepFor(5);
+        homePage. sendKeysinbox(Password);
+    }
+
+    @When("I click sign in bitton")
+    public void i_click_sign_in_bitton() throws InterruptedException {
+
+        sleepFor(5);
+        ((JavascriptExecutor) driver).executeScript("scroll(0,300)");
+        homePage. expediasigninclick();
+    }
+
+    @Then("I verify to the page title")
+    public void i_verify_to_the_page_title(String expectedTitle) {
+            String actualTitle = driver.getTitle().toString();
+            Assert.assertEquals("Title does not match", expectedTitle, actualTitle);
+        }
+    }
 
 
 
-}
+
+

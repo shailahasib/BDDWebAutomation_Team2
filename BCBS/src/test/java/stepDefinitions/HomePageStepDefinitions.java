@@ -5,6 +5,7 @@ import home.HomePage;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -33,13 +34,10 @@ public class HomePageStepDefinitions extends WebAPI {
         cleanUp();
     }
 
-
     @BeforeStep
-
     public static void getInit() {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
-
 
     @Given("I am at BcBs home page")
     public void i_am_at_bc_bs_home_page() throws IOException {
@@ -58,12 +56,10 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Then("I Verify I am at the right page by page Title")
     public void i_verify_i_am_at_the_right_page_by_page_title() {
-
     }
 
     @Given("I click the BcBs search button")
     public void i_click_the_bc_bs_search_button() {
-
     }
 
     @Given("I enter {string} in searchBox")
@@ -73,7 +69,6 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @When("I click search")
     public void i_click_search() {
-
     }
 
     @Then("I verify {string} is appear properly")
@@ -84,14 +79,12 @@ public class HomePageStepDefinitions extends WebAPI {
     @Then("I verify {string} as based on InsuranceNam")
     public void i_verify_as_based_on_Insurance_Name(String pageTitle) {
         homePage.getTitle(pageTitle);
-
     }
 
     @Given("I click bcbs medicare")
     public void i_click_bcbs_medicare() {
         homePage.BcBSMedicare();
     }
-
 
     @Given("I move my mouse on Find a doctor")
     public void i_move_my_mouse_on_find_a_doctor() throws InterruptedException {
@@ -145,9 +138,7 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Then("I verify this search button workng properly i am at right page")
     public void i_verify_this_search_button_workng_properly_i_am_at_right_page() {
-
     }
-
 
     @Given("I click the menu left of the corner")
     public void i_click_the_menu_left_of_the_corner() throws InterruptedException {
@@ -166,41 +157,32 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Then("I verify the function of the menu is properly okay")
     public void i_verify_the_function_of_the_menu_is_properly_okay() {
-
     }
 
     @Given("I click The searchIteam")
     public void i_click_the_search_iteam() {
-
     }
-
 
     @Given("I enter women's health in searchbox")
     public void i_enter_women_s_health_in_searchbox() throws InterruptedException {
         homePage.clear1();
     }
 
-
     @Given("I enter Behavioral Health")
     public void i_enter_behavioral_Health() throws InterruptedException {
-
         homePage.typeOnInputBox();
     }
 
     @Given("I clearn the search iteam")
     public void i_clearn_the_search_iteam() {
-
     }
 
     @Given("I Returen Keys")
     public void i_returen_keys() {
-
     }
-
 
     @Then("I verify its working properly")
     public void i_verify_its_working_properly() {
-
     }
 
     @Given("I enter women's Health in searchbox")
@@ -210,7 +192,6 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Given("I enter Behavioral health")
     public void i_enter_behavioral_health() {
-
     }
 
     @Given("I click individual $ Families")
@@ -225,7 +206,6 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Then("I verify a  pop up massage shows Empire Blue Cross")
     public void i_verify_a_pop_up_massage_shows_empire_blue_cross() {
-
     }
 
     @When("I click goButton")
@@ -269,14 +249,12 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Then("I findout the page")
     public void i_findout_the_page() {
-
     }
 
     @Then("I verify the page by pageTitle")
     public void i_verify_the_page_by_page_title() {
         homePage.data$reports("Data & Reports | Blue Cross Blue Shield");
     }
-
 
     @Given("I click Contact us")
     public void i_click_contact_us() throws InterruptedException {
@@ -285,7 +263,6 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @When("I navigate to the page")
     public void i_navigate_to_the_page() {
-
     }
 
     @When("I scroll down")
@@ -295,7 +272,6 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @When("I notice visit Member  service")
     public void i_notice_visit_member_service() {
-
     }
 
     @When("I click Visit member services")
@@ -310,7 +286,6 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Given("I want to wait until is click")
     public void i_want_to_wait_until_is_click() {
-
     }
 
     @Given("I click  Thehealth of America")
@@ -333,7 +308,6 @@ public class HomePageStepDefinitions extends WebAPI {
         homePage.waitUntilVisible();
     }
 
-
     @Given("I Scroll down the home page")
     public void i_scroll_down_the_home_page() throws InterruptedException {
         homePage.scrollDown();
@@ -341,7 +315,6 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @When("I come to the down of the page")
     public void i_come_to_the_down_of_the_page() {
-
     }
 
     @Then("I verify  privacy policy option exit in the page")
@@ -349,35 +322,22 @@ public class HomePageStepDefinitions extends WebAPI {
         homePage.privacyPolicyValided("Privacy Policy");
     }
 
-
     @Given("I click the   on individualas $ familes")
     public void i_click_the_on_individualas_$_familes() {
-        homePage. BcBsIndividualsFamilies();
+        homePage.BcBsIndividualsFamilies();
     }
 
     @Given("I enter {string} in enter your Zip code box")
     public void i_enter_in_enter_your_zip_code_box(String ZipCode) throws InterruptedException {
-        homePage.  BcBseditzip1(ZipCode);
-    }
-
-    @Given("I enter <{string}> in the choose state box")
-    public void i_enter_in_the_choose_state_box(String stateName) throws InterruptedException {
-
-        homePage. BcBschosestateClick();
-        homePage. BcBschooseState(stateName);
+        homePage.BcBseditzip1(ZipCode);
     }
 
 
 
+    @And("I enter {string} in the choose state box")
+    public void iEnterInTheChooseStateBox(String stateName) throws InterruptedException {
+        homePage.BcBschosestateClick();
+        homePage.BcBschooseState.sendKeys(stateName);
 
-
-
-
-
-
-
-
-
-
-
+    }
 }

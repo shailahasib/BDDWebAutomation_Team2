@@ -1,9 +1,0 @@
-
-@TestDataTable
-Scenario: marriort forgot accoutn functionaltiy check with vailed crediantial # src/test/java/features/HomePage.feature:102
-  Given I am at Marriott Home Page                                            # stepDefinitions.HomePageStepDefinitions.i_am_at_marriott_home_page()
-  And I scroll down the page and i see Signin                                 # stepDefinitions.HomePageStepDefinitions.i_scroll_down_the_page_and_i_see_signin()
-  And I click on Signin                                                       # stepDefinitions.HomePageStepDefinitions.i_click_on_signin()
-  And I click forgot account                                                  # stepDefinitions.HomePageStepDefinitions.i_click_forgot_account()
-  And I enter user information based on box from row and colum                # stepDefinitions.HomePageStepDefinitions.i_enter_user_information_based_on_box_from_row_and_colum(io.cucumber.datatable.DataTable)
-  Then I click submit to verify                                               # stepDefinitions.HomePageStepDefinitions.i_click_submit_to_verify()

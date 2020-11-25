@@ -13,6 +13,12 @@ public static final String cars="#uitk-tabs-button-container > li.uitk-tab.uitk-
 public static final String pickUplocation="//strong[contains(text(),'Queens Village')]";
 public static final String buildApagckae="//*[@id='uitk-tabs-button-container']/li[4]/a/span";
 public static final String thingsToDo="//*[@id='uitk-tabs-button-container']/li[5]/a/span";
+public static final String expediaSignin="//div[@id='gc-custom-header-nav-bar-acct-menu']";
+public static final String expediainsideSignin="Sign in";
+
+public static final String emaildKeys="signin-loginid";
+public static final String passldKeys="signin-password";
+public static final String signinclick="//*[@id='submitButton']";
 
 
 

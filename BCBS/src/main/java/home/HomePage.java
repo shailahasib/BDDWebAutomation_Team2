@@ -74,19 +74,16 @@ public class HomePage extends WebAPI {
     public WebElement BcBsVisitMemberServices;
     @FindBy(how = How.LINK_TEXT, using = privacyPolicy)
     public WebElement BcBsprivacyPolicy;
-@FindBy(how = How.ID, using = chooseState)
+    @FindBy(how = How.ID, using = chooseState)
     public WebElement BcBschooseState;
-@FindBy(how = How.XPATH, using =chosestateClick)
+    @FindBy(how = How.XPATH, using = chosestateClick)
     public WebElement BcBschosestateClick;
 
 
     public void memberAndServicemouseHouver() {
-
-
         Actions act = new Actions(driver);
         WebElement tmoble = BcBSmemberAndservices;
         act.moveToElement(tmoble).perform();
-
     }
 
     public void memberAndServiceClick() {
@@ -98,17 +95,14 @@ public class HomePage extends WebAPI {
         String act = "BcBSAccessMyBenefits";
         act = driver.getTitle();
         Assert.assertEquals("Failed", act, exp);
-
     }
 
     public void BcBSclicksearchbutton() {
         BcBSclicksearchbutton.click();
-
     }
 
     public void BcBSMedicare() {
         BcBSMedicare.click();
-
     }
 
     public void BcBSenterSearchKey(String searchItem) throws InterruptedException {
@@ -126,76 +120,58 @@ public class HomePage extends WebAPI {
         Actions act = new Actions(driver);
         WebElement tmoble = BcBSFindDoctormovemouse;
         act.moveToElement(tmoble).perform();
-
     }
 
     public void outsidedr() throws InterruptedException {
         Thread.sleep(5000);
         BcBSFindDoctoroutside.click();
-
     }
 
 
     public void outsidedrvalided(String exp) throws InterruptedException {
         Thread.sleep(5000);
-
         String act = "BcBSFindDoctoroutside";
         act = driver.getTitle();
         Assert.assertEquals("Failed", "act", exp);
-
-
     }
 
     public void BcBSaccessMybenifits() {
         BcBSaccessMybenifits.click();
-
     }
 
     public void BcBSaccessMybenifitsBox() {
         BcBSaccessMybenifitsBox.sendKeys("234");
-
     }
 
     public void BcBSaccessMybenifitsGo() {
         BcBSaccessMybenifitsGo.click();
-
     }
-
     public void getText() {
         System.out.println();
         BcBSgetText.getText();
-
     }
-
-
     public void BcBStheHeathOfAmerica() {
         BcBStheHeathOfAmerica.click();
-
     }
 
     public void BcBStheHeathOfAmericaSearch() {
         BcBStheHeathOfAmericaSearch.sendKeys("Women's Health");
-
     }
 
     public void BcBSclick() {
         BcBSclick.click();
-
     }
 
     public void searchtex(String exp) {
         String act = BcBwomens.getText();
 
         Assert.assertEquals("Failed", act, exp);
-
-
     }
 
     public void getTitle(String exp) {
         String act = BcBSenterSearchKey.toString();
         act = driver.getTitle();
         Assert.assertEquals("Faied", "act", "exp");
-
     }
 
     public void menu() throws InterruptedException {
@@ -203,31 +179,23 @@ public class HomePage extends WebAPI {
         ((JavascriptExecutor) driver).executeScript("scroll(0,400)");
         BcBsmenu.click();
     }
-
     public void employes() {
         BcBsemploye.click();
-
-
     }
 
     public void BcBsContactUs() throws InterruptedException {
         BcBsContactUs.click();
         Thread.sleep(5000);
     }
-
     public void clear1() throws InterruptedException {
         Thread.sleep(5000);
         BcBStheHeathOfAmericaSearch.sendKeys("Women's Health");
         BcBStheHeathOfAmericaSearch.sendKeys(Keys.RETURN);
         Thread.sleep(5000);
         BcBStheHeathOfAmericaSearch.clear();
-
-
     }
 
     public void clear2() throws InterruptedException {
-
-
         Thread.sleep(5000);
         BcBStheHeathOfAmericaSearch.sendKeys("Behavire health");
         BcBStheHeathOfAmericaSearch.sendKeys(Keys.RETURN);
@@ -240,10 +208,7 @@ public class HomePage extends WebAPI {
         }
 
     }
-
-
     public void typeOnInputBox() {
-
         try {
             Thread.sleep(5000);
             BcBStheHeathOfAmericaSearch.sendKeys("Behavire health");
@@ -269,18 +234,14 @@ public class HomePage extends WebAPI {
         Thread.sleep(5000);
         BcBsIndividualsFamilies.click();
     }
-
     public void BcBseditzip() throws InterruptedException {
         Thread.sleep(5000);
         BcBseditzip.sendKeys(" 11427");
     }
-
     public void editzipGo() throws InterruptedException {
         Thread.sleep(5000);
         BcBseditzipGo.click();
     }
-
-
     public void alertDismis() {
         JavascriptExecutor jsx = (JavascriptExecutor) driver;
         jsx.executeScript("window.confirm('Alert.dismiss in 5 sec')");
@@ -293,10 +254,8 @@ public class HomePage extends WebAPI {
         } catch (InterruptedException e) {
             // e.printStackTrace();
             System.out.println(e);
-
         }
     }
-
     public void alertAccept() {
         JavascriptExecutor jsx1 = (JavascriptExecutor) driver;
         jsx1.executeScript("window.confirm('Alert.accept in 5 sec')");
@@ -309,133 +268,85 @@ public class HomePage extends WebAPI {
         } catch (InterruptedException e) {
             // e.printStackTrace();
             System.out.println(e);
-
         }
     }
-
     public void learncheck() {
         BcBslearn.click();
-
     }
 
     public void BcBslearnvlided(String exp) {
         String act = BcBslearnvlided.getText();
         Assert.assertEquals("Failed", act, exp);
-
     }
-
 
     public void healthofamerica() throws InterruptedException {
         Thread.sleep(5000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,1200)");
         BcBshealthofAmerrica.click();
-
     }
-
     public void data$reports() {
         BcBsdata$Reported.click();
-
     }
-
     public void data$reports(String exp) {
         String act = "BcBsdata$Reported";
         act = driver.getTitle();
         Assert.assertEquals("Failed", act, exp);
     }
-
     public void scrollDown() throws InterruptedException {
         Thread.sleep(5000);
 
         ((JavascriptExecutor) driver).executeScript("scroll(0,1600)");
-
     }
 
     public void visitMember() {
         BcBsVisitMemberServices.click();
-
     }
 
     public void visitMemberValied(String exp) {
         String act = "BcBsVisitMemberServices";
         act = driver.getTitle();
         Assert.assertEquals("Failed", act, exp);
-
     }
-
-
     public void healthOfAmerica() {
         BcBStheHeathOfAmerica.click();
-
     }
-
     public void BcBStheHeathOfAmericasearchKey() {
         BcBStheHeathOfAmericaSearch.sendKeys("mentalHealth");
-
     }
-
     public void BcBSclickwait() {
         WebDriverWait wait = new WebDriverWait(driver, 50);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(BcBSclick));
         element.click();
-
     }
-
-
     public void waitUntilVisible() {
         WebDriverWait wait = new WebDriverWait(driver, 100);
         WebElement element = wait.until(ExpectedConditions.visibilityOf(BcBStheHeathOfAmericaSearch));
         element.sendKeys("mentalHealth");
     }
-
     public void privacyPolicyValided(String exp) throws InterruptedException {
         Thread.sleep(5000);
         String act = BcBsprivacyPolicy.getText();
         Assert.assertEquals("Failed", act, exp);
     }
-public void BcBsIndividualsFamilies(){
-    BcBsIndividualsFamilies.click();
+    public void BcBsIndividualsFamilies() {
+        BcBsIndividualsFamilies.click();
 
-}
-public void BcBseditzip1(String searchIteam) throws InterruptedException {
+    }
+
+    public void BcBseditzip1(String searchIteam) throws InterruptedException {
         Thread.sleep(5000);
-    BcBseditzip.sendKeys(searchIteam);
-
-}public void BcBschosestateClick() throws InterruptedException {
+        BcBseditzip.sendKeys(searchIteam);
+    }
+    public void BcBschosestateClick() throws InterruptedException {
 
         Thread.sleep(5000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,100)");
         BcBschosestateClick.click();
-
-}
-public void  BcBschooseState(String sendkeys) throws InterruptedException {
+    }
+    public void BcBschooseState(String sendkeys) throws InterruptedException {
         Thread.sleep(5000);
-    BcBschooseState.sendKeys(sendkeys);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        BcBschooseState.sendKeys(sendkeys);
+    }
 }
 
 

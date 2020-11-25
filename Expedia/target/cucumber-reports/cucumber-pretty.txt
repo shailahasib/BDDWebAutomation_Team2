@@ -1,14 +1,101 @@
 
 @Test
-Scenario: Varify expedia build a package      # src/test/java/features/HomePage.feature:44
-  Given I am at Expedia home page             # stepDefinitions.HomePageStepDefinitions.i_am_at_expedia_home_page()
-  And I click cars on expedia build a package # stepDefinitions.HomePageStepDefinitions.i_click_cars_on_expedia_build_a_package()
+Scenario Outline: Expeadi Sign in functionality check with valid and invalid creditial based on table # src/test/java/features/HomePage.feature:66
+  Given I am at Expedia home page                                                                     # stepDefinitions.HomePageStepDefinitions.i_am_at_expedia_home_page()
+  And I click inside Signin                                                                           # stepDefinitions.HomePageStepDefinitions.i_click_inside_signin()
+  And I enter "rahul11427@gmail.com" list in the searchbox                                            # stepDefinitions.HomePageStepDefinitions.i_enter_list_in_the_searchbox(java.lang.String)
+  And I enter "<password>" list in the box                                                            # stepDefinitions.HomePageStepDefinitions.i_enter_list_in_the_box(java.lang.String)
+  When I click sign in bitton                                                                         # stepDefinitions.HomePageStepDefinitions.i_click_sign_in_bitton()
+  Then I verify to the page title                                                                     # stepDefinitions.HomePageStepDefinitions.i_verify_to_the_page_title(java.lang.String)
+      io.cucumber.core.exception.CucumberException: Step [I verify to the page title] is defined with 1 parameters at 'stepDefinitions.HomePageStepDefinitions.i_verify_to_the_page_title(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: I verify to the page title
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+
+
+    Embedding Demo1 [image/png 289673 bytes]
+
 
 @Test
-Scenario: Varify expedia Things to do function working proerly # src/test/java/features/HomePage.feature:49
-  Given I am at Expedia home page                              # stepDefinitions.HomePageStepDefinitions.i_am_at_expedia_home_page()
-  And I click Things to do                                     # stepDefinitions.HomePageStepDefinitions.i_click_things_to_do()
-  And I click things to do box                                 # stepDefinitions.HomePageStepDefinitions.i_click_things_to_do_box()
-  And I select the location                                    # stepDefinitions.HomePageStepDefinitions.i_select_the_location()
-  When I click search button                                   # stepDefinitions.HomePageStepDefinitions.i_click_search_button()
-  Then I verify its working properly                           # stepDefinitions.HomePageStepDefinitions.i_verify_its_working_properly()
+Scenario Outline: Expeadi Sign in functionality check with valid and invalid creditial based on table # src/test/java/features/HomePage.feature:67
+  Given I am at Expedia home page                                                                     # stepDefinitions.HomePageStepDefinitions.i_am_at_expedia_home_page()
+  And I click inside Signin                                                                           # stepDefinitions.HomePageStepDefinitions.i_click_inside_signin()
+  And I enter "robin3564@gmail.com" list in the searchbox                                             # stepDefinitions.HomePageStepDefinitions.i_enter_list_in_the_searchbox(java.lang.String)
+  And I enter "<password>" list in the box                                                            # stepDefinitions.HomePageStepDefinitions.i_enter_list_in_the_box(java.lang.String)
+  When I click sign in bitton                                                                         # stepDefinitions.HomePageStepDefinitions.i_click_sign_in_bitton()
+  Then I verify to the page title                                                                     # stepDefinitions.HomePageStepDefinitions.i_verify_to_the_page_title(java.lang.String)
+      io.cucumber.core.exception.CucumberException: Step [I verify to the page title] is defined with 1 parameters at 'stepDefinitions.HomePageStepDefinitions.i_verify_to_the_page_title(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: I verify to the page title
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+
+
+    Embedding Demo1 [image/png 394299 bytes]
+
+
+@Test
+Scenario Outline: Expeadi Sign in functionality check with valid and invalid creditial based on table # src/test/java/features/HomePage.feature:68
