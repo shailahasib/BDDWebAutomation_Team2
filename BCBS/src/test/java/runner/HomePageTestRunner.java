@@ -27,7 +27,7 @@ import org.openqa.selenium.TakesScreenshot;
         //display the console output in a proper readable format
         monochrome = true,
         //to check the mapping is proper between feature file and step def file
-        dryRun = false,
+        dryRun = true,
         publish = true,
         tags = ""
 //        tags = "(@SmokeTest or @RegressionTest or @Test) and (not @pending)"
