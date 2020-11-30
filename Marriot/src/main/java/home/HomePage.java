@@ -49,41 +49,30 @@ public class HomePage extends WebAPI {
     WebElement Marriotdestinations;
     @FindBy(how = How.XPATH, using = specialrests)
     WebElement Marriotspecialrests;
-
     @FindBy(how = How.XPATH, using = specialBox)
     WebElement MarriotspecialBox;
     @FindBy(how = How.XPATH, using = vactions)
     WebElement Marriotvactions;
     @FindBy(how = How.LINK_TEXT, using = homesAndVillas)
     WebElement MarriothomesAndVillas;
-
-
     @FindBy(how = How.XPATH, using = clickOnCalendarFromDate)
     public WebElement clickOnCalendarFrom;
-
     @FindBy(how = How.XPATH, using = destinationBoxOnHomePage)
     public WebElement destinationBox;
-
-
     @FindBy(how = How.XPATH, using = allDatesOnTheEnabledMonth)
     public List<WebElement> sleectdatefromfirstCal;
-
     @FindBy(how = How.XPATH, using = monthEnableDisplay)
     public WebElement monthEnabled;
     @FindBy(how = How.XPATH, using = nextMonthArrow)
     public WebElement selectnextMonth;
-
     @FindBy(how = How.XPATH, using = entireCalendarBox)
     public WebElement entireCalendar;
-
     @FindBy(how = How.XPATH, using = previousMonthArrow)
     public WebElement previousMonth;
     @FindBy(how = How.XPATH, using = findAndReserveTab)
     public WebElement MarriotfindAndReserveTab;
-
     @FindBy(how = How.XPATH, using = destinationBoxWhereToGo)
     public WebElement MarriotdestinationBox;
-
     @FindBy(how = How.XPATH, using = FirstdestinationBox)
     public WebElement MarriotFirstdestinationBox;
     @FindBy(how = How.ID, using = selectNyc)
@@ -94,45 +83,58 @@ public class HomePage extends WebAPI {
     public WebElement MarriotemailId;
     @FindBy(how = How.ID, using = passwordId)
     public WebElement MarriotpasswordId;
-@FindBy(how = How.XPATH, using = mytrips)
+    @FindBy(how = How.XPATH, using = mytrips)
     public WebElement Marriotmytrips;
-@FindBy(how = How.ID, using =confirmationNumber)
+    @FindBy(how = How.ID, using = confirmationNumber)
     public WebElement MarriotconfirmationNumber;
-@FindBy(how = How.ID, using = chekindate)
+    @FindBy(how = How.ID, using = chekindate)
     public WebElement Marriotchekindate;
-@FindBy(how = How.XPATH, using = chekindatepicker)
+    @FindBy(how = How.XPATH, using = chekindatepicker)
     public WebElement Marriotchekindatepicker;
-@FindBy(how = How.ID, using = fisrstName)
+    @FindBy(how = How.ID, using = fisrstName)
     public WebElement MarriotfisrstName;
-@FindBy(how = How.ID, using =lastName)
+    @FindBy(how = How.ID, using = lastName)
     public WebElement MarriotlastName;
-    @FindBy(how = How.ID, using =find)
+    @FindBy(how = How.ID, using = find)
     public WebElement Marriotfind;
-    @FindBy(how = How.XPATH, using =signin)
+    @FindBy(how = How.XPATH, using = signin)
     public WebElement Marriotsignin;
- @FindBy(how = How.ID, using =email)
+    @FindBy(how = How.ID, using = email)
     public WebElement Marriotemail;
-@FindBy(how = How.ID, using =passworddown)
+    @FindBy(how = How.ID, using = passworddown)
     public WebElement Marriotpassworddown;
-@FindBy(how = How.ID, using =signinclick)
+    @FindBy(how = How.ID, using = signinclick)
     public WebElement Marriotsigninclick;
-@FindBy(how = How.LINK_TEXT, using =forgotAccount)
+    @FindBy(how = How.LINK_TEXT, using = forgotAccount)
     public WebElement MarriotforgotAccount;
-@FindBy(how = How.ID, using = forgotaccountEmali)
+    @FindBy(how = How.ID, using = forgotaccountEmali)
     public WebElement MarriotforgotaccountEmali;
-@FindBy(how = How.ID, using = forgotaccountFirtName)
+    @FindBy(how = How.ID, using = forgotaccountFirtName)
     public WebElement MarriotforgotaccountFirtName;
-@FindBy(how = How.ID, using = forgotaccountLastName)
+    @FindBy(how = How.ID, using = forgotaccountLastName)
     public WebElement MarriotforgotaccountLastName;
-@FindBy(how = How.XPATH, using =selectUsa)
+    @FindBy(how = How.XPATH, using = selectUsa)
     public WebElement MarriotselectUsa;
-@FindBy(how = How.ID, using =selectUsaclick)
+    @FindBy(how = How.ID, using = selectUsaclick)
     public WebElement MarriotselectUsaclick;
-@FindBy(how = How.ID, using =zipcode)
+    @FindBy(how = How.ID, using = zipcode)
     public WebElement Marriotzipcode;
-@FindBy(how = How.XPATH, using = submit)
+    @FindBy(how = How.XPATH, using = submit)
     public WebElement Marriotsubmit;
-
+    @FindBy(how = How.XPATH, using = clickFirstSignIn)
+    public WebElement signinbuttonClick;
+    @FindBy(how = How.XPATH, using = mariotBonvoy)
+    public WebElement mariotBonvoyclick;
+    @FindBy(how = How.XPATH, using = mariotBonvoyCreditCard)
+    public WebElement mariotmariotBonvoyCreditCard;
+    @FindBy(how = How.XPATH, using = vcation)
+    public WebElement mariotVcation;
+    @FindBy(how = How.XPATH, using = homesAndVilas)
+    public WebElement mariotHomesAndVilas;
+    @FindBy(how = How.XPATH, using = allpackages)
+    public WebElement mariotallpackages;
+    @FindBy(how = How.XPATH, using = marriotVacationClub)
+    public WebElement mariotVrriotVacationClub;
 
 
     public void DatesClick() throws InterruptedException {
@@ -140,12 +142,8 @@ public class HomePage extends WebAPI {
         ((JavascriptExecutor) driver).executeScript("scroll(0,400)");
         Thread.sleep(5000);
         Marriotdatesclick.click();
-
-
     }
-
     public void datePicker() throws InterruptedException {
-
         Thread.sleep(5000);
         String flag = "False";
         while (flag == "False") {
@@ -164,7 +162,6 @@ public class HomePage extends WebAPI {
         Thread.sleep(5000);
         MarriotsignInorJoin.click();
     }
-
     public void MarriotSendemail(String Searchkeys) throws InterruptedException {
         Thread.sleep(5000);
         MarriotsiginIn.sendKeys(Searchkeys);
@@ -174,44 +171,32 @@ public class HomePage extends WebAPI {
         Thread.sleep(5000);
         Marriotpassword.sendKeys(Searchkeys);
     }
-
     public void signInClick() throws InterruptedException {
         Thread.sleep(5000);
         MarriotsignIn.click();
     }
-
     public void MarriotfindHotel() throws InterruptedException {
         Thread.sleep(5000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,400)");
         MarriotfindHotel.click();
-
     }
-
     public void Marriotdestination() throws InterruptedException {
         Thread.sleep(5000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,400)");
         Marriotdestination.sendKeys("bangladesh");
-
     }
-
     public void Marriotrates() throws InterruptedException {
         Thread.sleep(5000);
         Marriotrates.click();
-
     }
-
     public void MarriotratesNone() throws InterruptedException {
         Thread.sleep(5000);
         MarriotratesNone.click();
-
     }
-
     public void MarriotfindHotels() throws InterruptedException {
         Thread.sleep(5000);
         MarriotfindHotels.click();
-
     }
-
     public void clickOnElement(String locator) {
         try {
             MarriotsiginIn.click();
@@ -230,58 +215,34 @@ public class HomePage extends WebAPI {
 
     public void findresrve() {
         Marriotdestinations.sendKeys("bangladesh");
-
-
     }
-
     public void Marriotspecialrests() {
         Marriotspecialrests.click();
-
-
     }
-
     public void MarriotspecialBox() {
         MarriotspecialBox.click();
-
-
     }
-
     public void Marriotvactions() {
         Marriotvactions.click();
-
-
     }
-
     public void MarriothomesAndVillas() {
         MarriothomesAndVillas.click();
-
-
     }
-
     public void MarriothomesAndVillasValided(String exp) {
         String act = "MarriothomesAndVillas";
         act = driver.getTitle();
         Assert.assertEquals("Failed", act, exp);
-
-
     }
-
     public void findAReserv() throws InterruptedException {
         Thread.sleep(5000);
         MarriotfindAndReserveTab.click();
-
     }
-
     public void MarriotdestinationBox() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, 100);
         WebElement element = wait.until(ExpectedConditions.visibilityOf(MarriotdestinationBox));
         element.sendKeys("NyC");
-
     }
-
-
     public void pickStartDate(String month, String date) {
-
         WebDriverWait wait = new WebDriverWait(driver, 6);
         wait.until(ExpectedConditions.visibilityOf(entireCalendar));
         while (true) {
@@ -311,77 +272,89 @@ public class HomePage extends WebAPI {
         MarriotFirstdestinationBox.sendKeys("Nyc");
         MarriotselectNyc.click();
     }
-
     public void marriotsignin() throws InterruptedException {
         Thread.sleep(5000);
         MarriotsignInclick.click();
     }
-
     public void enterEmail(String emaillist) throws InterruptedException {
 
         MarriotemailId.sendKeys(emaillist);
     }
-
     public void passwordlist(String passwordlist) throws InterruptedException {
         MarriotpasswordId.sendKeys(passwordlist);
-
-
     }
-
-    public void myTrips(){
+    public void myTrips() {
         Marriotmytrips.click();
     }
 
-
-    public void  MarriotconfirmationNumber(String numberList) throws InterruptedException {
+    public void MarriotconfirmationNumber(String numberList) throws InterruptedException {
         MarriotconfirmationNumber.sendKeys(numberList);
-
-
     }
-    public void  Marriotchekindater(String numberList) throws InterruptedException {
+    public void clickDate() {
         Marriotchekindate.click();
-        Marriotchekindatepicker.click();
-
-
     }
 
-public void MarriotfisrstName(String fName){
+    public void Marriotchekindater(String numberList) throws InterruptedException {
 
-    MarriotfisrstName.sendKeys(fName);   ;
-}
-public void MarriotlastName(String lastName){
-    MarriotlastName.sendKeys(lastName);   ;
-}
-public void Marriotfind(){
-    Marriotfind.click();
-}
-public void Marriotsignin() throws InterruptedException {
-    ((JavascriptExecutor) driver).executeScript("scroll(0,1200)");
-    Thread.sleep(5000);
-    Marriotsignin.click();
-}
+        Marriotchekindatepicker.sendKeys(numberList);
+    }
+    public void MarriotfisrstName(String fName) {
+        MarriotfisrstName.sendKeys(fName);
+    }
+    public void MarriotlastName(String lastName) {
+        MarriotlastName.sendKeys(lastName);
+    }
+    public void Marriotfind() {
+        Marriotfind.click();
+    }
 
-    public void enterKeywords(WebElement element , String value ) {
+    public void Marriotsignin() throws InterruptedException {
+        Marriotsignin.click();
+    }
+    public void enterKeywords(WebElement element, String value) throws InterruptedException {
+        sleepFor(5);
         element.sendKeys(value);
     }
     public void enterKeywordsclick(WebElement element, String value) {
         element.click();
     }
 
-public void  Marriotsigninclick(){
-    Marriotsigninclick.click();
+    public void Marriotsigninclick() throws InterruptedException {
+        Marriotsigninclick.click();
+        Thread.sleep(5000);
+    }
 
-}public void  MarriotforgotAccount(){
+    public void MarriotforgotAccount() {
         MarriotforgotAccount.click();
-
-}
-
-
-    public void sendKeysinbox(WebElement element , String value1,String vaLue2 ) {
-        element.sendKeys(value1,vaLue2);
+    }
+    public void sendKeysinbox(WebElement element, String value1, String vaLue2) {
+        element.sendKeys(value1, vaLue2);
     }
 
 
+    public void lastSignin() {
+        ((JavascriptExecutor) driver).executeScript("scroll(0,1200)");
+        signinbuttonClick.click();
+    }
+    public void mariotBonVoy() {
+        mariotBonvoyclick.click();
+    }
+    public void mariotBonVoyCreditCrad() {
+        mariotmariotBonvoyCreditCard.click();
+    }
+    public void mariotVcationClick() {
+        mariotVcation.click();
+    }
+
+    public void mariotHomesAndVilas() {
+        mariotHomesAndVilas.click();
+    }
+    public void mariotMriotallpackages() {
+        mariotallpackages.click();
+    }
+    public void mariotVrriotVacationClub() {
+        mariotVrriotVacationClub.click();
+    }
 }
 
 

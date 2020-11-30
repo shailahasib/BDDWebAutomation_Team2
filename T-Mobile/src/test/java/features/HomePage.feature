@@ -81,7 +81,7 @@ Feature:T-Moblie Homepage Functionality check
     Then I verify prepaid name right of top of the corner
 
 
-  @SmokeTest
+  @Test
   Scenario Outline:T-Moble search box Functionality check with Valid credintial base on table
     And I click the t-moble search button
     And I enter "<productName>" in searchBox

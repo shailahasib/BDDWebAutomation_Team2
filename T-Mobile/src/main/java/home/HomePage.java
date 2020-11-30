@@ -124,7 +124,6 @@ public class HomePage extends WebAPI {
     public void validedClickpnoes$devices() {
         TmoblevarifyPhones$devices.click();
 
-
     }
 
     public void validedTmobleClickSearch() {
@@ -287,7 +286,6 @@ public class HomePage extends WebAPI {
         Assert.assertEquals("Not match", actualResult, expectedResult);
     }
 
-
     public void SearchBoxValided(String expectedResult) {
         String actualResult = TmoblePrepaid.getText();
         Assert.assertEquals("Not match", actualResult, expectedResult);
@@ -379,7 +377,6 @@ public class HomePage extends WebAPI {
         String act = TmobletravelValided.getText();
         Assert.assertEquals("Failed", act, exp);
 
-
     }
 
     public void Tmobleplansmousehouvr() {
@@ -405,7 +402,6 @@ public class HomePage extends WebAPI {
     public void myaccount() {
         Tmoblemyaccount.click();
 
-
     }
 
     public void Tmoblelogin() {
@@ -419,8 +415,6 @@ public class HomePage extends WebAPI {
         Thread.sleep(5000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,1400)");
         TmobleforgotAccount.click();
-
-
     }
 
     public void TmobleforgotAccountbox() throws InterruptedException {
@@ -460,14 +454,12 @@ public class HomePage extends WebAPI {
         act = driver.getTitle();
         Assert.assertEquals("Failed", act, exp);
 
-
     }
 
     public void TmobleSearchbuttonClick() {
         TmobleSearchbuttonClick.click();
 
     }
-
 
     public void TmobleSearch() {
         TmobleSearch.sendKeys("iphone 11 pro max");
