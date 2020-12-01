@@ -2,7 +2,6 @@ Feature: Marriott Website Functionality Check
 
   Background:
     Given I am at Marriott Home Page
-
   @Test
   Scenario Outline:marriot Login  Functionality check with Valid  and invalid credintial
     And I click on my tips third optiop from header
@@ -19,7 +18,6 @@ Feature: Marriott Website Functionality Check
       | 4567890-5435678    | sun,nov22 2020 | sila      | parol    |
       | 4567890-5435678    | sun,nov22 2020 | mola      | paki     |
       | 45678904457u867    | sun,nov22 2020 | dila      | lami     |
-
   @Test
   Scenario: Marriott FindHotels functionalty check
     And I click The FindHotels
@@ -33,34 +31,29 @@ Feature: Marriott Website Functionality Check
     And I click find reserve
     And I Click Special offer
     Then  I verify is working propely
-
   @Test
   Scenario: Marriott Find reserve and  check
     And I click Find And reserve
     And I enter my location in destrination box
     And I enter my rates in reatesbox
     Then  I verify is working propely
-
   @Test
   Scenario: varify marriot  vacation page exist
     And I click on vacation
     And I click Homes a villas
     Then  I verify the page to the title
-
   @Test
   Scenario:verify marriot find and reserve functionality
     When I click Find and Reserve on header
     And I click and on Where do you want to go
     Then I enter location name
     And I click on the start from calendar
-
   @Test
   Scenario:I can type destination and search using homepage option
     And scroll down and find the destination box
     And I enter in NYC destanation box
     And I click on the start from calendar
     And I select start date
-
   @Test
   Scenario Outline:I want to check marriot My tips vaid and invalid crediantial based on table
     And I click on my tips third optiop from header
@@ -77,7 +70,6 @@ Feature: Marriott Website Functionality Check
       | 134567@gmail.com        | ##########  |
       | 134567@gmail.com        | ##########  |
       | ******gmail.com         | sdtfghjk,ed |
-
   @@Test
   Scenario: marriort signUp
     And I scroll down the page and i see Signin
@@ -94,19 +86,16 @@ Feature: Marriott Website Functionality Check
     And I click on  Marriot Bonvoy
     And I can click marriot credit card
     Then  I verify im in the rigt page
-
   @Test
   Scenario:I can click marriot  vacation
     And I click on  Marriot vacation
     And I can click Homes $ vilas in side that
     Then  I verify im in the rigt page
-
   @Test
   Scenario:I can click marriot  inside vacation package all incliuded vacation pakage exist
     And I click on  Marriot vacation
     And I can click package all incliuded side that
     Then  I verify im in the rigt page to the welcom massage
-
   @Test
   Scenario:I can click marriot  inside vacation package marriot vacation club page exist
     And I click on  Marriot vacation

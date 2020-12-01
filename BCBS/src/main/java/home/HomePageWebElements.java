@@ -2,7 +2,6 @@ package home;
 
 public class HomePageWebElements {
     public static final String memberAndservices = "Member Services";
-
     public static final String AccessMyBenefits = "Access My Benefits";
     public static final String clicksearch = "//*[@id='wizard-hotel-pwa-v2-1']/div[2]/div[2]/button";
     public static final String clicksearchbutton = "//*[@id='edit-submit']/i";

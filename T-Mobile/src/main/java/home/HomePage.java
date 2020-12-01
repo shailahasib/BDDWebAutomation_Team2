@@ -4,6 +4,7 @@ import common.WebAPI;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
@@ -85,7 +86,6 @@ public class HomePage extends WebAPI {
     public WebElement TmoblewhyTmoble;
     @FindBy(how = How.XPATH, using = travel)
     public WebElement Tmobletravel;
-
     @FindBy(how = How.XPATH, using = travelValided)
     public WebElement TmobletravelValided;
     @FindBy(how = How.XPATH, using = plansmousehouvr)
@@ -118,138 +118,94 @@ public class HomePage extends WebAPI {
 
     public void Clickpnoes$devices() {
         TmoblePhones$devices.click();
-
     }
-
     public void validedClickpnoes$devices() {
         TmoblevarifyPhones$devices.click();
-
     }
-
     public void validedTmobleClickSearch() {
         TmobleClickSearch.click();
-
-
     }
-
     public void SendTmobleSearch() {
         TmobleSearch.sendKeys("Galaxy Note20 Ultra 5G");
-
     }
-
     public void TmobleSearchButton() {
         TmobleSearchButtonClick.click();
-
     }
-
     public void TmoblegalaxyNoteUltra(String expectedResult) throws InterruptedException {
         Thread.sleep(7000);
         String actualResult = TmoblegalaxyNoteUltra.getText();
         Assert.assertEquals("Not Match", expectedResult, actualResult);
-
     }
-
     public void validedTmoblemyAcconut() {
         TmoblemyAcconut.click();
-
     }
-
     public void login() throws InterruptedException {
         Thread.sleep(5000);
         TmobleclickLogin.click();
-
     }
-
     public void Email() throws InterruptedException {
         Thread.sleep(5000);
         TmobleenterEmail.sendKeys(" runa11427@gmail.com");
-
     }
-
     public void clickNextl() throws InterruptedException {
         Thread.sleep(5000);
         TmobleNext.click();
-
     }
-
     public void Tmoblebill() throws InterruptedException {
         Thread.sleep(5000);
         TmoblebillPay.click();
-
     }
-
     public void TmoblefindaStore() throws InterruptedException {
         Thread.sleep(5000);
         TmoblefindaStore.click();
-
     }
-
     public void TmoblefindaStoresearch() throws InterruptedException {
         Thread.sleep(5000);
         TmoblefindaStoreSearch.sendKeys(" 11427");
-
     }
-
     public void TmoblefindaStoreClick() throws InterruptedException {
         Thread.sleep(5000);
         TmoblefindaStoreSearchClick.click();
-
     }
-
     public void TmoblefindaStorevalided(String expectedResult) throws InterruptedException {
         Thread.sleep(7000);
         String actualResult = TmoblefindaStorevalided.getText();
         Assert.assertEquals("Not Match", expectedResult, actualResult);
-
     }
-
     public void Tmoblecontact$supportClick() throws InterruptedException {
         Thread.sleep(5000);
         Tmoblecontact$support.click();
-
     }
-
     public void contact$support(String expectedResult) throws InterruptedException {
         Thread.sleep(7000);
         String actualResult = TmoblecontactUs.getText();
         Assert.assertEquals("Not Match", expectedResult, actualResult);
-
     }
-
     public void Tmobleplans() throws InterruptedException {
         Thread.sleep(5000);
         Tmobleplans.click();
     }
-
     public void palnsValided() throws InterruptedException {
         Thread.sleep(7000);
         String expectedResult = "Compare Our Best Cell Phone Plans & Deals for the Family | T-Mobile";
         String actualResult = driver.getTitle();
         Assert.assertEquals("Not Match", expectedResult, actualResult);
-
     }
-
     public void TmobleEssentialvalided(String expectedResult) throws InterruptedException {
         Thread.sleep(7000);
         String actualResult = TmobleEssential.getText();
         Assert.assertEquals("Not Match", expectedResult, actualResult);
-
     }
-
     public void TmobleDealsclick() throws InterruptedException {
         Thread.sleep(7000);
         TmobleDeals.click();
-
     }
-
     public void TmobleDealsvalided() throws InterruptedException {
         String expectedResult = "Our Best Deals & Promotions on Cell Phones, Devices & Plans | T-Mobile";
         Thread.sleep(7000);
         String actualResult = driver.getTitle();
         Assert.assertEquals("Not Match", expectedResult, actualResult);
-
     }
-
     public void mouseHoverByXpath(String locator) {
         try {
             WebElement element = TmobleDeals;
@@ -258,39 +214,28 @@ public class HomePage extends WebAPI {
             hover.click().build().perform();
         } catch (Exception ex) {
             System.out.println("unalbe to move mouse");
-
         }
-
     }
-
     public void ClickApplle() {
         Tmobleapple.click();
-
     }
-
     public void appleTitle() throws InterruptedException {
         String expectedResult = "Deals on New iPhones, iPads & Apple Watches | T-Mobile";
         Thread.sleep(7000);
         String actualResult = driver.getTitle();
         Assert.assertEquals("Not Match", expectedResult, actualResult);
-
     }
-
     public void TmoblePrepaid() {
         TmoblePrepaid.click();
-
     }
-
     public void TmoblePrepaidvalidated(String expectedResult) {
         String actualResult = TmoblePrepaid.getText();
         Assert.assertEquals("Not match", actualResult, expectedResult);
     }
-
     public void SearchBoxValided(String expectedResult) {
         String actualResult = TmoblePrepaid.getText();
         Assert.assertEquals("Not match", actualResult, expectedResult);
     }
-
     public void enterSearchKeyword(String searchItem) {
         TmobleSearch.sendKeys(searchItem);
     }
@@ -298,30 +243,20 @@ public class HomePage extends WebAPI {
     public void validateSearchText(String expectedResult) {
         String actualResult = TmoblesearchBox.getText();
         Assert.assertEquals("Search Item not match", expectedResult, actualResult);
-
     }
-
     public void TmobleTVCheck() {
         TmobleTV.click();
-
     }
-
-
     public void TmobleTVCheckValided(String expectedResult) {
         String actualResult = TmobleTVvisioin.getText();
         Assert.assertEquals("Not match", actualResult, expectedResult);
     }
-
     public void Tmoblegalaxynote() {
         Tmoblegalaxynote.click();
-
     }
-
     public void TmobleAddtoCart() {
         TmobleAddtoCart.click();
-
     }
-
     public void Tmoblewireless() {
         Tmoblewireless.click();
     }
@@ -341,21 +276,17 @@ public class HomePage extends WebAPI {
         String actualResult = TmobleBANKING.getText();
         Assert.assertEquals("Not match", actualResult, expectedResult);
     }
-
     public void coverage() {
         Actions action = new Actions(driver);
         WebElement main = TmobleCoverage;
         action.moveToElement(main).perform();
         TmobleourNet.click();
     }
-
-
     public void TmobleourNetvalided(String expectedResult) throws InterruptedException {
         Thread.sleep(5000);
         String actualResult = TmobleourNetvalided.getText();
         Assert.assertEquals("Not match", actualResult, expectedResult);
     }
-
     public void TmoblewhatIs5G() {
         TmoblewhatIs5G.click();
     }
@@ -365,125 +296,83 @@ public class HomePage extends WebAPI {
         String actualResult = TmoblewhatIs5G.getText();
         Assert.assertEquals("Not match", actualResult, expectedResult);
     }
-
     public void TmoblewhyTmoblesubmenuvalided() {
         Actions act = new Actions(driver);
         WebElement tmoble = TmoblewhyTmoble;
         act.moveToElement(tmoble).perform();
         Tmobletravel.click();
     }
-
     public void TmobletravelValided(String exp) {
         String act = TmobletravelValided.getText();
         Assert.assertEquals("Failed", act, exp);
-
     }
-
     public void Tmobleplansmousehouvr() {
         Actions act = new Actions(driver);
         WebElement tmoble = Tmobleplansmousehouvr;
         act.moveToElement(tmoble).perform();
-
     }
-
     public void clickmilitary$vetarians() {
         Tmobleclickmelitary.click();
-
     }
-
     public void Tmobleseepricebearrkdown() throws InterruptedException {
         Thread.sleep(5000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,1400)");
         Thread.sleep(5000);
         Tmobleseepricebearrkdown.click();
-
     }
-
     public void myaccount() {
         Tmoblemyaccount.click();
-
     }
-
     public void Tmoblelogin() {
-
         Tmoblelogin.click();
-
-
     }
-
     public void TmobleforgotAccount() throws InterruptedException {
         Thread.sleep(5000);
         ((JavascriptExecutor) driver).executeScript("scroll(0,1400)");
         TmobleforgotAccount.click();
     }
-
     public void TmobleforgotAccountbox() throws InterruptedException {
         Thread.sleep(5000);
         TmobleforgotAccountbox.sendKeys(" runa123456576587");
-
-
     }
-
     public void holidayOn() {
         TmobleHoliodyOn.click();
     }
 
-
     public void TmobleHoliodyOnValided(String exp) {
         String act = TmobleHoliodyOnValided.getText();
         Assert.assertEquals("Failed", act, exp);
-
-
     }
-
     public void Tmobledealsmousehover() {
         Actions act = new Actions(driver);
         WebElement tmoble = TmobleDeals;
         act.moveToElement(tmoble).perform();
-
     }
-
-
     public void seeallDeals() {
         TmobleseeAllDeals.click();
-
     }
-
     public void seeallDealsValided(String exp) {
         String act = "TmobleseeAllDeals";
         act = driver.getTitle();
         Assert.assertEquals("Failed", act, exp);
-
     }
-
     public void TmobleSearchbuttonClick() {
         TmobleSearchbuttonClick.click();
-
     }
-
     public void TmobleSearch() {
         TmobleSearch.sendKeys("iphone 11 pro max");
-
     }
-
     public void TmobleSearchClick() {
         TmobleSearchClick.click();
-
     }
-
     public void iphone11() {
         Tmobleiphone11.click();
-
     }
-
-
     public void iphone11valided(String exp) {
         String act = "Tmobleiphone11";
         act = driver.getTitle();
         Assert.assertEquals("Failed", act, exp);
-
     }
-
 
 }
 
