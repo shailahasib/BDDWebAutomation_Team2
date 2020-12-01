@@ -127,7 +127,11 @@ public class WebAPI {
     static DataReader dataReader = new DataReader();
 
     public void openBrowser(String url) throws IOException {
-        setUp(false,"browserstack","OS X","","chrome","87",url);
+
+        setUp(false,"browserstack","windows","10","chrome","87",url);
+
+        //setUp(false,"browserstack","OS X","","chrome","87",url);
+
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "OS", "os_version", "browserName", "browserVersion", "url"})
@@ -147,8 +151,9 @@ public class WebAPI {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
-        driver.get(url);
         driver.manage().window().maximize();
+        driver.get(url);
+
     }
 
     public WebDriver getLocalDriver(String OS, String browserName) {
@@ -591,7 +596,7 @@ public class WebAPI {
     }
 
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
-        webElement.sendKeys(value + Keys.ENTER);
+        webElement.sendKeys(value , Keys.ENTER);
     }
 
     public void clearInputBox(WebElement webElement) {
@@ -673,7 +678,7 @@ public class WebAPI {
         driver.findElement(By.xpath(loc)).sendKeys(val);
     }
     public void typeById(String loc, String val){
-        driver.findElement(By.id(loc)).sendKeys(val);
+        driver.findElement(By.id(loc)).sendKeys(val,Keys.ENTER);
     }
     public void typeByCss1(String loc, String val){
         driver.findElement(By.cssSelector(loc)).clear();
@@ -694,6 +699,9 @@ public class WebAPI {
     }
     public void clickByName (String loc){
         driver.findElement(By.name(loc)).click();
+    }
+    public void clickByClassName (String loc){
+        driver.findElement(By.className(loc)).click();
     }
     public void clickByLinkText (String loc){
         driver.findElement(By.linkText(loc)).click();
@@ -785,8 +793,9 @@ public class WebAPI {
         }
     }
 
-    public void getTitle(){
-        driver.getTitle();
+    public String getTitle(){
+       String actual = driver.getTitle();
+       return actual;
     }
 
     public void clearField1(String locator){
