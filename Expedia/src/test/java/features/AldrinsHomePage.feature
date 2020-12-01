@@ -3,6 +3,25 @@ Feature: Browsing Expedia Homepage
   Background:
     Given I am at Expedia home page
 
+  Scenario: Check all the links of the page to find broken links //NOT WORKING
+    When I check gather all the a tags and iterate thr links
+    Then I visually verify that the links are not broken
+
+  Scenario: I am switching the default region
+    When I verify "English" is the default language
+    And I change the language to "Espanol".
+    Then I verify the title is "Expedia: hoteles, vuelos, renta de autos, cruceros y rentas vacacionales | Expedia"
+
+  Scenario: I search for hotel stays with option to add flight
+    When I Select a city to stay and select add a flight
+    Then I verify I can start selecting hotels
+
+  Scenario: I am switching the default region
+    When I verify "English" is the default language
+    And I change the language to "简体中文".
+    Then I verify the title is "旅行预订网站：特价酒店预订，机票查询，自游行网上优惠 | Expedia.com"
+
+
   Scenario Outline: From Homepage I scroll down and sign up to get a mobile App download link
     And I scroll down to the bottom of the page
     When I sign up using my phone number "<phoneNumberBox>"
@@ -34,17 +53,10 @@ Feature: Browsing Expedia Homepage
       | Support                             | https://www.expedia.com/service/                              |
       | Do Not Sell My Personal Information | https://www.expedia.com/dnsmpi                                |
 
-  Scenario: I am switching the default region
-    When I verify "English" is the default language
-    And I change the language to "Espanol".
-    Then I verify the title is "Expedia: hoteles, vuelos, renta de autos, cruceros y rentas vacacionales | Expedia"
+  Scenario: I can go to a page and then can go back using mouse functions
+    When I navigate to "term of use" page and I select back using right click
+    Then I verify I am at homepage
 
-  Scenario: I am switching the default region
-    When I verify "English" is the default language
-    And I change the language to "简体中文".
-    Then I verify the title is "旅行预订网站：特价酒店预订，机票查询，自游行网上优惠 | Expedia.com"
-
-  Scenario: I search for hotel stays with option to add flight
-    When I Select a city to stay and select add a flight
-    Then I verify I can start selecting hotels
-
+  Scenario: I can search for packages using
+    And I click on Packages
+    Then I see the option to choose items and build a trip

@@ -10,13 +10,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import static aldrinsHomePage.AldrinsHomePageWebElements.*;
@@ -46,6 +46,16 @@ public class aldrinsHomePageStepDefinitions extends WebAPI {
     public void iAmAtExpediaHomePage() throws IOException {
         openBrowser(homePageURL);
         //driver.get(homePageURL);
+    }
+
+    @When("I check gather all the a tags and iterate thr links")
+    public void iCheckGatherAllTheATagsAndIterateThrLinks() {
+        aldrinsHomePage.findBrokenLinks();
+    }
+
+    @Then("I visually verify that the links are not broken")
+    public void iVisuallyVerifyThatTheLinksAreNotBroken() {
+        System.out.println("User checks for validity");
     }
 
     @And("I scroll down to the bottom of the page")
@@ -92,8 +102,8 @@ public class aldrinsHomePageStepDefinitions extends WebAPI {
     @When("I verify {string} is the default language")
     public void iVerifyIsTheDefaultLanguage(String language) {
         String languageText = aldrinsHomePage.languageSelector.getText();
-        Assert.assertEquals("Not at the right page", language,languageText);
-         }
+        Assert.assertEquals("Not at the right page", language, languageText);
+    }
 
     @And("I change the language to {string}.")
     public void iChangeTheLanguageToEspanol(String language) {
@@ -114,12 +124,12 @@ public class aldrinsHomePageStepDefinitions extends WebAPI {
     public void iSelectACityToStayAndSelectAddAFlight() {
         clickByXpath(staysTabXpath);
         clickByCss(staysSearchFieldCss);
-        typeByCssNEnter(staysLocationSearchFieldCss,"Chicago");
-       // clickByXpath(staysEmptyClickBoxXpath);
+        typeByCssNEnter(staysLocationSearchFieldCss, "Chicago");
+        // clickByXpath(staysEmptyClickBoxXpath);
         sleepFor(1);
         clickByCss(staysAddAFlightRadioCss);
         clickByXpath(staysLeavingFromXpath);
-        aldrinsHomePage.typeByXpathNEnter(staysLeavingFromFieldXpath,"New York");
+        aldrinsHomePage.typeByXpathNEnter(staysLeavingFromFieldXpath, "New York");
 
         sleepFor(2);
         clickByCss(staysSearchButtonCss);
@@ -131,6 +141,42 @@ public class aldrinsHomePageStepDefinitions extends WebAPI {
         sleepFor(5);
         String expected = "Chicago (and vicinity), Illinois, United States of America Hotel Search Results";
         String actual = driver.getTitle();
-        Assert.assertEquals("Test failed",expected,actual);
+        Assert.assertEquals("Test failed", expected, actual);
     }
+
+    @When("I navigate to {string} page and I select back using right click")
+    public void iNavigateToPageAndISelectBackUsingRightClick(String arg0) throws AWTException {
+
+        clickByXpath(navToTermPage);
+        sleepFor(2);
+        Actions builder = new Actions(driver);
+        builder.contextClick(aldrinsHomePage.termsHeader).perform();
+        sleepFor(1);
+        Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_DOWN);
+        sleepFor(2);
+        robot.keyPress(KeyEvent.VK_ENTER);
+
+        sleepFor(5);
+
+    }
+
+    @Then("I verify I am at homepage")
+    public void iVerifyIAmAtHomepage() {
+        aldrinsHomePage.assertURL(homePageURL);
+
+    }
+
+    @And("I click on Packages")
+    public void iClickOnPackages() {
+        sleepFor(5);
+        aldrinsHomePage.clickPackages();
+    }
+
+    @Then("I see the option to choose items and build a trip")
+    public void iSeeTheOptionToChooseItemsAndBuildATrip() {
+        aldrinsHomePage.valildateOptionByText(validateOptionText);
+    }
+
+
 }
