@@ -127,7 +127,11 @@ public class WebAPI {
     static DataReader dataReader = new DataReader();
 
     public void openBrowser(String url) throws IOException {
+
         setUp(false,"browserstack","windows","10","chrome","87",url);
+
+        //setUp(false,"browserstack","OS X","","chrome","87",url);
+
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "OS", "os_version", "browserName", "browserVersion", "url"})
