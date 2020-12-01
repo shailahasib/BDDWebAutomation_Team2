@@ -45,7 +45,7 @@ public class HomePageWebElements {
     public static final String login = "//*[@id='optid-4801']/span/span";
     public static final String forgotAccount = "//button[@id='lp1-forgotLogin-link']";
     public static final String forgotAccountbox = "forgotLoginInfotextbox";
-    public static final String HoliodyOn = "//*[@id='sprint-coverage-m1']/section/div/div/a";
+    public static final String HoliodyOn = "//a[contains(text(),'Holiday On')]";
     public static final String HoliodyOnValided = "//*[@id='63e1998085e25063dbc63e51150a214b10419b6416a5fef08a74941899ad338b']/div[1]/div[2]/h2";
     public static final String seeAllDeals = "//*[@id='nav-link-contaniner-2']/div/div/div/a[1]/span";
     public static final String iphone11 = "//*[@id='devices']/div[3]/div/div/tmo-item[3]/a/div[2]/div[2]/p";

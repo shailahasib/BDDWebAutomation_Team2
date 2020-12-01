@@ -23,8 +23,6 @@ Feature: Marriott Website Functionality Check
     And I click The FindHotels
     And I enter location in destination
     And I Click rates
-
-
   @Test
   Scenario: Marriott Signin  $Find reserve and Special offer  check
     And I click The Signin

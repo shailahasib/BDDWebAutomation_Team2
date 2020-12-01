@@ -70,12 +70,13 @@ public class HomePageStepDefinitions extends WebAPI {
     }
 
     @Given("I enter Galaxy Note20 Ultra 5G")
-    public void i_enter_galaxy_note20_ultra_5g() {
+    public void i_enter_galaxy_note20_ultra_5g() throws InterruptedException {
         homePage.SendTmobleSearch();
     }
 
-    @When("I click search box")
-    public void i_click_search_box() {
+    @When("I click  Thread.sleep(80000);search box")
+    public void i_click_search_box() throws InterruptedException {
+        Thread.sleep(80000);
         homePage.TmobleSearchButton();
     }
 
@@ -142,6 +143,7 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Given("I click search")
     public void i_click_search() throws InterruptedException {
+
         homePage.TmoblefindaStoreClick();
     }
 
@@ -477,24 +479,23 @@ public class HomePageStepDefinitions extends WebAPI {
     }
 
 
+    @When("I click search box")
+    public void iClickSearchBox() {
+    }
 
+    @When("I click search button")
+    public void iClickSearchButton() throws InterruptedException {
+        Thread.sleep(5000);
+        homePage. TmobleSearchButton();
+    }
 
+    @Then("I verify all  option pop up")
+    public void iVerifyAllOptionPopUp() {
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Then("I verify im in the right page")
+    public void iVerifyImInTheRightPage() {
+    }
 }
 
 
