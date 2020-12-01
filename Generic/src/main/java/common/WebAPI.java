@@ -127,7 +127,7 @@ public class WebAPI {
     static DataReader dataReader = new DataReader();
 
     public void openBrowser(String url) throws IOException {
-        setUp(false,"browserstack","windows","10","chrome","85",url);
+        setUp(false, "browserstack", "windows", "10", "chrome", "87", url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "OS", "os_version", "browserName", "browserVersion", "url"})
@@ -417,6 +417,7 @@ public class WebAPI {
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
+
     public static void mouseHover(WebElement element) {
         try {
             Actions hover = new Actions(driver);
@@ -503,12 +504,14 @@ public class WebAPI {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
     }
-    public static void fluentWaitWithPolling(){
+
+    public static void fluentWaitWithPolling() {
         fluentWait = new FluentWait(driver)
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(2))
                 .ignoring(Exception.class);
     }
+
     public void upLoadFile(String locator, String path) {
         driver.findElement(By.cssSelector(locator)).sendKeys(path);
         /* path example to upload a file/image
@@ -597,11 +600,12 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+
     public void getCurrentTime() {
         SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
         Date date = new Date();
         System.out.println(formatter.format(date));
-        System.out.println (" my test suite started at this time --> " +formatter.format(date));
+        System.out.println(" my test suite started at this time --> " + formatter.format(date));
     }
 
     private ArrayList<String> getList(By by) {
@@ -663,40 +667,48 @@ public class WebAPI {
     }
 
     // --------------------- EDIT BOX / TYPE -----------------------
-    public void typeByXpath1(String loc, String val){
+    public void typeByXpath1(String loc, String val) {
         driver.findElement(By.xpath(loc)).clear();
         driver.findElement(By.xpath(loc)).sendKeys(val);
     }
-    public void typeById(String loc, String val){
+
+    public void typeById(String loc, String val) {
         driver.findElement(By.id(loc)).sendKeys(val);
     }
-    public void typeByCss1(String loc, String val){
+
+    public void typeByCss1(String loc, String val) {
         driver.findElement(By.cssSelector(loc)).clear();
         driver.findElement(By.cssSelector(loc)).sendKeys(val);
     }
-    public void typeByName(String loc, String val){
+
+    public void typeByName(String loc, String val) {
         driver.findElement(By.name(loc)).sendKeys(val);
     }
+
     // ------------------- CLICK -----------------
-    public void clickByXpath1 (String loc){
+    public void clickByXpath1(String loc) {
         driver.findElement(By.xpath(loc)).click();
     }
-    public void clickByCss (String loc){
+
+    public void clickByCss(String loc) {
         driver.findElement(By.cssSelector(loc)).click();
     }
-    public void clickById (String loc){
+
+    public void clickById(String loc) {
         driver.findElement(By.id(loc)).click();
     }
-    public void clickByName (String loc){
+
+    public void clickByName(String loc) {
         driver.findElement(By.name(loc)).click();
     }
-    public void clickByLinkText (String loc){
+
+    public void clickByLinkText(String loc) {
         driver.findElement(By.linkText(loc)).click();
     }
 
     // ---------------- RADIO BUTTON
 
-    public void assertEqualByXpath (String loc, String expValue){
+    public void assertEqualByXpath(String loc, String expValue) {
         String act = driver.findElement(By.xpath(loc)).getText();
         // act is coming from Domain -- the one developer build and release
         String exp = expValue; // exp is coming from Requirement or Mock-up
@@ -706,13 +718,13 @@ public class WebAPI {
     // Slider Handlaing
     // https://stackoverflow.com/questions/15171745/how-to-slidemove-slider-in-selenium-webdriver
 
-    public void waitTimeExplicit(String locator){
+    public void waitTimeExplicit(String locator) {
         // Explicit wait
-        WebDriverWait wait= new WebDriverWait(driver,15);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
     }
 
-    public void waitTimeUsingFluent(String locator){
+    public void waitTimeUsingFluent(String locator) {
         // Fluent Wait
         Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
                 .withTimeout(Duration.ofSeconds(10))
@@ -780,11 +792,11 @@ public class WebAPI {
         }
     }
 
-    public void getTitle(){
+    public void getTitle() {
         driver.getTitle();
     }
 
-    public void clearField1(String locator){
+    public void clearField1(String locator) {
         try {
             driver.findElement(By.cssSelector(locator)).clear();
         } catch (Exception ex) {
@@ -809,8 +821,8 @@ public class WebAPI {
     }
 
 
-    public String getCurrentUrl(){
-        String url=driver.getCurrentUrl();
+    public String getCurrentUrl() {
+        String url = driver.getCurrentUrl();
         return url;
     }
 
@@ -850,7 +862,7 @@ public class WebAPI {
 
         String[] actual = new String[actualList.size()];
 
-        for (int j = 0; j<actualList.size(); j++) {
+        for (int j = 0; j < actualList.size(); j++) {
             actual[j] = actualList.get(j).getText().replaceAll("&amp;", "&").replaceAll("’", "'").trim();
             actual[j].replaceAll("&amp;", "&").replaceAll("’", "'").trim();
 //            escapeHtml4(actual[j]);
@@ -922,7 +934,7 @@ public class WebAPI {
 
         String[] actual = new String[actualList.size()];
 
-        for (int j = 0; j<actualList.size(); j++) {
+        for (int j = 0; j < actualList.size(); j++) {
             actual[j] = actualList.get(j).getAttribute(attribute).replaceAll("&amp;", "&").replaceAll("’", "'").replaceAll("<br>", "\n").trim();
             actual[j].replaceAll("&amp;", "&").replaceAll("’", "'").replaceAll("<br>", "\n").trim();
 //            escapeHtml4(actual[j]);
@@ -937,7 +949,7 @@ public class WebAPI {
                 System.out.println("ACTUAL " + attribute.toUpperCase() + " " + (i + 1) + ": " + actual[i]);
                 System.out.println("EXPECTED " + attribute.toUpperCase() + " " + (i + 1) + ": " + expectedList[i] + "\n");
             } else {
-                System.out.println("FAILED AT INDEX " + (i+1) + "\nEXPECTED " + attribute.toUpperCase() + ": " + expectedList[i] +
+                System.out.println("FAILED AT INDEX " + (i + 1) + "\nEXPECTED " + attribute.toUpperCase() + ": " + expectedList[i] +
                         "\nACTUAL " + attribute.toUpperCase() + ": " + actual[i] + "\n");
                 falseCount++;
             }
@@ -1032,10 +1044,10 @@ public class WebAPI {
                 element.sendKeys(Keys.CONTROL, Keys.ENTER);
                 Thread.sleep(800);
                 actualURLs[i] = switchToTabAndGetURL();
-            } else if (!(hoverElement.isEnabled())){
+            } else if (!(hoverElement.isEnabled())) {
                 try {
                     mouseHoverJScript(hoverElement);
-                } catch (Exception e){
+                } catch (Exception e) {
                     mouseHover(hoverElement);
                 }
                 fluentWait.until(ExpectedConditions.elementToBeClickable(element));
@@ -1051,6 +1063,98 @@ public class WebAPI {
     }
 
 
+//======================================my helper methods =============================================================================
+
+
+
+
+
+
+    public void mouseOverXPATH(String element) {
+        Actions action = new Actions(driver);
+        action.moveToElement(driver.findElement(By.xpath(element))).build().perform();
+    }
+
+    public void mouseOverID(String element) {
+        Actions action = new Actions(driver);
+        action.moveToElement(driver.findElement(By.id(element))).build().perform();
+    }
+
+    public void mouseOverCSS(String element) {
+        Actions action = new Actions(driver);
+        action.moveToElement(driver.findElement(By.cssSelector(element))).build().perform();
+    }
+
+    public void mouseOverNAME(String element) {
+        Actions action = new Actions(driver);
+        action.moveToElement(driver.findElement(By.name(element))).build().perform();
+    }
+
+    public void mouseOverLINKTEXT(String element) {
+        Actions action = new Actions(driver);
+        action.moveToElement(driver.findElement(By.linkText(element))).build().perform();
+    }
+
+    public void mouseOverCLASS(String element) {
+        Actions action = new Actions(driver);
+        action.moveToElement(driver.findElement(By.className(element))).build().perform();
+    }
+
+
+
+
+    public static void verifyLinkActive(String linkUrl) {
+        try {
+            URL url = new URL(linkUrl);
+
+            HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
+
+            httpURLConnect.setConnectTimeout(3000);
+
+            httpURLConnect.connect();
+
+            if (httpURLConnect.getResponseCode() == 200) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage());
+            }
+            if (httpURLConnect.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage() + " - " + HttpURLConnection.HTTP_NOT_FOUND);
+            }
+        } catch (Exception e) {
+
+        }
+    }
+
+
+
+//
+//    public void pickDepart(String month, String date) {
+//
+//        while (true) {
+//            String monthText = monthSelectText.getText();
+//            if (monthText.equals(month)) {
+//                break;
+//            } else {
+//                nextMonth.click();
+//            }
+//        }
+//
+//        for (WebElement allDates : calendarDates) {
+//            String dateText = allDates.getText();
+//            if (dateText.equals(date)) {
+//                allDates.click();
+//            }
+//        }
+//
+//    }
+
+
+
+
+    public static void selectDateByJS(WebDriver driver ,WebElement element, String dateVal){
+
+        JavascriptExecutor js=((JavascriptExecutor)driver);
+        js.executeScript("arguments[0].setAttribute('value','"+dateVal+"');",element);
+    }
 
 
 
