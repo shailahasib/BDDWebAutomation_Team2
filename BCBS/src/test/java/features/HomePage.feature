@@ -78,4 +78,15 @@ Feature: User is able to use all functions of the BCBS Homepage
       | 90001   |
       | 11208   |
 
+  Scenario Outline: I click "Access My benefits" and check out the benefits offered per Prefix provided
+    When I enter my provided "<prefix>"
+    Then I verify that I am at the "<expectedURL>"
+    Examples:
+      | prefix | expectedURL                                                             |
+      | PHP    | https://www.anthem.com/individual-and-family/health-insurance/georgia/  |
+      | QAE    | https://www.anthem.com/individual-and-family/health-insurance/georgia/  |
+      | BLM    | https://www.floridablue.com/                                            |
+      | BLK    | https://www.anthem.com/individual-and-family/health-insurance/ohio/     |
+      | MNN    | https://www.highmarkbcbs.com/home/                                      |
+      | QAF    | https://www.anthem.com/individual-and-family/health-insurance/colorado/ |
 

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="26" time="1.354">
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I try to find broken links" time="0.133">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I refresh the page.....................................................passed
+Then I try to find broken links.............................................passed
+And I verify the URL is "https://www.t-mobile.com/cell-phones"..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I try to login to TMobile's members area" time="0.011">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I login with invalid credential........................................passed
+Then I verify the webApp does not let me in.................................passed
+But gives me another chance to login with valid credentials.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I sort the cellphones based on prices" time="0.004">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I sort the cellphones based on "Price Low To High".....................passed
+Then I verify the webpage is showing results "https://www.t-mobile.com/cell-phones?sort=priceLowToHigh".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I sort the cellphones based on prices 2" time="0.006">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I sort the cellphones based on "Price High To Low".....................passed
+Then I verify the webpage is showing results "https://www.t-mobile.com/cell-phones?sort=priceHighToLow".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I sort the cellphones based on prices 3" time="0.01">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I sort the cellphones based on "Highest Rating"........................passed
+Then I verify the webpage is showing results "https://www.t-mobile.com/cell-phones?sort=rating".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I try to chat with the virtual agent" time="0.005">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I say "I need a new phone" to the virtual agent........................passed
+Then I verify it replies to me..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I try to chat with the virtual agent 2" time="0.009">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I say "Hello Roboto" to the virtual agent..............................passed
+Then I verify it replies to me..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I try to chat with the virtual agent 3" time="0.008">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I say "How is the weather?" to the virtual agent.......................passed
+Then I verify it replies to me..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I try to chat with the virtual agent 4" time="0.009">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I say "Where is the nearest store" to the virtual agent................passed
+Then I verify it replies to me..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I filter the cellphones based on Deals type" time="0.008">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I select "NEW".........................................................passed
+Then I verify the results are as expected as "NEW" filter...................passed
+And the "https://www.t-mobile.com/cell-phones/deals/new" corresponds to the query.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I filter the cellphones based on Deals type 2" time="0.007">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I select "ON SALE".....................................................passed
+Then I verify the results are as expected as "ON SALE" filter...............passed
+And the "https://www.t-mobile.com/cell-phones/deals/on-sale" corresponds to the query.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I filter the cellphones based on Deals type 3" time="0.013">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I select "SPECIAL OFFER"...............................................passed
+Then I verify the results are as expected as "SPECIAL OFFER" filter.........passed
+And the "https://www.t-mobile.com/cell-phones/deals/special-offer" corresponds to the query.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I only want to see 5G Phones" time="0.012">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I select "5G" from Filters.............................................passed
+Then I verify the URL is "https://www.t-mobile.com/cell-phones/network/5g"..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I only want to see 5G Phones 2" time="0.003">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I select "4G LTE" from Filters.........................................passed
+Then I verify the URL is "https://www.t-mobile.com/cell-phones/network/4g-lte".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I only want to see 5G Phones 3" time="0.006">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I select "4G" from Filters.............................................passed
+Then I verify the URL is "https://www.t-mobile.com/cell-phones/network/4g"..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I goto the social links from footer area" time="0.012">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I scroll down and click on "Instagram" Icon............................passed
+Then I land on Tmobiles Instagram profile on "https://www.instagram.com/tmobile/".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I visit Careers section from the footer area" time="0.006">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I goto the careers tab from the footer area............................passed
+Then I verify the title of the landing page is "Careers | Join the Un-carrier Today | T-Mobile".passed
+And I verify the URL is "https://www.t-mobile.com/careers"..................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I look for different open positions in the company" time="0.007">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I am browsing for "Mobile Associate" in the "11219"....................passed
+Then I very corresponding results as "Mobile Associate" and "11219" are filled in.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I look for different open positions in the company 2" time="0.009">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I am browsing for "Mobile Associate" in the "60657"....................passed
+Then I very corresponding results as "Mobile Associate" and "60657" are filled in.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I look for different open positions in the company 3" time="0.011">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I am browsing for "Retail Store Manager" in the "11218"................passed
+Then I very corresponding results as "Retail Store Manager" and "11218" are filled in.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I look for different open positions in the company 4" time="0.007">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I am browsing for "Retail Store Manager" in the "60607"................passed
+Then I very corresponding results as "Retail Store Manager" and "60607" are filled in.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I check out financing options for cellphones" time="0">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I browse the financing options page....................................passed
+And I enter my "Jambu" "Bhai" "jBhai@testemail.com" "Bari khali Road" "11218" "02/03/1987" "4586".passed
+Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts.".passed
+And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I check out financing options for cellphones 2" time="0">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I browse the financing options page....................................passed
+And I enter my "Leo" "Nantu" "kemneParo@testemail.com" "Bari khali Road" "49223" "02/03/1987" "4586".passed
+Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts.".passed
+And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I check out financing options for cellphones 3" time="0">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I browse the financing options page....................................passed
+And I enter my "Stephen" "Kabil" "daberpani@testemail.com" "Bari khali Road" "46123" "02/03/1987" "4586".passed
+Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts.".passed
+And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I check out financing options for cellphones 4" time="0.015">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I browse the financing options page....................................passed
+And I enter my "Emelta" "Babu" "keboleamipagol@testemail.com" "Bari khali Road" "69699" "02/03/1987" "1256".passed
+Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts.".passed
+And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="I am opened the cellphones page and browsing phones for purchase" name="I check out financing options for cellphones 5" time="0.015">
+        <system-out>
+            <![CDATA[Given I am at the cellphone page............................................passed
+When I browse the financing options page....................................passed
+And I enter my "Shaiba" "Ali" "kochupatarpani@testemail.com" "Bari khali Road" "46123" "02/03/1987" "4586".passed
+Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts.".passed
+And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"..passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

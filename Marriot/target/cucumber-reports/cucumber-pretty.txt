@@ -1,0 +1,161 @@
+
+Scenario Outline: I change the language of the Site to Portugues    # src/test/java/features/CreditCardPage.feature:16
+  Given I am at the credit cards page                               # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I change the language to "Espanol"                           # stepDefinitions.CreditCardsStepDefinitions.iChangeTheLanguageTo(java.lang.String)
+  Then I verify the page Header Title is "DESCUBRA NUESTRAS MARCAS" # stepDefinitions.CreditCardsStepDefinitions.iVerifyThePageHeaderTitleIs(java.lang.String)
+  And the homepage is "https://www.espanol.marriott.com/default.mi" # stepDefinitions.CreditCardsStepDefinitions.theHomepageIs(java.lang.String)
+
+Scenario Outline: I change the language of the Site to Portugues   # src/test/java/features/CreditCardPage.feature:17
+  Given I am at the credit cards page                              # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I change the language to "Francais"                         # stepDefinitions.CreditCardsStepDefinitions.iChangeTheLanguageTo(java.lang.String)
+  Then I verify the page Header Title is "DÉCOUVREZ NOS ENSEIGNES" # stepDefinitions.CreditCardsStepDefinitions.iVerifyThePageHeaderTitleIs(java.lang.String)
+  And the homepage is "https://www.marriott.fr/default.mi"         # stepDefinitions.CreditCardsStepDefinitions.theHomepageIs(java.lang.String)
+
+Scenario Outline: I change the language of the Site to Portugues # src/test/java/features/CreditCardPage.feature:18
+  Given I am at the credit cards page                            # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I change the language to "Portugues"                      # stepDefinitions.CreditCardsStepDefinitions.iChangeTheLanguageTo(java.lang.String)
+  Then I verify the page Header Title is "CONHEÇA NOSSAS MARCAS" # stepDefinitions.CreditCardsStepDefinitions.iVerifyThePageHeaderTitleIs(java.lang.String)
+  And the homepage is "https://www.marriott.com.br/default.mi"   # stepDefinitions.CreditCardsStepDefinitions.theHomepageIs(java.lang.String)
+
+Scenario Outline: Check Convid-19 Special offers                                           # src/test/java/features/CreditCardPage.feature:26
+  Given I am at the credit cards page                                                      # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When banner is visible I click "Best Rate Guarantee"                                     # stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)
+  Then I verify the special page Title is "Marriott Cleanliness Council | Marriott Bonvoy" # stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)
+  And the special homepage is "https://clean.marriott.com/#bestrate"                       # stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)
+
+Scenario Outline: Check Convid-19 Special offers                                           # src/test/java/features/CreditCardPage.feature:27
+  Given I am at the credit cards page                                                      # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When banner is visible I click "Flexible Cancellation"                                   # stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)
+  Then I verify the special page Title is "Marriott Cleanliness Council | Marriott Bonvoy" # stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)
+  And the special homepage is "https://clean.marriott.com/#flexiblecancellation"           # stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)
+
+Scenario Outline: Check Convid-19 Special offers                                           # src/test/java/features/CreditCardPage.feature:28
+  Given I am at the credit cards page                                                      # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When banner is visible I click "Commitment to Clean"                                     # stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)
+  Then I verify the special page Title is "Marriott Cleanliness Council | Marriott Bonvoy" # stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)
+  And the special homepage is "https://clean.marriott.com/"                                # stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)
+
+Scenario Outline: Check Convid-19 Special offers                                           # src/test/java/features/CreditCardPage.feature:29
+  Given I am at the credit cards page                                                      # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When banner is visible I click "Contactless Services"                                    # stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)
+  Then I verify the special page Title is "Marriott Cleanliness Council | Marriott Bonvoy" # stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)
+  And the special homepage is "https://clean.marriott.com/#service"                        # stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)
+
+Scenario Outline: Sign in to user account                                                            # src/test/java/features/CreditCardPage.feature:38
+  Given I am at the credit cards page                                                                # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on the "Sign In or Join" button from header                                           # stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)
+  And I enter a set of est "anotheremailset@gmail.com" address and "testPassword1" and click Sign in # stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)
+  Then the url is "https://www.marriott.com/sign-in-error.mi?transaction=login"                      # stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)
+
+Scenario Outline: Sign in to user account                                                               # src/test/java/features/CreditCardPage.feature:39
+  Given I am at the credit cards page                                                                   # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on the "Sign In or Join" button from header                                              # stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)
+  And I enter a set of est "anotheremailtwoset@gmail.com" address and "testPassword1" and click Sign in # stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)
+  Then the url is "https://www.marriott.com/sign-in-error.mi?transaction=login"                         # stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)
+
+Scenario Outline: Sign in to user account                                                                 # src/test/java/features/CreditCardPage.feature:40
+  Given I am at the credit cards page                                                                     # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on the "Sign In or Join" button from header                                                # stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)
+  And I enter a set of est "anotheremailthreeset@gmail.com" address and "testPassword1" and click Sign in # stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)
+  Then the url is "https://www.marriott.com/sign-in-error.mi?transaction=login"                           # stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)
+
+Scenario Outline: Sign in to user account                                                                # src/test/java/features/CreditCardPage.feature:41
+  Given I am at the credit cards page                                                                    # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on the "Sign In or Join" button from header                                               # stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)
+  And I enter a set of est "anotheremailfourset@gmail.com" address and "testPassword1" and click Sign in # stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)
+  Then the url is "https://www.marriott.com/sign-in-error.mi?transaction=login"                          # stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)
+
+Scenario Outline: Sign in to user account                                                                # src/test/java/features/CreditCardPage.feature:42
+  Given I am at the credit cards page                                                                    # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on the "Sign In or Join" button from header                                               # stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)
+  And I enter a set of est "anotheremailfiveset@gmail.com" address and "testPassword1" and click Sign in # stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)
+  Then the url is "https://www.marriott.com/sign-in-error.mi?transaction=login"                          # stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)
+
+Scenario Outline: I click "Find & Reserve" and browse the options           # src/test/java/features/CreditCardPage.feature:51
+  Given I am at the credit cards page                                       # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on "Find & Reserve" drop down                                # stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)
+  And I Type in my "Brooklyn, NY, USA" for "FEBRUARY 2021" on "25"          # stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)
+  And I click on "Find Hotels"                                              # stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)
+  Then I reach "https://www.marriott.com/search/findHotels.mi" with results # stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)
+
+Scenario Outline: I click "Find & Reserve" and browse the options           # src/test/java/features/CreditCardPage.feature:52
+  Given I am at the credit cards page                                       # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on "Find & Reserve" drop down                                # stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)
+  And I Type in my "Hamburg, Germany" for "MARCH 2021" on "12"              # stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)
+  And I click on "Find Hotels"                                              # stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)
+  Then I reach "https://www.marriott.com/search/findHotels.mi" with results # stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)
+
+Scenario Outline: I click "Find & Reserve" and browse the options                 # src/test/java/features/CreditCardPage.feature:53
+  Given I am at the credit cards page                                             # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on "Find & Reserve" drop down                                      # stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)
+  And I Type in my "Delhi Gate, Daryaganj, Delhi, India" for "APRIL 2021" on "18" # stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)
+  And I click on "Find Hotels"                                                    # stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)
+  Then I reach "https://www.marriott.com/search/findHotels.mi" with results       # stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)
+
+Scenario Outline: I click "Find & Reserve" and browse the options           # src/test/java/features/CreditCardPage.feature:54
+  Given I am at the credit cards page                                       # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on "Find & Reserve" drop down                                # stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)
+  And I Type in my "San Francisco, CA, USA" for "JUNE 2021" on "23"         # stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)
+  And I click on "Find Hotels"                                              # stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)
+  Then I reach "https://www.marriott.com/search/findHotels.mi" with results # stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)
+
+Scenario: I look into "Marriott Bonvoy Boundless™ Credit Card from Chase"                             # src/test/java/features/CreditCardPage.feature:56
+  Given I am at the credit cards page                                                                 # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click "Marriott Bonvoy Boundless™ Credit Card from Chase" Learn more                         # stepDefinitions.CreditCardsStepDefinitions.iClickLearnMore(java.lang.String)
+  Then I verify it opens up into a new tab titled "Marriott Bonvoy Boundless™ Credit Card from Chase" # stepDefinitions.CreditCardsStepDefinitions.iVerifyItOpensUpIntoANewTabTitled(java.lang.String)
+  And I veritfy the card is offering "75,000 BONUS POINTS" points for initial signup                  # stepDefinitions.CreditCardsStepDefinitions.iVeritfyTheCardIsOfferingPointsForInitialSignup(java.lang.String)
+
+Scenario: I checkout the mobile app page                    # src/test/java/features/CreditCardPage.feature:61
+  Given I am at the credit cards page                       # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I click on "Learn More" on the footer banner for App # stepDefinitions.CreditCardsStepDefinitions.iClickOnOnTheFooterBannerForApp(java.lang.String)
+  And I click on "Mobile Key" on the header link            # stepDefinitions.CreditCardsStepDefinitions.iClickOnOnTheHeaderLink(java.lang.String)
+  Then I verify page scrolled down to "Mobile Key" view     # stepDefinitions.CreditCardsStepDefinitions.iVerifyPageScrolledDownToView(java.lang.String)
+
+Scenario Outline: I lookup a trip itenerary from "My trip"                              # src/test/java/features/CreditCardPage.feature:73
+  Given I am at the credit cards page                                                   # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I navigate to "My Trip" and the pop-up opens                                     # stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)
+  And I enter user information "LMN3SFF312341","December 2020", "23","Joseph","Robinet" # stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I am redirected to a page with appropriate error message "Reservation not found" # stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)
+  And I validate the title of the page is "Upcoming Reservations Confirmation #"        # stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)
+
+Scenario Outline: I lookup a trip itenerary from "My trip"                              # src/test/java/features/CreditCardPage.feature:74
+  Given I am at the credit cards page                                                   # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I navigate to "My Trip" and the pop-up opens                                     # stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)
+  And I enter user information "J23A2I9233021","December 2020", "13","Emile","Hoosier"  # stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I am redirected to a page with appropriate error message "Reservation not found" # stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)
+  And I validate the title of the page is "Upcoming Reservations Confirmation #"        # stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)
+
+Scenario Outline: I lookup a trip itenerary from "My trip"                              # src/test/java/features/CreditCardPage.feature:75
+  Given I am at the credit cards page                                                   # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I navigate to "My Trip" and the pop-up opens                                     # stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)
+  And I enter user information "12341FGDEWQF1","January 2021", "11","Chris","Dickens"   # stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I am redirected to a page with appropriate error message "Reservation not found" # stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)
+  And I validate the title of the page is "Upcoming Reservations Confirmation #"        # stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)
+
+Scenario Outline: I lookup a trip itenerary from "My trip"                              # src/test/java/features/CreditCardPage.feature:76
+  Given I am at the credit cards page                                                   # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I navigate to "My Trip" and the pop-up opens                                     # stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)
+  And I enter user information "I12341H1231S2","February 2021", "24","Holly","Smith"    # stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I am redirected to a page with appropriate error message "Reservation not found" # stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)
+  And I validate the title of the page is "Upcoming Reservations Confirmation #"        # stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)
+
+Scenario Outline: I lookup a trip itenerary from "My trip"                                 # src/test/java/features/CreditCardPage.feature:77
+  Given I am at the credit cards page                                                      # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I navigate to "My Trip" and the pop-up opens                                        # stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)
+  And I enter user information "R45W41H1231S2","February 2021", "16","Rebecca","Winemouth" # stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I am redirected to a page with appropriate error message "Reservation not found"    # stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)
+  And I validate the title of the page is "Upcoming Reservations Confirmation #"           # stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)
+
+Scenario Outline: I lookup a trip itenerary from "My trip"                              # src/test/java/features/CreditCardPage.feature:78
+  Given I am at the credit cards page                                                   # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I navigate to "My Trip" and the pop-up opens                                     # stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)
+  And I enter user information "I1234567G31S2","March 2021", "19","Menuson","Davenport" # stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I am redirected to a page with appropriate error message "Reservation not found" # stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)
+  And I validate the title of the page is "Upcoming Reservations Confirmation #"        # stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)
+
+Scenario Outline: I lookup a trip itenerary from "My trip"                                  # src/test/java/features/CreditCardPage.feature:79
+  Given I am at the credit cards page                                                       # stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()
+  When I navigate to "My Trip" and the pop-up opens                                         # stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)
+  And I enter user information "I1234SFXXV1S2","February 2021", "24","Lilly","Cunninlingus" # stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I am redirected to a page with appropriate error message "Reservation not found"     # stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)
+  And I validate the title of the page is "Upcoming Reservations Confirmation #"            # stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)

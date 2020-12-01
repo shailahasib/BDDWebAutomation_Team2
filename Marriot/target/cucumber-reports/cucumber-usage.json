@@ -1,0 +1,1007 @@
+[
+  {
+    "source": "I am at the credit cards page",
+    "steps": [
+      {
+        "name": "I am at the credit cards page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 6.24808E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0156202,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I change the language to {string}",
+    "steps": [
+      {
+        "name": "I change the language to \"Espanol\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "I change the language to \"Francais\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "I change the language to \"Portugues\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the page Header Title is {string}",
+    "steps": [
+      {
+        "name": "I verify the page Header Title is \"DESCUBRA NUESTRAS MARCAS\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I verify the page Header Title is \"DÉCOUVREZ NOS ENSEIGNES\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I verify the page Header Title is \"CONHEÇA NOSSAS MARCAS\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the homepage is {string}",
+    "steps": [
+      {
+        "name": "the homepage is \"https://www.espanol.marriott.com/default.mi\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "the homepage is \"https://www.marriott.fr/default.mi\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "the homepage is \"https://www.marriott.com.br/default.mi\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "banner is visible I click {string}",
+    "steps": [
+      {
+        "name": "banner is visible I click \"Best Rate Guarantee\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "banner is visible I click \"Flexible Cancellation\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "banner is visible I click \"Commitment to Clean\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "banner is visible I click \"Contactless Services\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the special page Title is {string}",
+    "steps": [
+      {
+        "name": "I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.003897425
+        },
+        "durations": [
+          {
+            "duration": 0.0155897,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:22"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:22"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:22"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the special homepage is {string}",
+    "steps": [
+      {
+        "name": "the special homepage is \"https://clean.marriott.com/#bestrate\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "the special homepage is \"https://clean.marriott.com/#flexiblecancellation\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "the special homepage is \"https://clean.marriott.com/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "the special homepage is \"https://clean.marriott.com/#service\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the {string} button from header",
+    "steps": [
+      {
+        "name": "I click on the \"Sign In or Join\" button from header",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:33"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:33"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:33"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:33"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter a set of est {string} address and {string} and click Sign in",
+    "steps": [
+      {
+        "name": "I enter a set of est \"anotheremailset@gmail.com\" address and \"testPassword1\" and click Sign in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:34"
+          }
+        ]
+      },
+      {
+        "name": "I enter a set of est \"anotheremailtwoset@gmail.com\" address and \"testPassword1\" and click Sign in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:34"
+          }
+        ]
+      },
+      {
+        "name": "I enter a set of est \"anotheremailthreeset@gmail.com\" address and \"testPassword1\" and click Sign in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:34"
+          }
+        ]
+      },
+      {
+        "name": "I enter a set of est \"anotheremailfourset@gmail.com\" address and \"testPassword1\" and click Sign in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:34"
+          }
+        ]
+      },
+      {
+        "name": "I enter a set of est \"anotheremailfiveset@gmail.com\" address and \"testPassword1\" and click Sign in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the url is {string}",
+    "steps": [
+      {
+        "name": "the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:35"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:35"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:35"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:35"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} drop down",
+    "steps": [
+      {
+        "name": "I click on \"Find \u0026 Reserve\" drop down",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:45"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:45"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:45"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Type in my {string} for {string} on {string}",
+    "steps": [
+      {
+        "name": "I Type in my \"Brooklyn, NY, USA\" for \"FEBRUARY 2021\" on \"25\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:46"
+          }
+        ]
+      },
+      {
+        "name": "I Type in my \"Hamburg, Germany\" for \"MARCH 2021\" on \"12\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:46"
+          }
+        ]
+      },
+      {
+        "name": "I Type in my \"Delhi Gate, Daryaganj, Delhi, India\" for \"APRIL 2021\" on \"18\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:46"
+          }
+        ]
+      },
+      {
+        "name": "I Type in my \"San Francisco, CA, USA\" for \"JUNE 2021\" on \"23\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string}",
+    "steps": [
+      {
+        "name": "I click on \"Find Hotels\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:47"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:47"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:47"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I reach {string} with results",
+    "steps": [
+      {
+        "name": "I reach \"https://www.marriott.com/search/findHotels.mi\" with results",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:48"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:48"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:48"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click {string} Learn more",
+    "steps": [
+      {
+        "name": "I click \"Marriott Bonvoy Boundless™ Credit Card from Chase\" Learn more",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify it opens up into a new tab titled {string}",
+    "steps": [
+      {
+        "name": "I verify it opens up into a new tab titled \"Marriott Bonvoy Boundless™ Credit Card from Chase\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I veritfy the card is offering {string} points for initial signup",
+    "steps": [
+      {
+        "name": "I veritfy the card is offering \"75,000 BONUS POINTS\" points for initial signup",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} on the footer banner for App",
+    "steps": [
+      {
+        "name": "I click on \"Learn More\" on the footer banner for App",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on {string} on the header link",
+    "steps": [
+      {
+        "name": "I click on \"Mobile Key\" on the header link",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page scrolled down to {string} view",
+    "steps": [
+      {
+        "name": "I verify page scrolled down to \"Mobile Key\" view",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I navigate to {string} and the pop-up opens",
+    "steps": [
+      {
+        "name": "I navigate to \"My Trip\" and the pop-up opens",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:67"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:67"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:67"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:67"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:67"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:67"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter user information {string},{string}, {string},{string},{string}",
+    "steps": [
+      {
+        "name": "I enter user information \"LMN3SFF312341\",\"December 2020\", \"23\",\"Joseph\",\"Robinet\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:68"
+          }
+        ]
+      },
+      {
+        "name": "I enter user information \"J23A2I9233021\",\"December 2020\", \"13\",\"Emile\",\"Hoosier\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:68"
+          }
+        ]
+      },
+      {
+        "name": "I enter user information \"12341FGDEWQF1\",\"January 2021\", \"11\",\"Chris\",\"Dickens\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:68"
+          }
+        ]
+      },
+      {
+        "name": "I enter user information \"I12341H1231S2\",\"February 2021\", \"24\",\"Holly\",\"Smith\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:68"
+          }
+        ]
+      },
+      {
+        "name": "I enter user information \"R45W41H1231S2\",\"February 2021\", \"16\",\"Rebecca\",\"Winemouth\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:68"
+          }
+        ]
+      },
+      {
+        "name": "I enter user information \"I1234567G31S2\",\"March 2021\", \"19\",\"Menuson\",\"Davenport\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:68"
+          }
+        ]
+      },
+      {
+        "name": "I enter user information \"I1234SFXXV1S2\",\"February 2021\", \"24\",\"Lilly\",\"Cunninlingus\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am redirected to a page with appropriate error message {string}",
+    "steps": [
+      {
+        "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the title of the page is {string}",
+    "steps": [
+      {
+        "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:70"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:70"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:70"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:70"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:70"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:70"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/Marriot/src/test/java/features/CreditCardPage.feature:70"
+          }
+        ]
+      }
+    ]
+  }
+]

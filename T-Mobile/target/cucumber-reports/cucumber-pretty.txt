@@ -1,0 +1,146 @@
+
+Scenario: I try to find broken links                             # src/test/java/features/CellphonePage.feature:6
+  Given I am at the cellphone page                               # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I refresh the page                                        # stepDefinitions.cellphonePageStepDefinitions.iRefreshThePage()
+  Then I try to find broken links                                # stepDefinitions.cellphonePageStepDefinitions.iTryToFindBrokenLinks()
+  And I verify the URL is "https://www.t-mobile.com/cell-phones" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario: I try to login to TMobile's members area            # src/test/java/features/CellphonePage.feature:11
+  Given I am at the cellphone page                            # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I login with invalid credential                        # stepDefinitions.cellphonePageStepDefinitions.iLoginWithInvalidCredential()
+  Then I verify the webApp does not let me in                 # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebAppDoesNotLetMeIn()
+  But gives me another chance to login with valid credentials # stepDefinitions.cellphonePageStepDefinitions.givesMeAnotherChanceToLoginWithValidCredentials()
+
+Scenario Outline: I sort the cellphones based on prices                                                   # src/test/java/features/CellphonePage.feature:21
+  Given I am at the cellphone page                                                                        # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I sort the cellphones based on "Price Low To High"                                                 # stepDefinitions.cellphonePageStepDefinitions.iSortTheCellphonesBasedOn(java.lang.String)
+  Then I verify the webpage is showing results "https://www.t-mobile.com/cell-phones?sort=priceLowToHigh" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebpageIsShowingResults(java.lang.String)
+
+Scenario Outline: I sort the cellphones based on prices                                                   # src/test/java/features/CellphonePage.feature:22
+  Given I am at the cellphone page                                                                        # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I sort the cellphones based on "Price High To Low"                                                 # stepDefinitions.cellphonePageStepDefinitions.iSortTheCellphonesBasedOn(java.lang.String)
+  Then I verify the webpage is showing results "https://www.t-mobile.com/cell-phones?sort=priceHighToLow" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebpageIsShowingResults(java.lang.String)
+
+Scenario Outline: I sort the cellphones based on prices                                           # src/test/java/features/CellphonePage.feature:23
+  Given I am at the cellphone page                                                                # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I sort the cellphones based on "Highest Rating"                                            # stepDefinitions.cellphonePageStepDefinitions.iSortTheCellphonesBasedOn(java.lang.String)
+  Then I verify the webpage is showing results "https://www.t-mobile.com/cell-phones?sort=rating" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebpageIsShowingResults(java.lang.String)
+
+Scenario Outline: I try to chat with the virtual agent # src/test/java/features/CellphonePage.feature:30
+  Given I am at the cellphone page                     # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I say "I need a new phone" to the virtual agent # stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)
+  Then I verify it replies to me                       # stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()
+
+Scenario Outline: I try to chat with the virtual agent # src/test/java/features/CellphonePage.feature:31
+  Given I am at the cellphone page                     # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I say "Hello Roboto" to the virtual agent       # stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)
+  Then I verify it replies to me                       # stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()
+
+Scenario Outline: I try to chat with the virtual agent  # src/test/java/features/CellphonePage.feature:32
+  Given I am at the cellphone page                      # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I say "How is the weather?" to the virtual agent # stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)
+  Then I verify it replies to me                        # stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()
+
+Scenario Outline: I try to chat with the virtual agent         # src/test/java/features/CellphonePage.feature:33
+  Given I am at the cellphone page                             # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I say "Where is the nearest store" to the virtual agent # stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)
+  Then I verify it replies to me                               # stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()
+
+Scenario Outline: I filter the cellphones based on Deals type                       # src/test/java/features/CellphonePage.feature:41
+  Given I am at the cellphone page                                                  # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I select "NEW"                                                               # stepDefinitions.cellphonePageStepDefinitions.iSelect(java.lang.String)
+  Then I verify the results are as expected as "NEW" filter                         # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheResultsAreAsExpectedAsFilter(java.lang.String)
+  And the "https://www.t-mobile.com/cell-phones/deals/new" corresponds to the query # stepDefinitions.cellphonePageStepDefinitions.theCorrespondsToTheQuery(java.lang.String)
+
+Scenario Outline: I filter the cellphones based on Deals type                           # src/test/java/features/CellphonePage.feature:42
+  Given I am at the cellphone page                                                      # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I select "ON SALE"                                                               # stepDefinitions.cellphonePageStepDefinitions.iSelect(java.lang.String)
+  Then I verify the results are as expected as "ON SALE" filter                         # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheResultsAreAsExpectedAsFilter(java.lang.String)
+  And the "https://www.t-mobile.com/cell-phones/deals/on-sale" corresponds to the query # stepDefinitions.cellphonePageStepDefinitions.theCorrespondsToTheQuery(java.lang.String)
+
+Scenario Outline: I filter the cellphones based on Deals type                                 # src/test/java/features/CellphonePage.feature:43
+  Given I am at the cellphone page                                                            # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I select "SPECIAL OFFER"                                                               # stepDefinitions.cellphonePageStepDefinitions.iSelect(java.lang.String)
+  Then I verify the results are as expected as "SPECIAL OFFER" filter                         # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheResultsAreAsExpectedAsFilter(java.lang.String)
+  And the "https://www.t-mobile.com/cell-phones/deals/special-offer" corresponds to the query # stepDefinitions.cellphonePageStepDefinitions.theCorrespondsToTheQuery(java.lang.String)
+
+Scenario Outline: I only want to see 5G Phones                               # src/test/java/features/CellphonePage.feature:50
+  Given I am at the cellphone page                                           # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I select "5G" from Filters                                            # stepDefinitions.cellphonePageStepDefinitions.iSelectFromFilters(java.lang.String)
+  Then I verify the URL is "https://www.t-mobile.com/cell-phones/network/5g" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario Outline: I only want to see 5G Phones                                   # src/test/java/features/CellphonePage.feature:51
+  Given I am at the cellphone page                                               # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I select "4G LTE" from Filters                                            # stepDefinitions.cellphonePageStepDefinitions.iSelectFromFilters(java.lang.String)
+  Then I verify the URL is "https://www.t-mobile.com/cell-phones/network/4g-lte" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario Outline: I only want to see 5G Phones                               # src/test/java/features/CellphonePage.feature:52
+  Given I am at the cellphone page                                           # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I select "4G" from Filters                                            # stepDefinitions.cellphonePageStepDefinitions.iSelectFromFilters(java.lang.String)
+  Then I verify the URL is "https://www.t-mobile.com/cell-phones/network/4g" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario: I goto the social links from footer area                                  # src/test/java/features/CellphonePage.feature:54
+  Given I am at the cellphone page                                                  # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I scroll down and click on "Instagram" Icon                                  # stepDefinitions.cellphonePageStepDefinitions.iScrollDownAndClickOnIcon(java.lang.String)
+  Then I land on Tmobiles Instagram profile on "https://www.instagram.com/tmobile/" # stepDefinitions.cellphonePageStepDefinitions.iLandOnTmobilesInstagramProfileOn(java.lang.String)
+
+Scenario: I visit Careers section from the footer area                                            # src/test/java/features/CellphonePage.feature:58
+  Given I am at the cellphone page                                                                # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I goto the careers tab from the footer area                                                # stepDefinitions.cellphonePageStepDefinitions.iGotoTheCareersTabFromTheFooterArea()
+  Then I verify the title of the landing page is "Careers | Join the Un-carrier Today | T-Mobile" # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheTitleOfTheLandingPageIs(java.lang.String)
+  And I verify the URL is "https://www.t-mobile.com/careers"                                      # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario Outline: I look for different open positions in the company                # src/test/java/features/CellphonePage.feature:68
+  Given I am at the cellphone page                                                  # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I am browsing for "Mobile Associate" in the "11219"                          # stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)
+  Then I very corresponding results as "Mobile Associate" and "11219" are filled in # stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)
+
+Scenario Outline: I look for different open positions in the company                # src/test/java/features/CellphonePage.feature:69
+  Given I am at the cellphone page                                                  # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I am browsing for "Mobile Associate" in the "60657"                          # stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)
+  Then I very corresponding results as "Mobile Associate" and "60657" are filled in # stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)
+
+Scenario Outline: I look for different open positions in the company                    # src/test/java/features/CellphonePage.feature:70
+  Given I am at the cellphone page                                                      # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I am browsing for "Retail Store Manager" in the "11218"                          # stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)
+  Then I very corresponding results as "Retail Store Manager" and "11218" are filled in # stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)
+
+Scenario Outline: I look for different open positions in the company                    # src/test/java/features/CellphonePage.feature:71
+  Given I am at the cellphone page                                                      # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I am browsing for "Retail Store Manager" in the "60607"                          # stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)
+  Then I very corresponding results as "Retail Store Manager" and "60607" are filled in # stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)
+
+Scenario Outline: I check out financing options for cellphones                                                 # src/test/java/features/CellphonePage.feature:80
+  Given I am at the cellphone page                                                                             # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I browse the financing options page                                                                     # stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()
+  And I enter my "Jambu" "Bhai" "jBhai@testemail.com" "Bari khali Road" "11218" "02/03/1987" "4586"            # stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts." # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)
+  And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"                                   # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario Outline: I check out financing options for cellphones                                                 # src/test/java/features/CellphonePage.feature:81
+  Given I am at the cellphone page                                                                             # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I browse the financing options page                                                                     # stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()
+  And I enter my "Leo" "Nantu" "kemneParo@testemail.com" "Bari khali Road" "49223" "02/03/1987" "4586"         # stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts." # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)
+  And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"                                   # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario Outline: I check out financing options for cellphones                                                 # src/test/java/features/CellphonePage.feature:82
+  Given I am at the cellphone page                                                                             # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I browse the financing options page                                                                     # stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()
+  And I enter my "Stephen" "Kabil" "daberpani@testemail.com" "Bari khali Road" "46123" "02/03/1987" "4586"     # stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts." # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)
+  And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"                                   # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario Outline: I check out financing options for cellphones                                                 # src/test/java/features/CellphonePage.feature:83
+  Given I am at the cellphone page                                                                             # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I browse the financing options page                                                                     # stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()
+  And I enter my "Emelta" "Babu" "keboleamipagol@testemail.com" "Bari khali Road" "69699" "02/03/1987" "1256"  # stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts." # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)
+  And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"                                   # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)
+
+Scenario Outline: I check out financing options for cellphones                                                 # src/test/java/features/CellphonePage.feature:84
+  Given I am at the cellphone page                                                                             # stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()
+  When I browse the financing options page                                                                     # stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()
+  And I enter my "Shaiba" "Ali" "kochupatarpani@testemail.com" "Bari khali Road" "46123" "02/03/1987" "4586"   # stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  Then I verify the error message "Unfortunately, we weren't able to personalize your device payment amounts." # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)
+  And I verify the URL is "https://www.t-mobile.com/pre-screen/no-offer-hcc"                                   # stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)

@@ -1,0 +1,2866 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:48.511Z",
+        "line": 16,
+        "name": "I change the language of the Site to Portugues",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-change-the-language-of-the-site-to-portugues;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I change the language to \"Espanol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Espanol\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iChangeTheLanguageTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the page Header Title is \"DESCUBRA NUESTRAS MARCAS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DESCUBRA NUESTRAS MARCAS\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyThePageHeaderTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the homepage is \"https://www.espanol.marriott.com/default.mi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.espanol.marriott.com/default.mi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theHomepageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:48.699Z",
+        "line": 17,
+        "name": "I change the language of the Site to Portugues",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-change-the-language-of-the-site-to-portugues;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I change the language to \"Francais\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Francais\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iChangeTheLanguageTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the page Header Title is \"DÉCOUVREZ NOS ENSEIGNES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DÉCOUVREZ NOS ENSEIGNES\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyThePageHeaderTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the homepage is \"https://www.marriott.fr/default.mi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.fr/default.mi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theHomepageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:48.746Z",
+        "line": 18,
+        "name": "I change the language of the Site to Portugues",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-change-the-language-of-the-site-to-portugues;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I change the language to \"Portugues\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portugues\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iChangeTheLanguageTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the page Header Title is \"CONHEÇA NOSSAS MARCAS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CONHEÇA NOSSAS MARCAS\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyThePageHeaderTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the homepage is \"https://www.marriott.com.br/default.mi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com.br/default.mi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theHomepageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:48.808Z",
+        "line": 26,
+        "name": "Check Convid-19 Special offers",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;check-convid-19-special-offers;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "banner is visible I click \"Best Rate Guarantee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Best Rate Guarantee\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15589700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marriott Cleanliness Council | Marriott Bonvoy\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the special homepage is \"https://clean.marriott.com/#bestrate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://clean.marriott.com/#bestrate\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:48.886Z",
+        "line": 27,
+        "name": "Check Convid-19 Special offers",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;check-convid-19-special-offers;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "banner is visible I click \"Flexible Cancellation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flexible Cancellation\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marriott Cleanliness Council | Marriott Bonvoy\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the special homepage is \"https://clean.marriott.com/#flexiblecancellation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://clean.marriott.com/#flexiblecancellation\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:48.965Z",
+        "line": 28,
+        "name": "Check Convid-19 Special offers",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;check-convid-19-special-offers;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "banner is visible I click \"Commitment to Clean\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Commitment to Clean\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marriott Cleanliness Council | Marriott Bonvoy\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the special homepage is \"https://clean.marriott.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://clean.marriott.com/\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.011Z",
+        "line": 29,
+        "name": "Check Convid-19 Special offers",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;check-convid-19-special-offers;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "banner is visible I click \"Contactless Services\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contactless Services\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.bannerIsVisibleIClick(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify the special page Title is \"Marriott Cleanliness Council | Marriott Bonvoy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marriott Cleanliness Council | Marriott Bonvoy\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyTheSpecialPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the special homepage is \"https://clean.marriott.com/#service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://clean.marriott.com/#service\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theSpecialHomepageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.058Z",
+        "line": 38,
+        "name": "Sign in to user account",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;sign-in-to-user-account;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the \"Sign In or Join\" button from header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign In or Join\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter a set of est \"anotheremailset@gmail.com\" address and \"testPassword1\" and click Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anotheremailset@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"testPassword1\"",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15620200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.090Z",
+        "line": 39,
+        "name": "Sign in to user account",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;sign-in-to-user-account;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the \"Sign In or Join\" button from header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign In or Join\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter a set of est \"anotheremailtwoset@gmail.com\" address and \"testPassword1\" and click Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anotheremailtwoset@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"testPassword1\"",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.136Z",
+        "line": 40,
+        "name": "Sign in to user account",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;sign-in-to-user-account;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the \"Sign In or Join\" button from header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign In or Join\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter a set of est \"anotheremailthreeset@gmail.com\" address and \"testPassword1\" and click Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anotheremailthreeset@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"testPassword1\"",
+                  "offset": 66
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.152Z",
+        "line": 41,
+        "name": "Sign in to user account",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;sign-in-to-user-account;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the \"Sign In or Join\" button from header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign In or Join\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter a set of est \"anotheremailfourset@gmail.com\" address and \"testPassword1\" and click Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anotheremailfourset@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"testPassword1\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.215Z",
+        "line": 42,
+        "name": "Sign in to user account",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;sign-in-to-user-account;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the \"Sign In or Join\" button from header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign In or Join\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnTheButtonFromHeader(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter a set of est \"anotheremailfiveset@gmail.com\" address and \"testPassword1\" and click Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anotheremailfiveset@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"testPassword1\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterASetOfEstAddressAndAndClickSignIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the url is \"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/sign-in-error.mi?transaction\u003dlogin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.theUrlIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.293Z",
+        "line": 51,
+        "name": "I click \"Find \u0026 Reserve\" and browse the options",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-click-\"find-\u0026-reserve\"-and-browse-the-options;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on \"Find \u0026 Reserve\" drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find \u0026 Reserve\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I Type in my \"Brooklyn, NY, USA\" for \"FEBRUARY 2021\" on \"25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brooklyn, NY, USA\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"FEBRUARY 2021\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"25\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on \"Find Hotels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find Hotels\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I reach \"https://www.marriott.com/search/findHotels.mi\" with results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/search/findHotels.mi\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.340Z",
+        "line": 52,
+        "name": "I click \"Find \u0026 Reserve\" and browse the options",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-click-\"find-\u0026-reserve\"-and-browse-the-options;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on \"Find \u0026 Reserve\" drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find \u0026 Reserve\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I Type in my \"Hamburg, Germany\" for \"MARCH 2021\" on \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hamburg, Germany\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"MARCH 2021\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on \"Find Hotels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find Hotels\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I reach \"https://www.marriott.com/search/findHotels.mi\" with results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/search/findHotels.mi\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.402Z",
+        "line": 53,
+        "name": "I click \"Find \u0026 Reserve\" and browse the options",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-click-\"find-\u0026-reserve\"-and-browse-the-options;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on \"Find \u0026 Reserve\" drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find \u0026 Reserve\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I Type in my \"Delhi Gate, Daryaganj, Delhi, India\" for \"APRIL 2021\" on \"18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Delhi Gate, Daryaganj, Delhi, India\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"APRIL 2021\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"18\"",
+                  "offset": 71
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on \"Find Hotels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find Hotels\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I reach \"https://www.marriott.com/search/findHotels.mi\" with results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/search/findHotels.mi\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.433Z",
+        "line": 54,
+        "name": "I click \"Find \u0026 Reserve\" and browse the options",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-click-\"find-\u0026-reserve\"-and-browse-the-options;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on \"Find \u0026 Reserve\" drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find \u0026 Reserve\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnDropDown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I Type in my \"San Francisco, CA, USA\" for \"JUNE 2021\" on \"23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"San Francisco, CA, USA\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"JUNE 2021\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"23\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iTypeInMyForOn(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on \"Find Hotels\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find Hotels\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I reach \"https://www.marriott.com/search/findHotels.mi\" with results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.marriott.com/search/findHotels.mi\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iReachWithResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.465Z",
+        "line": 56,
+        "name": "I look into \"Marriott Bonvoy Boundless™ Credit Card from Chase\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-look-into-\"marriott-bonvoy-boundless™-credit-card-from-chase\"",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click \"Marriott Bonvoy Boundless™ Credit Card from Chase\" Learn more",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marriott Bonvoy Boundless™ Credit Card from Chase\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickLearnMore(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I verify it opens up into a new tab titled \"Marriott Bonvoy Boundless™ Credit Card from Chase\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Marriott Bonvoy Boundless™ Credit Card from Chase\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyItOpensUpIntoANewTabTitled(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I veritfy the card is offering \"75,000 BONUS POINTS\" points for initial signup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"75,000 BONUS POINTS\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVeritfyTheCardIsOfferingPointsForInitialSignup(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.496Z",
+        "line": 61,
+        "name": "I checkout the mobile app page",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-checkout-the-mobile-app-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I click on \"Learn More\" on the footer banner for App",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Learn More\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnOnTheFooterBannerForApp(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on \"Mobile Key\" on the header link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Key\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iClickOnOnTheHeaderLink(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I verify page scrolled down to \"Mobile Key\" view",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Key\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iVerifyPageScrolledDownToView(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.511Z",
+        "line": 73,
+        "name": "I lookup a trip itenerary from \"My trip\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-lookup-a-trip-itenerary-from-\"my-trip\";;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to \"My Trip\" and the pop-up opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Trip\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter user information \"LMN3SFF312341\",\"December 2020\", \"23\",\"Joseph\",\"Robinet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LMN3SFF312341\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"December 2020\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"23\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Joseph\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"Robinet\"",
+                  "offset": 72
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reservation not found\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upcoming Reservations Confirmation #\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.543Z",
+        "line": 74,
+        "name": "I lookup a trip itenerary from \"My trip\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-lookup-a-trip-itenerary-from-\"my-trip\";;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to \"My Trip\" and the pop-up opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Trip\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter user information \"J23A2I9233021\",\"December 2020\", \"13\",\"Emile\",\"Hoosier\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"J23A2I9233021\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"December 2020\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"13\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Emile\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"Hoosier\"",
+                  "offset": 71
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reservation not found\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upcoming Reservations Confirmation #\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.558Z",
+        "line": 75,
+        "name": "I lookup a trip itenerary from \"My trip\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-lookup-a-trip-itenerary-from-\"my-trip\";;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to \"My Trip\" and the pop-up opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Trip\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter user information \"12341FGDEWQF1\",\"January 2021\", \"11\",\"Chris\",\"Dickens\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12341FGDEWQF1\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"January 2021\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Chris\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Dickens\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reservation not found\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upcoming Reservations Confirmation #\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.590Z",
+        "line": 76,
+        "name": "I lookup a trip itenerary from \"My trip\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-lookup-a-trip-itenerary-from-\"my-trip\";;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to \"My Trip\" and the pop-up opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Trip\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter user information \"I12341H1231S2\",\"February 2021\", \"24\",\"Holly\",\"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I12341H1231S2\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"February 2021\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"24\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Holly\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 71
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reservation not found\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upcoming Reservations Confirmation #\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.621Z",
+        "line": 77,
+        "name": "I lookup a trip itenerary from \"My trip\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-lookup-a-trip-itenerary-from-\"my-trip\";;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to \"My Trip\" and the pop-up opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Trip\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter user information \"R45W41H1231S2\",\"February 2021\", \"16\",\"Rebecca\",\"Winemouth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"R45W41H1231S2\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"February 2021\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"16\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Rebecca\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"Winemouth\"",
+                  "offset": 73
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reservation not found\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upcoming Reservations Confirmation #\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.652Z",
+        "line": 78,
+        "name": "I lookup a trip itenerary from \"My trip\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-lookup-a-trip-itenerary-from-\"my-trip\";;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to \"My Trip\" and the pop-up opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Trip\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter user information \"I1234567G31S2\",\"March 2021\", \"19\",\"Menuson\",\"Davenport\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I1234567G31S2\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"March 2021\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"19\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Menuson\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"Davenport\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reservation not found\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upcoming Reservations Confirmation #\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the credit cards page",
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmAtTheCreditCardsPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:07:49.668Z",
+        "line": 79,
+        "name": "I lookup a trip itenerary from \"My trip\"",
+        "description": "",
+        "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards;i-lookup-a-trip-itenerary-from-\"my-trip\";;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.CreditCardsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to \"My Trip\" and the pop-up opens",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Trip\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iNavigateToAndThePopUpOpens(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I enter user information \"I1234SFXXV1S2\",\"February 2021\", \"24\",\"Lilly\",\"Cunninlingus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I1234SFXXV1S2\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"February 2021\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"24\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Lilly\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"Cunninlingus\"",
+                  "offset": 71
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iEnterUserInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I am redirected to a page with appropriate error message \"Reservation not found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reservation not found\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iAmRedirectedToAPageWithAppropriateErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I validate the title of the page is \"Upcoming Reservations Confirmation #\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Upcoming Reservations Confirmation #\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.CreditCardsStepDefinitions.iValidateTheTitleOfThePageIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "I am at the credit cards page and browsing different types of cards",
+    "description": "  I am changing the language from header options\n  I am trying to access \"My trips\" part\n  I am trying to sign-in\n  I am trying to Join",
+    "id": "i-am-at-the-credit-cards-page-and-browsing-different-types-of-cards",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CreditCardPage.feature",
+    "tags": []
+  }
+]

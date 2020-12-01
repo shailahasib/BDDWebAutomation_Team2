@@ -1,0 +1,3229 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 15624700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.282Z",
+        "line": 6,
+        "name": "User is able to access the contact us from header",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-is-able-to-access-the-contact-us-from-header",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User clicks on Contact us",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_clicks_on_contact_us()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User is redirected to Contact Us page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_redirected_to_contact_us_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User verfiyies the customer call center phone number",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_verfiyies_the_customer_call_center_phone_number()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.519Z",
+        "line": 17,
+        "name": "User is able use the search functionality",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-is-able-use-the-search-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user enters \"Breast Cancer\" in the search box and presses Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Breast Cancer\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.user_enters_in_the_search_box_and_presses_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user is on a page with appropriate \"https://www.bcbs.com/search/Breast%20Cancer\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.bcbs.com/search/Breast%20Cancer\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userIsOnAPageWithAppropriatePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user can clear the search box and search for another topic",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_can_clear_the_search_box_and_search_for_another_topic()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.550Z",
+        "line": 18,
+        "name": "User is able use the search functionality",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-is-able-use-the-search-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user enters \"Mental Health\" in the search box and presses Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mental Health\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.user_enters_in_the_search_box_and_presses_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user is on a page with appropriate \"https://www.bcbs.com/search/Mental%20Health\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.bcbs.com/search/Mental%20Health\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userIsOnAPageWithAppropriatePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user can clear the search box and search for another topic",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_can_clear_the_search_box_and_search_for_another_topic()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.582Z",
+        "line": 19,
+        "name": "User is able use the search functionality",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-is-able-use-the-search-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user enters \"New insurance Card\" in the search box and presses Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New insurance Card\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.user_enters_in_the_search_box_and_presses_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user is on a page with appropriate \"https://www.bcbs.com/search/New%20insurance%20Card\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.bcbs.com/search/New%20insurance%20Card\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userIsOnAPageWithAppropriatePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user can clear the search box and search for another topic",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_can_clear_the_search_box_and_search_for_another_topic()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.613Z",
+        "line": 27,
+        "name": "User browses The Health of America page",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-browses-the-health-of-america-page;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "user clicks on Health of America Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnHealthOfAmericaButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "user is on a page with appropriate \"https://www.bcbs.com/the-health-of-america\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.bcbs.com/the-health-of-america\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userIsOnAPageWithAppropriatePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "user verifies the page \"The Health of America | Blue Cross Blue Shield\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Health of America | Blue Cross Blue Shield\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesThePage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.644Z",
+        "line": 35,
+        "name": "User browses Member services page",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-browses-member-services-page;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 15628200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "user clicks on Member services Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnMemberServicesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "user is on a page with appropriate \"https://www.bcbs.com/member-services\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.bcbs.com/member-services\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_on_a_page_with_appropriate_link(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "user verifies the page \"Member Services | Blue Cross Blue Shield\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Member Services | Blue Cross Blue Shield\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesThePage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.675Z",
+        "line": 45,
+        "name": "User searches for local BCBS branch to issue card",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-searches-for-local-bcbs-branch-to-issue-card;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "user clicks on Member services Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnMemberServicesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "user clicks on - I don\u0027t have my member ID Card",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnIDonTHaveMyMemberIDCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "user inputs zipcode \"49120\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"49120\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userInputsZipcode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "user clicks go",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksGo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 49120 zip code.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The following Blue Cross and Blue Shield companies serve members in the 49120 zip code.\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesTheMessageHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.707Z",
+        "line": 46,
+        "name": "User searches for local BCBS branch to issue card",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-searches-for-local-bcbs-branch-to-issue-card;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "user clicks on Member services Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnMemberServicesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "user clicks on - I don\u0027t have my member ID Card",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnIDonTHaveMyMemberIDCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "user inputs zipcode \"90013\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"90013\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userInputsZipcode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "user clicks go",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksGo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 90013 zip code.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The following Blue Cross and Blue Shield companies serve members in the 90013 zip code.\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesTheMessageHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.738Z",
+        "line": 47,
+        "name": "User searches for local BCBS branch to issue card",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-searches-for-local-bcbs-branch-to-issue-card;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "user clicks on Member services Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnMemberServicesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "user clicks on - I don\u0027t have my member ID Card",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnIDonTHaveMyMemberIDCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "user inputs zipcode \"11201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11201\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userInputsZipcode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "user clicks go",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksGo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 11201 zip code.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The following Blue Cross and Blue Shield companies serve members in the 11201 zip code.\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesTheMessageHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.753Z",
+        "line": 48,
+        "name": "User searches for local BCBS branch to issue card",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-searches-for-local-bcbs-branch-to-issue-card;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 15686900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "user clicks on Member services Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnMemberServicesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "user clicks on - I don\u0027t have my member ID Card",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnIDonTHaveMyMemberIDCard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "user inputs zipcode \"75001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"75001\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userInputsZipcode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "user clicks go",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksGo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 75001 zip code.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The following Blue Cross and Blue Shield companies serve members in the 75001 zip code.\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesTheMessageHeaderSays(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15627000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.800Z",
+        "line": 51,
+        "name": "User clicks the BCBS Logo on the top left to return to \"health of america\" page",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;user-clicks-the-bcbs-logo-on-the-top-left-to-return-to-\"health-of-america\"-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 52,
+            "name": "user clicks on Health of America Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnHealthOfAmericaButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "user scroll down to the bottom of the page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userScrollDownToTheBottomOfThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "user clicks on BCBS Health Index Map",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnBCBSHealthIndexMap()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 55,
+            "name": "user clicks on the BCBS logo at the top left",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnTheBCBSLogoAtTheTopLeft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 56,
+            "name": "user is redirected back to page with link : \"https://www.bcbs.com/the-health-of-america\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.bcbs.com/the-health-of-america\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userIsRedirectedBackToPageWithLink(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 57,
+            "name": "user also verifies the page title is \"The Health of America | Blue Cross Blue Shield\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Health of America | Blue Cross Blue Shield\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userAlsoVerifiesThePageTitleIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Logo"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.847Z",
+        "line": 60,
+        "name": "Clicking the logo on contact-us page will redirect to homepage",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;clicking-the-logo-on-contact-us-page-will-redirect-to-homepage",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "user scroll down to the bottom of the page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userScrollDownToTheBottomOfThePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "user clicks on contact-us",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnContactUs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "user clicks on the BCBS logo at the top left",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnTheBCBSLogoAtTheTopLeft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "user is redirected back to page with link : \"https://www.bcbs.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.bcbs.com/\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userIsRedirectedBackToPageWithLink(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 65,
+            "name": "user also verifies the page title is \"Blue Cross Blue Shield\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blue Cross Blue Shield\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userAlsoVerifiesThePageTitleIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Logo"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.863Z",
+        "line": 77,
+        "name": "Use Find a doctor to search for doctors in the USA",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;use-find-a-doctor-to-search-for-doctors-in-the-usa;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 68,
+            "name": "user clicks on Find A doctor",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnFindADoctor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "user clicks to find a doctors in the US",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksToFindADoctorsInTheUS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "user click on choose a location and plan",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClickOnChooseALocationAndPlan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "user puts a \"49120\" and clicks on - Yes, this is correct button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"49120\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userPutsAAndClicksOnYesThisIsCorrectButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 72,
+            "name": "user choses plans with prefix",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userChosesPlansWithPrefix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 73,
+            "name": "user clicks continue",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "user verifies page title is \"Search homepage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Search homepage\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.894Z",
+        "line": 78,
+        "name": "Use Find a doctor to search for doctors in the USA",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;use-find-a-doctor-to-search-for-doctors-in-the-usa;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 68,
+            "name": "user clicks on Find A doctor",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnFindADoctor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "user clicks to find a doctors in the US",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksToFindADoctorsInTheUS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "user click on choose a location and plan",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClickOnChooseALocationAndPlan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "user puts a \"90001\" and clicks on - Yes, this is correct button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"90001\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userPutsAAndClicksOnYesThisIsCorrectButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 72,
+            "name": "user choses plans with prefix",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userChosesPlansWithPrefix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 73,
+            "name": "user clicks continue",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "user verifies page title is \"Search homepage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Search homepage\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.910Z",
+        "line": 79,
+        "name": "Use Find a doctor to search for doctors in the USA",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;use-find-a-doctor-to-search-for-doctors-in-the-usa;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 68,
+            "name": "user clicks on Find A doctor",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksOnFindADoctor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "user clicks to find a doctors in the US",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksToFindADoctorsInTheUS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15622300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "user click on choose a location and plan",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClickOnChooseALocationAndPlan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "user puts a \"11208\" and clicks on - Yes, this is correct button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11208\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userPutsAAndClicksOnYesThisIsCorrectButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 72,
+            "name": "user choses plans with prefix",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userChosesPlansWithPrefix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 73,
+            "name": "user clicks continue",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.userClicksContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "user verifies page title is \"Search homepage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Search homepage\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.userVerifiesPageTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.941Z",
+        "line": 86,
+        "name": "I click \"Access My benefits\" and check out the benefits offered per Prefix provided",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;i-click-\"access-my-benefits\"-and-check-out-the-benefits-offered-per-prefix-provided;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I enter my provided \"PHP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PHP\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iEnterMyProvided(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I verify that I am at the \"https://www.anthem.com/individual-and-family/health-insurance/georgia/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.anthem.com/individual-and-family/health-insurance/georgia/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iVerifyThatIAmAtThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.957Z",
+        "line": 87,
+        "name": "I click \"Access My benefits\" and check out the benefits offered per Prefix provided",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;i-click-\"access-my-benefits\"-and-check-out-the-benefits-offered-per-prefix-provided;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I enter my provided \"QAE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QAE\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iEnterMyProvided(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I verify that I am at the \"https://www.anthem.com/individual-and-family/health-insurance/georgia/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.anthem.com/individual-and-family/health-insurance/georgia/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iVerifyThatIAmAtThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:42.972Z",
+        "line": 88,
+        "name": "I click \"Access My benefits\" and check out the benefits offered per Prefix provided",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;i-click-\"access-my-benefits\"-and-check-out-the-benefits-offered-per-prefix-provided;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I enter my provided \"BLM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BLM\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iEnterMyProvided(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I verify that I am at the \"https://www.floridablue.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.floridablue.com/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iVerifyThatIAmAtThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:43.003Z",
+        "line": 89,
+        "name": "I click \"Access My benefits\" and check out the benefits offered per Prefix provided",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;i-click-\"access-my-benefits\"-and-check-out-the-benefits-offered-per-prefix-provided;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I enter my provided \"BLK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BLK\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iEnterMyProvided(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I verify that I am at the \"https://www.anthem.com/individual-and-family/health-insurance/ohio/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.anthem.com/individual-and-family/health-insurance/ohio/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iVerifyThatIAmAtThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:43.019Z",
+        "line": 90,
+        "name": "I click \"Access My benefits\" and check out the benefits offered per Prefix provided",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;i-click-\"access-my-benefits\"-and-check-out-the-benefits-offered-per-prefix-provided;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I enter my provided \"MNN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MNN\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iEnterMyProvided(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I verify that I am at the \"https://www.highmarkbcbs.com/home/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.highmarkbcbs.com/home/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iVerifyThatIAmAtThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User is at the home page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.user_is_at_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T08:09:43.035Z",
+        "line": 91,
+        "name": "I click \"Access My benefits\" and check out the benefits offered per Prefix provided",
+        "description": "",
+        "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage;i-click-\"access-my-benefits\"-and-check-out-the-benefits-offered-per-prefix-provided;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 82,
+            "name": "I enter my provided \"QAF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QAF\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iEnterMyProvided(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I verify that I am at the \"https://www.anthem.com/individual-and-family/health-insurance/colorado/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.anthem.com/individual-and-family/health-insurance/colorado/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.iVerifyThatIAmAtThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is able to use all functions of the BCBS Homepage",
+    "description": "",
+    "id": "user-is-able-to-use-all-functions-of-the-bcbs-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

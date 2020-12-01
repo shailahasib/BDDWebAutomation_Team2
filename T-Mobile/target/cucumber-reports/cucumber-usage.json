@@ -1,0 +1,984 @@
+[
+  {
+    "source": "I am at the cellphone page",
+    "steps": [
+      {
+        "name": "I am at the cellphone page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 1.5245E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0029661,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 9.976E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I refresh the page",
+    "steps": [
+      {
+        "name": "I refresh the page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I try to find broken links",
+    "steps": [
+      {
+        "name": "I try to find broken links",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the URL is {string}",
+    "steps": [
+      {
+        "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones\"",
+        "aggregatedDurations": {
+          "median": 9.947E-4,
+          "average": 9.947E-4
+        },
+        "durations": [
+          {
+            "duration": 9.947E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones/network/5g\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones/network/4g-lte\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones/network/4g\"",
+        "aggregatedDurations": {
+          "median": 0.0010003,
+          "average": 0.0010003
+        },
+        "durations": [
+          {
+            "duration": 0.0010003,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I verify the URL is \"https://www.t-mobile.com/careers\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:61"
+          }
+        ]
+      },
+      {
+        "name": "I verify the URL is \"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:77"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:77"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:77"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:77"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I login with invalid credential",
+    "steps": [
+      {
+        "name": "I login with invalid credential",
+        "aggregatedDurations": {
+          "median": 9.986E-4,
+          "average": 9.986E-4
+        },
+        "durations": [
+          {
+            "duration": 9.986E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the webApp does not let me in",
+    "steps": [
+      {
+        "name": "I verify the webApp does not let me in",
+        "aggregatedDurations": {
+          "median": 0.0010002,
+          "average": 0.0010002
+        },
+        "durations": [
+          {
+            "duration": 0.0010002,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "gives me another chance to login with valid credentials",
+    "steps": [
+      {
+        "name": "gives me another chance to login with valid credentials",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I sort the cellphones based on {string}",
+    "steps": [
+      {
+        "name": "I sort the cellphones based on \"Price Low To High\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "I sort the cellphones based on \"Price High To Low\"",
+        "aggregatedDurations": {
+          "median": 9.991E-4,
+          "average": 9.991E-4
+        },
+        "durations": [
+          {
+            "duration": 9.991E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "I sort the cellphones based on \"Highest Rating\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the webpage is showing results {string}",
+    "steps": [
+      {
+        "name": "I verify the webpage is showing results \"https://www.t-mobile.com/cell-phones?sort\u003dpriceLowToHigh\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "I verify the webpage is showing results \"https://www.t-mobile.com/cell-phones?sort\u003dpriceHighToLow\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:18"
+          }
+        ]
+      },
+      {
+        "name": "I verify the webpage is showing results \"https://www.t-mobile.com/cell-phones?sort\u003drating\"",
+        "aggregatedDurations": {
+          "median": 0.0019986,
+          "average": 0.0019986
+        },
+        "durations": [
+          {
+            "duration": 0.0019986,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I say {string} to the virtual agent",
+    "steps": [
+      {
+        "name": "I say \"I need a new phone\" to the virtual agent",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:26"
+          }
+        ]
+      },
+      {
+        "name": "I say \"Hello Roboto\" to the virtual agent",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:26"
+          }
+        ]
+      },
+      {
+        "name": "I say \"How is the weather?\" to the virtual agent",
+        "aggregatedDurations": {
+          "median": 0.0010033,
+          "average": 0.0010033
+        },
+        "durations": [
+          {
+            "duration": 0.0010033,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:26"
+          }
+        ]
+      },
+      {
+        "name": "I say \"Where is the nearest store\" to the virtual agent",
+        "aggregatedDurations": {
+          "median": 0.0019983,
+          "average": 0.0019983
+        },
+        "durations": [
+          {
+            "duration": 0.0019983,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify it replies to me",
+    "steps": [
+      {
+        "name": "I verify it replies to me",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 2.492E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:27"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:27"
+          },
+          {
+            "duration": 9.968E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:27"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select {string}",
+    "steps": [
+      {
+        "name": "I select \"NEW\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:36"
+          }
+        ]
+      },
+      {
+        "name": "I select \"ON SALE\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:36"
+          }
+        ]
+      },
+      {
+        "name": "I select \"SPECIAL OFFER\"",
+        "aggregatedDurations": {
+          "median": 0.0010022,
+          "average": 0.0010022
+        },
+        "durations": [
+          {
+            "duration": 0.0010022,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the results are as expected as {string} filter",
+    "steps": [
+      {
+        "name": "I verify the results are as expected as \"NEW\" filter",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:37"
+          }
+        ]
+      },
+      {
+        "name": "I verify the results are as expected as \"ON SALE\" filter",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:37"
+          }
+        ]
+      },
+      {
+        "name": "I verify the results are as expected as \"SPECIAL OFFER\" filter",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the {string} corresponds to the query",
+    "steps": [
+      {
+        "name": "the \"https://www.t-mobile.com/cell-phones/deals/new\" corresponds to the query",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:38"
+          }
+        ]
+      },
+      {
+        "name": "the \"https://www.t-mobile.com/cell-phones/deals/on-sale\" corresponds to the query",
+        "aggregatedDurations": {
+          "median": 9.99E-4,
+          "average": 9.99E-4
+        },
+        "durations": [
+          {
+            "duration": 9.99E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:38"
+          }
+        ]
+      },
+      {
+        "name": "the \"https://www.t-mobile.com/cell-phones/deals/special-offer\" corresponds to the query",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select {string} from Filters",
+    "steps": [
+      {
+        "name": "I select \"5G\" from Filters",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:46"
+          }
+        ]
+      },
+      {
+        "name": "I select \"4G LTE\" from Filters",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:46"
+          }
+        ]
+      },
+      {
+        "name": "I select \"4G\" from Filters",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I scroll down and click on {string} Icon",
+    "steps": [
+      {
+        "name": "I scroll down and click on \"Instagram\" Icon",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I land on Tmobiles Instagram profile on {string}",
+    "steps": [
+      {
+        "name": "I land on Tmobiles Instagram profile on \"https://www.instagram.com/tmobile/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I goto the careers tab from the footer area",
+    "steps": [
+      {
+        "name": "I goto the careers tab from the footer area",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the title of the landing page is {string}",
+    "steps": [
+      {
+        "name": "I verify the title of the landing page is \"Careers | Join the Un-carrier Today | T-Mobile\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am browsing for {string} in the {string}",
+    "steps": [
+      {
+        "name": "I am browsing for \"Mobile Associate\" in the \"11219\"",
+        "aggregatedDurations": {
+          "median": 9.996E-4,
+          "average": 9.996E-4
+        },
+        "durations": [
+          {
+            "duration": 9.996E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:64"
+          }
+        ]
+      },
+      {
+        "name": "I am browsing for \"Mobile Associate\" in the \"60657\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:64"
+          }
+        ]
+      },
+      {
+        "name": "I am browsing for \"Retail Store Manager\" in the \"11218\"",
+        "aggregatedDurations": {
+          "median": 0.0019977,
+          "average": 0.0019977
+        },
+        "durations": [
+          {
+            "duration": 0.0019977,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:64"
+          }
+        ]
+      },
+      {
+        "name": "I am browsing for \"Retail Store Manager\" in the \"60607\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I very corresponding results as {string} and {string} are filled in",
+    "steps": [
+      {
+        "name": "I very corresponding results as \"Mobile Associate\" and \"11219\" are filled in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:65"
+          }
+        ]
+      },
+      {
+        "name": "I very corresponding results as \"Mobile Associate\" and \"60657\" are filled in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:65"
+          }
+        ]
+      },
+      {
+        "name": "I very corresponding results as \"Retail Store Manager\" and \"11218\" are filled in",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:65"
+          }
+        ]
+      },
+      {
+        "name": "I very corresponding results as \"Retail Store Manager\" and \"60607\" are filled in",
+        "aggregatedDurations": {
+          "median": 9.981E-4,
+          "average": 9.981E-4
+        },
+        "durations": [
+          {
+            "duration": 9.981E-4,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I browse the financing options page",
+    "steps": [
+      {
+        "name": "I browse the financing options page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:74"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:74"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:74"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:74"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter my {string} {string} {string} {string} {string} {string} {string}",
+    "steps": [
+      {
+        "name": "I enter my \"Jambu\" \"Bhai\" \"jBhai@testemail.com\" \"Bari khali Road\" \"11218\" \"02/03/1987\" \"4586\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:75"
+          }
+        ]
+      },
+      {
+        "name": "I enter my \"Leo\" \"Nantu\" \"kemneParo@testemail.com\" \"Bari khali Road\" \"49223\" \"02/03/1987\" \"4586\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:75"
+          }
+        ]
+      },
+      {
+        "name": "I enter my \"Stephen\" \"Kabil\" \"daberpani@testemail.com\" \"Bari khali Road\" \"46123\" \"02/03/1987\" \"4586\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:75"
+          }
+        ]
+      },
+      {
+        "name": "I enter my \"Emelta\" \"Babu\" \"keboleamipagol@testemail.com\" \"Bari khali Road\" \"69699\" \"02/03/1987\" \"1256\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:75"
+          }
+        ]
+      },
+      {
+        "name": "I enter my \"Shaiba\" \"Ali\" \"kochupatarpani@testemail.com\" \"Bari khali Road\" \"46123\" \"02/03/1987\" \"4586\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the error message {string}",
+    "steps": [
+      {
+        "name": "I verify the error message \"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:76"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:76"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:76"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:76"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/CellphonePage.feature:76"
+          }
+        ]
+      }
+    ]
+  }
+]

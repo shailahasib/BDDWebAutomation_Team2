@@ -1,0 +1,1059 @@
+[
+  {
+    "source": "User is at the home page",
+    "steps": [
+      {
+        "name": "User is at the home page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 7.44142E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.015627,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on Contact us",
+    "steps": [
+      {
+        "name": "User clicks on Contact us",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is redirected to Contact Us page",
+    "steps": [
+      {
+        "name": "User is redirected to Contact Us page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User verfiyies the customer call center phone number",
+    "steps": [
+      {
+        "name": "User verfiyies the customer call center phone number",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters {string} in the search box and presses Enter",
+    "steps": [
+      {
+        "name": "user enters \"Breast Cancer\" in the search box and presses Enter",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "user enters \"Mental Health\" in the search box and presses Enter",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "user enters \"New insurance Card\" in the search box and presses Enter",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is on a page with appropriate {string} page",
+    "steps": [
+      {
+        "name": "user is on a page with appropriate \"https://www.bcbs.com/search/Breast%20Cancer\" page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "user is on a page with appropriate \"https://www.bcbs.com/search/Mental%20Health\" page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "user is on a page with appropriate \"https://www.bcbs.com/search/New%20insurance%20Card\" page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "user is on a page with appropriate \"https://www.bcbs.com/the-health-of-america\" page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can clear the search box and search for another topic",
+    "steps": [
+      {
+        "name": "user can clear the search box and search for another topic",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:14"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:14"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on Health of America Button",
+    "steps": [
+      {
+        "name": "user clicks on Health of America Button",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:22"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user verifies the page {string}",
+    "steps": [
+      {
+        "name": "user verifies the page \"The Health of America | Blue Cross Blue Shield\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "user verifies the page \"Member Services | Blue Cross Blue Shield\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on Member services Button",
+    "steps": [
+      {
+        "name": "user clicks on Member services Button",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:30"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:38"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:38"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:38"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is on a page with appropriate {string} link",
+    "steps": [
+      {
+        "name": "user is on a page with appropriate \"https://www.bcbs.com/member-services\" link",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on - I don\u0027t have my member ID Card",
+    "steps": [
+      {
+        "name": "user clicks on - I don\u0027t have my member ID Card",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:39"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:39"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:39"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user inputs zipcode {string}",
+    "steps": [
+      {
+        "name": "user inputs zipcode \"49120\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:40"
+          }
+        ]
+      },
+      {
+        "name": "user inputs zipcode \"90013\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:40"
+          }
+        ]
+      },
+      {
+        "name": "user inputs zipcode \"11201\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:40"
+          }
+        ]
+      },
+      {
+        "name": "user inputs zipcode \"75001\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks go",
+    "steps": [
+      {
+        "name": "user clicks go",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:41"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:41"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:41"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User verifies the message header says {string}",
+    "steps": [
+      {
+        "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 49120 zip code.\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:42"
+          }
+        ]
+      },
+      {
+        "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 90013 zip code.\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:42"
+          }
+        ]
+      },
+      {
+        "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 11201 zip code.\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:42"
+          }
+        ]
+      },
+      {
+        "name": "User verifies the message header says \"The following Blue Cross and Blue Shield companies serve members in the 75001 zip code.\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user scroll down to the bottom of the page",
+    "steps": [
+      {
+        "name": "user scroll down to the bottom of the page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:53"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on BCBS Health Index Map",
+    "steps": [
+      {
+        "name": "user clicks on BCBS Health Index Map",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the BCBS logo at the top left",
+    "steps": [
+      {
+        "name": "user clicks on the BCBS logo at the top left",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:55"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is redirected back to page with link : {string}",
+    "steps": [
+      {
+        "name": "user is redirected back to page with link : \"https://www.bcbs.com/the-health-of-america\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      },
+      {
+        "name": "user is redirected back to page with link : \"https://www.bcbs.com/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user also verifies the page title is {string}",
+    "steps": [
+      {
+        "name": "user also verifies the page title is \"The Health of America | Blue Cross Blue Shield\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:57"
+          }
+        ]
+      },
+      {
+        "name": "user also verifies the page title is \"Blue Cross Blue Shield\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on contact-us",
+    "steps": [
+      {
+        "name": "user clicks on contact-us",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on Find A doctor",
+    "steps": [
+      {
+        "name": "user clicks on Find A doctor",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:68"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:68"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks to find a doctors in the US",
+    "steps": [
+      {
+        "name": "user clicks to find a doctors in the US",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:69"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on choose a location and plan",
+    "steps": [
+      {
+        "name": "user click on choose a location and plan",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.005207433
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:70"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:70"
+          },
+          {
+            "duration": 0.0156223,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user puts a {string} and clicks on - Yes, this is correct button",
+    "steps": [
+      {
+        "name": "user puts a \"49120\" and clicks on - Yes, this is correct button",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "user puts a \"90001\" and clicks on - Yes, this is correct button",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "user puts a \"11208\" and clicks on - Yes, this is correct button",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user choses plans with prefix",
+    "steps": [
+      {
+        "name": "user choses plans with prefix",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:72"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:72"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks continue",
+    "steps": [
+      {
+        "name": "user clicks continue",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:73"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:73"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user verifies page title is {string}",
+    "steps": [
+      {
+        "name": "user verifies page title is \"Search homepage\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:74"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:74"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter my provided {string}",
+    "steps": [
+      {
+        "name": "I enter my provided \"PHP\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:82"
+          }
+        ]
+      },
+      {
+        "name": "I enter my provided \"QAE\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:82"
+          }
+        ]
+      },
+      {
+        "name": "I enter my provided \"BLM\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:82"
+          }
+        ]
+      },
+      {
+        "name": "I enter my provided \"BLK\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:82"
+          }
+        ]
+      },
+      {
+        "name": "I enter my provided \"MNN\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:82"
+          }
+        ]
+      },
+      {
+        "name": "I enter my provided \"QAF\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that I am at the {string}",
+    "steps": [
+      {
+        "name": "I verify that I am at the \"https://www.anthem.com/individual-and-family/health-insurance/georgia/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:83"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:83"
+          }
+        ]
+      },
+      {
+        "name": "I verify that I am at the \"https://www.floridablue.com/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:83"
+          }
+        ]
+      },
+      {
+        "name": "I verify that I am at the \"https://www.anthem.com/individual-and-family/health-insurance/ohio/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:83"
+          }
+        ]
+      },
+      {
+        "name": "I verify that I am at the \"https://www.highmarkbcbs.com/home/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:83"
+          }
+        ]
+      },
+      {
+        "name": "I verify that I am at the \"https://www.anthem.com/individual-and-family/health-insurance/colorado/\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/aldri/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/HomePage.feature:83"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -36,6 +36,10 @@ public class HomePageWebElements extends WebAPI {
     public static final String boxThree = "alpha-three-input";
     public static final String continueButton = "ember162";
 
+    public static final String accessMyBenefitsCss = "button[aria-label='Open the Access My Benefits form']";
+    public static final String prefixInputFieldCss = "#edit-prefix";
+    public static final String prefixGoButtonCss = "button[id='edit-submit-prefix'] span[class='button--inside-text']";
+
 
 
 

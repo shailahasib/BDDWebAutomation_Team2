@@ -34,4 +34,17 @@ Feature: Browsing Expedia Homepage
       | Support                             | https://www.expedia.com/service/                              |
       | Do Not Sell My Personal Information | https://www.expedia.com/dnsmpi                                |
 
-    Scenario: I am switching the default region
+  Scenario: I am switching the default region
+    When I verify "English" is the default language
+    And I change the language to "Espanol".
+    Then I verify the title is "Expedia: hoteles, vuelos, renta de autos, cruceros y rentas vacacionales | Expedia"
+
+  Scenario: I am switching the default region
+    When I verify "English" is the default language
+    And I change the language to "简体中文".
+    Then I verify the title is "旅行预订网站：特价酒店预订，机票查询，自游行网上优惠 | Expedia.com"
+
+  Scenario: I search for hotel stays with option to add flight
+    When I Select a city to stay and select add a flight
+    Then I verify I can start selecting hotels
+

@@ -217,4 +217,19 @@ public class HomePageStepDefinitions extends WebAPI {
     }
 
 
+    @When("I enter my provided {string}")
+    public void iEnterMyProvided(String prefix) {
+        clickByCss(accessMyBenefitsCss);
+        sleepFor(2);
+        homePage.prefixInputField.clear();
+        homePage.prefixInputField.sendKeys(prefix);
+        clickByCss(prefixGoButtonCss);
+        sleepFor(5);
+    }
+
+    @Then("I verify that I am at the {string}")
+    public void iVerifyThatIAmAtThe(String expectedURL) {
+
+        homePage.assertURLEquals(expectedURL);
+    }
 }

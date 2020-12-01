@@ -15,6 +15,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import java.io.IOException;
 
@@ -85,6 +86,51 @@ public class aldrinsHomePageStepDefinitions extends WebAPI {
     public void iScrollDownToTheBottomOfThePageToViewFooter() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", aldrinsHomePage.expediaGroup);
+    }
 
+
+    @When("I verify {string} is the default language")
+    public void iVerifyIsTheDefaultLanguage(String language) {
+        String languageText = aldrinsHomePage.languageSelector.getText();
+        Assert.assertEquals("Not at the right page", language,languageText);
+         }
+
+    @And("I change the language to {string}.")
+    public void iChangeTheLanguageToEspanol(String language) {
+        aldrinsHomePage.languageSelector.click();
+        sleepFor(2);
+        Select select = new Select(aldrinsHomePage.selectLanguage);
+        select.selectByVisibleText(language);
+        clickByCss(languageSelectorSaveCss);
+
+    }
+
+    @Then("I verify the title is {string}")
+    public void iVerifyTheTitleIs(String expected) {
+        aldrinsHomePage.assertTitle(expected);
+    }
+
+    @When("I Select a city to stay and select add a flight")
+    public void iSelectACityToStayAndSelectAddAFlight() {
+        clickByXpath(staysTabXpath);
+        clickByCss(staysSearchFieldCss);
+        typeByCssNEnter(staysLocationSearchFieldCss,"Chicago");
+       // clickByXpath(staysEmptyClickBoxXpath);
+        sleepFor(1);
+        clickByCss(staysAddAFlightRadioCss);
+        clickByXpath(staysLeavingFromXpath);
+        aldrinsHomePage.typeByXpathNEnter(staysLeavingFromFieldXpath,"New York");
+
+        sleepFor(2);
+        clickByCss(staysSearchButtonCss);
+
+    }
+
+    @Then("I verify I can start selecting hotels")
+    public void iVerifyICanStartSelectingHotels() {
+        sleepFor(5);
+        String expected = "Chicago (and vicinity), Illinois, United States of America Hotel Search Results";
+        String actual = driver.getTitle();
+        Assert.assertEquals("Test failed",expected,actual);
     }
 }

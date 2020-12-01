@@ -1,0 +1,2530 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2966100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.114Z",
+        "line": 6,
+        "name": "I try to find broken links",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-try-to-find-broken-links",
+        "after": [
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I refresh the page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iRefreshThePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I try to find broken links",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iTryToFindBrokenLinks()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 994700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.278Z",
+        "line": 11,
+        "name": "I try to login to TMobile\u0027s members area",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-try-to-login-to-tmobile-s-members-area",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I login with invalid credential",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iLoginWithInvalidCredential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify the webApp does not let me in",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebAppDoesNotLetMeIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "gives me another chance to login with valid credentials",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.givesMeAnotherChanceToLoginWithValidCredentials()"
+            },
+            "keyword": "But "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.311Z",
+        "line": 21,
+        "name": "I sort the cellphones based on prices",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-sort-the-cellphones-based-on-prices;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I sort the cellphones based on \"Price Low To High\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price Low To High\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSortTheCellphonesBasedOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify the webpage is showing results \"https://www.t-mobile.com/cell-phones?sort\u003dpriceLowToHigh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones?sort\u003dpriceLowToHigh\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebpageIsShowingResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.346Z",
+        "line": 22,
+        "name": "I sort the cellphones based on prices",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-sort-the-cellphones-based-on-prices;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I sort the cellphones based on \"Price High To Low\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Price High To Low\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSortTheCellphonesBasedOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify the webpage is showing results \"https://www.t-mobile.com/cell-phones?sort\u003dpriceHighToLow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones?sort\u003dpriceHighToLow\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebpageIsShowingResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.397Z",
+        "line": 23,
+        "name": "I sort the cellphones based on prices",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-sort-the-cellphones-based-on-prices;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I sort the cellphones based on \"Highest Rating\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Highest Rating\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSortTheCellphonesBasedOn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1998600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify the webpage is showing results \"https://www.t-mobile.com/cell-phones?sort\u003drating\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones?sort\u003drating\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheWebpageIsShowingResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.444Z",
+        "line": 30,
+        "name": "I try to chat with the virtual agent",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-try-to-chat-with-the-virtual-agent;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I say \"I need a new phone\" to the virtual agent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I need a new phone\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify it replies to me",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.469Z",
+        "line": 31,
+        "name": "I try to chat with the virtual agent",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-try-to-chat-with-the-virtual-agent;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I say \"Hello Roboto\" to the virtual agent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello Roboto\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify it replies to me",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.501Z",
+        "line": 32,
+        "name": "I try to chat with the virtual agent",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-try-to-chat-with-the-virtual-agent;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I say \"How is the weather?\" to the virtual agent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"How is the weather?\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify it replies to me",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.531Z",
+        "line": 33,
+        "name": "I try to chat with the virtual agent",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-try-to-chat-with-the-virtual-agent;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1998700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I say \"Where is the nearest store\" to the virtual agent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Where is the nearest store\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSayToTheVirtualAgent(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify it replies to me",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyItRepliesToMe()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.572Z",
+        "line": 41,
+        "name": "I filter the cellphones based on Deals type",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-filter-the-cellphones-based-on-deals-type;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select \"NEW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NEW\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSelect(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I verify the results are as expected as \"NEW\" filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NEW\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheResultsAreAsExpectedAsFilter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the \"https://www.t-mobile.com/cell-phones/deals/new\" corresponds to the query",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones/deals/new\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.theCorrespondsToTheQuery(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.598Z",
+        "line": 42,
+        "name": "I filter the cellphones based on Deals type",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-filter-the-cellphones-based-on-deals-type;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select \"ON SALE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ON SALE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSelect(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I verify the results are as expected as \"ON SALE\" filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ON SALE\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheResultsAreAsExpectedAsFilter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the \"https://www.t-mobile.com/cell-phones/deals/on-sale\" corresponds to the query",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones/deals/on-sale\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.theCorrespondsToTheQuery(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.626Z",
+        "line": 43,
+        "name": "I filter the cellphones based on Deals type",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-filter-the-cellphones-based-on-deals-type;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I select \"SPECIAL OFFER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SPECIAL OFFER\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSelect(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I verify the results are as expected as \"SPECIAL OFFER\" filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SPECIAL OFFER\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheResultsAreAsExpectedAsFilter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the \"https://www.t-mobile.com/cell-phones/deals/special-offer\" corresponds to the query",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones/deals/special-offer\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.theCorrespondsToTheQuery(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.660Z",
+        "line": 50,
+        "name": "I only want to see 5G Phones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-only-want-to-see-5g-phones;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select \"5G\" from Filters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5G\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSelectFromFilters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones/network/5g\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones/network/5g\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.687Z",
+        "line": 51,
+        "name": "I only want to see 5G Phones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-only-want-to-see-5g-phones;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select \"4G LTE\" from Filters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4G LTE\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSelectFromFilters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones/network/4g-lte\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones/network/4g-lte\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.705Z",
+        "line": 52,
+        "name": "I only want to see 5G Phones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-only-want-to-see-5g-phones;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select \"4G\" from Filters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4G\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iSelectFromFilters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I verify the URL is \"https://www.t-mobile.com/cell-phones/network/4g\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/cell-phones/network/4g\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.734Z",
+        "line": 54,
+        "name": "I goto the social links from footer area",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-goto-the-social-links-from-footer-area",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1005600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I scroll down and click on \"Instagram\" Icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Instagram\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iScrollDownAndClickOnIcon(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I land on Tmobiles Instagram profile on \"https://www.instagram.com/tmobile/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.instagram.com/tmobile/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iLandOnTmobilesInstagramProfileOn(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.760Z",
+        "line": 58,
+        "name": "I visit Careers section from the footer area",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-visit-careers-section-from-the-footer-area",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I goto the careers tab from the footer area",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iGotoTheCareersTabFromTheFooterArea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I verify the title of the landing page is \"Careers | Join the Un-carrier Today | T-Mobile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Careers | Join the Un-carrier Today | T-Mobile\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheTitleOfTheLandingPageIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I verify the URL is \"https://www.t-mobile.com/careers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/careers\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.784Z",
+        "line": 68,
+        "name": "I look for different open positions in the company",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-look-for-different-open-positions-in-the-company;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I am browsing for \"Mobile Associate\" in the \"11219\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Associate\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"11219\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I very corresponding results as \"Mobile Associate\" and \"11219\" are filled in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Associate\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"11219\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.812Z",
+        "line": 69,
+        "name": "I look for different open positions in the company",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-look-for-different-open-positions-in-the-company;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I am browsing for \"Mobile Associate\" in the \"60657\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Associate\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"60657\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I very corresponding results as \"Mobile Associate\" and \"60657\" are filled in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mobile Associate\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"60657\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.839Z",
+        "line": 70,
+        "name": "I look for different open positions in the company",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-look-for-different-open-positions-in-the-company;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1997700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I am browsing for \"Retail Store Manager\" in the \"11218\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Retail Store Manager\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"11218\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I very corresponding results as \"Retail Store Manager\" and \"11218\" are filled in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Retail Store Manager\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"11218\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.867Z",
+        "line": 71,
+        "name": "I look for different open positions in the company",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-look-for-different-open-positions-in-the-company;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I am browsing for \"Retail Store Manager\" in the \"60607\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Retail Store Manager\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"60607\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmBrowsingForInThe(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I very corresponding results as \"Retail Store Manager\" and \"60607\" are filled in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Retail Store Manager\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"60607\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVeryCorrespondingResultsAsAndAreFilledIn(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.890Z",
+        "line": 80,
+        "name": "I check out financing options for cellphones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-check-out-financing-options-for-cellphones;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I browse the financing options page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I enter my \"Jambu\" \"Bhai\" \"jBhai@testemail.com\" \"Bari khali Road\" \"11218\" \"02/03/1987\" \"4586\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jambu\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Bhai\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"jBhai@testemail.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Bari khali Road\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"11218\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"02/03/1987\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"4586\"",
+                  "offset": 87
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I verify the error message \"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I verify the URL is \"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.906Z",
+        "line": 81,
+        "name": "I check out financing options for cellphones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-check-out-financing-options-for-cellphones;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I browse the financing options page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I enter my \"Leo\" \"Nantu\" \"kemneParo@testemail.com\" \"Bari khali Road\" \"49223\" \"02/03/1987\" \"4586\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leo\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Nantu\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"kemneParo@testemail.com\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Bari khali Road\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"49223\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"02/03/1987\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"4586\"",
+                  "offset": 90
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I verify the error message \"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I verify the URL is \"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.921Z",
+        "line": 82,
+        "name": "I check out financing options for cellphones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-check-out-financing-options-for-cellphones;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I browse the financing options page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I enter my \"Stephen\" \"Kabil\" \"daberpani@testemail.com\" \"Bari khali Road\" \"46123\" \"02/03/1987\" \"4586\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Stephen\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Kabil\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"daberpani@testemail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Bari khali Road\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"46123\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"02/03/1987\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"4586\"",
+                  "offset": 94
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I verify the error message \"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I verify the URL is \"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.937Z",
+        "line": 83,
+        "name": "I check out financing options for cellphones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-check-out-financing-options-for-cellphones;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I browse the financing options page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I enter my \"Emelta\" \"Babu\" \"keboleamipagol@testemail.com\" \"Bari khali Road\" \"69699\" \"02/03/1987\" \"1256\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Emelta\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Babu\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"keboleamipagol@testemail.com\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Bari khali Road\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"69699\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"02/03/1987\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"1256\"",
+                  "offset": 97
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I verify the error message \"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I verify the URL is \"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the cellphone page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iAmAtTheCellphonePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T07:08:36.952Z",
+        "line": 84,
+        "name": "I check out financing options for cellphones",
+        "description": "",
+        "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase;i-check-out-financing-options-for-cellphones;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I browse the financing options page",
+            "match": {
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iBrowseTheFinancingOptionsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I enter my \"Shaiba\" \"Ali\" \"kochupatarpani@testemail.com\" \"Bari khali Road\" \"46123\" \"02/03/1987\" \"4586\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shaiba\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Ali\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"kochupatarpani@testemail.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Bari khali Road\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"46123\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"02/03/1987\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"4586\"",
+                  "offset": 96
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iEnterMy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I verify the error message \"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unfortunately, we weren\u0027t able to personalize your device payment amounts.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I verify the URL is \"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.t-mobile.com/pre-screen/no-offer-hcc\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.cellphonePageStepDefinitions.iVerifyTheURLIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "I am opened the cellphones page and browsing phones for purchase",
+    "description": "",
+    "id": "i-am-opened-the-cellphones-page-and-browsing-phones-for-purchase",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CellphonePage.feature",
+    "tags": []
+  }
+]
