@@ -127,7 +127,7 @@ public class WebAPI {
     static DataReader dataReader = new DataReader();
 
     public void openBrowser(String url) throws IOException {
-        setUp(false,"browserstack","windows","10","chrome","85",url);
+        setUp(false,"browserstack","OS X","","chrome","87",url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "OS", "os_version", "browserName", "browserVersion", "url"})
@@ -414,9 +414,14 @@ public class WebAPI {
         select.selectByVisibleText(value);
     }
 
-    public static void sleepFor(int sec) throws InterruptedException {
-        Thread.sleep(sec * 1000);
+    public static void sleepFor(int sec) {
+        try {
+            Thread.sleep(sec * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
+
     public static void mouseHover(WebElement element) {
         try {
             Actions hover = new Actions(driver);
