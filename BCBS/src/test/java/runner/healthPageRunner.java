@@ -22,8 +22,9 @@ import org.junit.runner.RunWith;
         monochrome = true,
         //to check the mapping is proper between feature file and step def file
         dryRun = false,
-        publish = true
-      //  tags = "(@TestDataTable) and (not @pending)"
+        publish = true,
+      //  tags = "(@test7)"
+ tags = "(@TestDataTable) and (not @pending)"
 //        tags = "(@SmokeTest or @RegressionTest or @Test) and (not @pending)"
 //        tags = "(@SmokeTest or @Regression) and (not @pending)"
 //        //        tags = " (    @Regression or  @smokeTest    ) and not @pending    "
@@ -34,11 +35,5 @@ import org.junit.runner.RunWith;
 
 
 
-
-
-
-
-
-
-public class HomePageTestRunner {
+public class healthPageRunner {
 }
