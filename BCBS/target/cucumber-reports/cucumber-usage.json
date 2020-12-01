@@ -1,1 +1,238 @@
-[]
+[
+  {
+    "source": "I am at BCBS home page.",
+    "steps": [
+      {
+        "name": "I am at BCBS home page.",
+        "aggregatedDurations": {
+          "median": 9.6638684,
+          "average": 9.587436266
+        },
+        "durations": [
+          {
+            "duration": 9.6638684,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:7"
+          },
+          {
+            "duration": 9.3314068,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:7"
+          },
+          {
+            "duration": 9.7670336,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I use the mouse over Member Services.",
+    "steps": [
+      {
+        "name": "I use the mouse over Member Services.",
+        "aggregatedDurations": {
+          "median": 0.1356358,
+          "average": 1.7982883
+        },
+        "durations": [
+          {
+            "duration": 0.1356358,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:8"
+          },
+          {
+            "duration": 0.1226947,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:8"
+          },
+          {
+            "duration": 5.1365344,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Visit Blue Benefits.",
+    "steps": [
+      {
+        "name": "I click on Visit Blue Benefits.",
+        "aggregatedDurations": {
+          "median": 0.63231405,
+          "average": 0.63231405
+        },
+        "durations": [
+          {
+            "duration": 0.6529351,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:9"
+          },
+          {
+            "duration": 0.611693,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on about Blue365",
+    "steps": [
+      {
+        "name": "I click on about Blue365",
+        "aggregatedDurations": {
+          "median": 2.5393538,
+          "average": 2.5393538
+        },
+        "durations": [
+          {
+            "duration": 2.5393538,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on how Blue365 works",
+    "steps": [
+      {
+        "name": "I click on how Blue365 works",
+        "aggregatedDurations": {
+          "median": 0.1803129,
+          "average": 0.1803129
+        },
+        "durations": [
+          {
+            "duration": 0.1803129,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify How it Works",
+    "steps": [
+      {
+        "name": "I verify How it Works",
+        "aggregatedDurations": {
+          "median": 5.030067,
+          "average": 5.030067
+        },
+        "durations": [
+          {
+            "duration": 5.030067,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click for employers button",
+    "steps": [
+      {
+        "name": "I click for employers button",
+        "aggregatedDurations": {
+          "median": 2.8931576,
+          "average": 2.8931576
+        },
+        "durations": [
+          {
+            "duration": 2.8931576,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on register for a demo",
+    "steps": [
+      {
+        "name": "I click on register for a demo",
+        "aggregatedDurations": {
+          "median": 9.7057818,
+          "average": 9.7057818
+        },
+        "durations": [
+          {
+            "duration": 9.7057818,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter my information in the field",
+    "steps": [
+      {
+        "name": "I enter my information in the field",
+        "aggregatedDurations": {
+          "median": 8.3026759,
+          "average": 8.3026759
+        },
+        "durations": [
+          {
+            "duration": 8.3026759,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter number of employees",
+    "steps": [
+      {
+        "name": "I enter number of employees",
+        "aggregatedDurations": {
+          "median": 0.0749547,
+          "average": 0.0749547
+        },
+        "durations": [
+          {
+            "duration": 0.0749547,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Select BCBS Plan",
+    "steps": [
+      {
+        "name": "I Select BCBS Plan",
+        "aggregatedDurations": {
+          "median": 0.0760625,
+          "average": 0.0760625
+        },
+        "durations": [
+          {
+            "duration": 0.0760625,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select Webinar Dates",
+    "steps": [
+      {
+        "name": "I select Webinar Dates",
+        "aggregatedDurations": {
+          "median": 0.0739667,
+          "average": 0.0739667
+        },
+        "durations": [
+          {
+            "duration": 0.0739667,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/BCBS/src/test/java/features/fore_mployee.feature:29"
+          }
+        ]
+      }
+    ]
+  }
+]

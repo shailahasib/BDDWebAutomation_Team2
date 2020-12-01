@@ -23,7 +23,6 @@ public class EmployeesPageStepDefinitions extends WebAPI {
 
     static HomePage homePage;
 
-    // Cucumber Hook
     @After
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
@@ -63,7 +62,6 @@ public class EmployeesPageStepDefinitions extends WebAPI {
     @When("I click on about Blue365")
     public void iClickOnAboutBlue() throws IOException, InterruptedException {
         homePage.clickOnAboutBlueElements();
-
     }
 
     @And("I click on how Blue365 works")

@@ -28,7 +28,7 @@ Feature:
     Then I should be directed to We Work Everywhere page @smoke
 
   @smoke
-  Scenario:check this page                                        We Work Everywhere
+  Scenario:check this page        We Work Everywhere
     When I click on Why Expedia Group?
     And I click on We Work Everywhere
     Then I should be directed to We Work Everywhere page @smoke
@@ -62,7 +62,7 @@ Feature:
       | Firstname              | riyad                         |
       | Lastname               | Mahrez                        |
       | Primarymobilephone     | 9175852236                    |
-      | Website                | https://riyadmMahrez12345.com |
+      | Website                | https://google.com |
       | Degreediploma          | Magistrate                    |
       | Universityinstitution  | Benak                         |
       | Professionalexperience | QA                            |
@@ -72,7 +72,6 @@ Feature:
     And I click on submit button
     And I sign Out
     Then I verify that I joined to the team
-
 
   @Smoke
   Scenario:User can ba able to search the available options

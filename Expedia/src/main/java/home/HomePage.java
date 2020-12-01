@@ -92,10 +92,11 @@ public class HomePage extends WebAPI {
     }
 
     public void clickOnJobs() throws InterruptedException {
+        sleepFor(10);
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,1100)");
+        js.executeScript("window.scrollBy(0,1200)");
         clickOnJobsElements.click();
-        Thread.sleep(8000);
+        sleepFor(10);
     }
 
     public void validateClickOnJobs() throws InterruptedException {
@@ -181,7 +182,7 @@ public class HomePage extends WebAPI {
 
     public void clickOnSignUpUsingYourEMailAddress() throws InterruptedException {
         windowAndTabs();
-        Thread.sleep(5000);
+        sleepFor(6);
         SignUpUsingYourEMailAddress.click();
     }
 

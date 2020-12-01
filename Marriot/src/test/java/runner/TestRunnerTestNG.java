@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = {"src/test/java/features"}
         , glue = {"stepDefinitions"}
-        , tags = "@Employee"
+        , tags = "@HomePage"
         , monochrome = true
         , plugin = {"pretty", "html:target/cucumber-html-report.html", "json:target/cucumber-reports/cucumber.json",
         "junit:target/cucumber-reports/cucumber.xml"}

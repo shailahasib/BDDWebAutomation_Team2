@@ -13,7 +13,7 @@ Feature:
     When I click on about Blue365
     And I click on how Blue365 works
     Then I verify How it Works
-#
+
   @Employee
   Scenario:Employees register for an upcoming demo
     And I click for employers button

@@ -59,13 +59,55 @@ public class HomePageWebElements {
     public static final String selectByValueValue = "LA - Blue Cross and Blue Shield of Louisiana";
     public static final String WebinarDateLocator = "//select[@id='formWebinarDate']";
     public static final String WebinarDateValue = "January 26";
-    public static final String clickOnAgreeLocator= "#LblmktoCheckbox_4383_0";
-    public static final String clickOnParticipateInLocator= "#LblmktoCheckbox_4384_0";
+    public static final String clickOnAgreeLocator= "#mktoCheckbox_4394_0";
+    public static final String clickOnParticipateInLocator= "#mktoCheckbox_4395_0";
     public static final String clickOnRegisterLocator= "//*[@id='mktoForm_1001']/div[12]/span/button";
     public static final String verifyMyRegistrationLocator= "//*[@id='C6733-title-2']/div/span[1]";
     // play video
     public static final String clickOnTheVideoLocator= "//*[@class= 'ytp-large-play-button ytp-button']";
     public static final String validateTheVideoLocator= "ytp-time-current";
+    // APPAREL FOOTWEAR Link
+    public static final String clickOnAPPARELFOOTWEARLocator= "//header/div[3]/div[1]/nav[1]/ul[1]/li[2]/a[1]";
+    public static final String validateAPPARELFOOTWEARLocator= "text-align-center";
+    public static final String clickOnFitnessLocator= "//header/div[3]/div[1]/nav[1]/ul[1]/li[3]/a[1]";
+    public static final String validateFitnessLocator= "text-align-center";
+    public static final String clickOnHEARINGVISIONLocator= "//*[@id='block-offercategorymenublock']/nav/ul/li[4]/a";
+    public static final String validateHEARINGVISIONLocator= "text-align-center";
+    public static final String clickOnHOMEFAMILYLocator= "//*[@id='block-offercategorymenublock']/nav/ul/li[5]/a";
+    public static final String validateHOMEFAMILYLocator= "text-align-center";
+    public static final String clickOnNUTRITIONLocator= "//*[@id='block-offercategorymenublock']/nav/ul/li[6]/a";
+    public static final String validateNUTRITIONLocator= "text-align-center";
+    public static final String clickOnPERSONALCARELocator= "//*[@id='block-offercategorymenublock']/nav/ul/li[7]/a";
+    public static final String validatePERSONALCARELocator= "text-align-center";
+    public static final String clickOnTRAVELLocator= "//*[@id='block-offercategorymenublock']/nav/ul/li[8]/a";
+    public static final String validateTRAVELLocator= "text-align-center";
+    public static final String clickOnHealthyTipsLocator= "//*[@id='block-utility']/ul/li[3]/a";
+    // subscribe health of america
+    public static final String clickOnTheHealthOfAmericaLocator= "//*[@id='block-utilitynavigation-2']/ul/li[1]/a";
+    public static final String clickOnSubscribeNewsLocator= "//*[@id='block-hoanewslettersignup']/div/div/div[2]/a";
+    // send personal info
+    public static final String sendFirstName1Locator= "#MERGE2";
+    public static final String sendLastName1Locator= "#MERGE3";
+    public static final String Email1Locator= "#MERGE0";
+    public static final String ZipCode1Locator= "#MERGE4";
+    public static final String clickOnIAgreeElementsLocator= "//span[contains(text(),'I agree to the BCBS.com Terms & Conditions and Pri')]";
+    public static final String clickOnSubscribeElementsLocator= "//*[@id='templateBody']/form/div[3]/input";
+    public static final String clickOnSubscribeSecondTimeElementsLocator= "//*[@id='templateBody']/form/input[4]";
+    public static final String validateSubscribeLocator = "//h2[contains(text(),'Almost finished...')]";
+    public static final String clickOnReturnLocator = "//*[@id='templateBody']/a";
+    public static final String validateAuthorisationLocator = "region region-content";
+    // download image
+    public static final String clickOnDownloadImageLocator = "//div[1]/div/div/div[2]/div/div/article/a/div/div/picture/img";
+    // take a quiz
+    public static final String clickOnFitbitDealsElementsLocator = "//div/div[1]/div[1]/div/div/div/div[1]/div/div/div[2]/div/div/article/div[2]/p/a";
+    public static final String clickOnDeviceComparisonLocator = "device comparison";
+    public static final String clickOnTakeAQuizElementsLocator = "/html/body/div[3]/div/div/div/div[1]/div/div[2]/button";
+    public static final String selectTheGoalLocator = "//span[contains(text(),'I walk as much as possible during my everyday life')]";
+    public static final String selectTheGoalAllLocator = "fitbit-c-quiz__rotate";
+
+
+
+
 
 
 }

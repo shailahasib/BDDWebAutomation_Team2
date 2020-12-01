@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.72">
+    <testcase classname="Unknown" name="send a test in the chat box and close it" time="14.299">
+        <system-out><![CDATA[Given I am at T-Mobile home page............................................passed
+And I click on TV link......................................................passed
+When I click Ask an expert..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -29,7 +29,6 @@ Feature: Blue 365 Benefits home page navigation
   feature 6:
   employee page registration
 
-
   Background:
     Given I am at BCBS home page
     And I use the mouse over Member Services
@@ -89,3 +88,24 @@ Feature: Blue 365 Benefits home page navigation
     And I selectPlan
     And I click on submit button
     Then I verify Thank you message after for register
+
+  @Test
+  Scenario Outline:device comparison and take a quiz
+    When I click on fitbit deals
+    And I click on device comparison link
+    And I click on Take a Quiz
+    And I select "<GOAL>" How would you describe your current exercise activities?
+    And I select "<PRODUCT STYLE>" What kind of product are you looking for?
+    And I select "<FEATURES>" Pick up to 3 product features you'd like.
+    And I click on show my results
+    Then I verify the product you will love
+    Examples:
+      | GOAL                                               | PRODUCT STYLE | FEATURES                                        |
+      | I walk as much as possible during my everyday life | Tracker       | Active Zone Minutes,Advanced heart health tools |
+
+  @Test
+  Scenario:download image from the hom page
+    When I click Image
+    And I save the image in my computer
+    Then I verify that I downloaded the image
+

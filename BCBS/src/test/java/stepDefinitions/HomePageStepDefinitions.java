@@ -14,6 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 
+import java.awt.*;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
@@ -45,13 +46,9 @@ public class HomePageStepDefinitions extends WebAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-    String expectedResult;
-
     @Given("I am at BCBS home page")
     public void iAmAtBCBSHomePage() throws IOException {
         openBrowser("https://www.bcbs.com/");
-
-
     }
 
     @And("I use the mouse over Member Services")
@@ -185,6 +182,203 @@ public class HomePageStepDefinitions extends WebAPI {
     @And("I selectPlan")
     public void iSelectPlan() throws InterruptedException {
         homePage.selectPlanElements();
+    }
+
+    @When("I click on APPAREL & FOOTWEAR link")
+    public void iClickOnAPPARELFOOTWEARLink() throws InterruptedException {
+        homePage.clickOnAPPARELFOOTWEARLink();
+    }
+
+    @Then("I should be landing on APPAREL & FOOTWEAR page")
+    public void iShouldBeLandingOnAPPARELFOOTWEARPage() throws InterruptedException {
+        homePage.shouldBeLandingOnAPPARELFOOTWEARPage();
+    }
+
+    @When("I click on Fitness link")
+    public void iClickOnFitnessLink() throws InterruptedException {
+        homePage.clickOnFitnessLink();
+    }
+
+    @Then("I should be landing on Fitness page")
+    public void iShouldBeLandingOnFitnessPage() throws InterruptedException {
+        homePage.shouldBeLandingOnFitnessPage();
+    }
+
+    @When("I click on HEARING & VISION link")
+    public void iClickOnHEARINGVISIONLink() throws InterruptedException {
+        homePage.clickOnHEARINGVISIONLink();
+    }
+
+    @Then("I should be landing on HEARING & VISION page")
+    public void iShouldBeLandingOnHEARINGVISIONPage() throws InterruptedException {
+        homePage.shouldBeLandingOnHEARINGVISIONPage();
+    }
+
+    @When("I click on HOME & FAMILY link")
+    public void iClickOnHOMEFAMILYLink() throws InterruptedException {
+        homePage.clickOnHOMEFAMILYLink();
+    }
+
+    @Then("I should be landing on HOME & FAMILY page")
+    public void iShouldBeLandingOnHOMEFAMILYPage() throws InterruptedException {
+        homePage.shouldBeLandingOnHOMEFAMILYPage();
+    }
+
+    @When("I click on  NUTRITION link")
+    public void iClickOnNUTRITIONLink() throws InterruptedException {
+        homePage.clickOnNUTRITIONLink();
+    }
+
+    @Then("I should be landing on  NUTRITION page")
+    public void iShouldBeLandingOnNUTRITIONPage() throws InterruptedException {
+        homePage.shouldBeLandingOnNUTRITIONPage();
+    }
+
+    @When("I click on PERSONAL CARE link")
+    public void iClickOnPERSONALCARELink() throws InterruptedException {
+        homePage.clickOnPERSONALCARELink();
+    }
+
+    @Then("I should be landing on PERSONAL CARE page")
+    public void iShouldBeLandingOnPERSONALCAREPage() throws InterruptedException {
+        homePage.shouldBeLandingOnPERSONALCAREPag();
+    }
+
+    @When("I click on TRAVEL link")
+    public void iClickOnTRAVELLink() throws InterruptedException {
+        homePage.clickOnTRAVELLink();
+    }
+
+    @Then("I should be landing on TRAVEL page")
+    public void iShouldBeLandingOnTRAVELPage() throws InterruptedException {
+        homePage.shouldBeLandingOnTRAVELPage();
+    }
+
+    @When("I click on About Blue365 link")
+    public void iClickOnAboutBlueLink() throws InterruptedException {
+        homePage.clickOnAboutBlueLink();
+    }
+
+    @Then("I should be landing on About Blue365 page")
+    public void iShouldBeLandingOnAboutBluePage() throws InterruptedException {
+        homePage.shouldBeLandingOnAboutBluePage();
+    }
+
+    @When("I click on Healthy Tips link")
+    public void iClickOnHealthyTipsLink() throws InterruptedException {
+        homePage.clickOnHealthyTipsLink();
+    }
+
+    @Then("I should be landing on Healthy Tips page")
+    public void iShouldBeLandingOnHealthyTipsPage() throws InterruptedException {
+        homePage.shouldBeLandingOnHealthyTipsPage();
+    }
+
+    @And("I click on The Health of America")
+    public void iClickOnTheHealthOfAmerica() throws InterruptedException {
+        homePage.clickOnTheHealthOfAmerica();
+    }
+
+    @And("I click on subscribe Health of America news")
+    public void iClickOnSubscribeHealthOfAmericaNews() throws InterruptedException {
+        homePage.clickOnSubscribeHealthOfAmericaNews();
+    }
+
+    @And("I enter my personal information")
+    public void iEnterMyPersonalInformation(List<List<String>> table) throws InterruptedException {
+        sleepFor(3);
+        windowAndTabs();
+        Map<String, String> mapTable = Users.TableDictionaryConverter(table);
+        homePage.sendKey(homePage.sendFirstName1, mapTable.get("FirstName"));
+        sleepFor(2);
+        homePage.sendKey(homePage.sendLastName1, mapTable.get("LastName"));
+        sleepFor(2);
+        homePage.sendKey(homePage.Email1, mapTable.get("Email"));
+        sleepFor(2);
+        homePage.sendKey(homePage.ZipCode1, mapTable.get("Zipcode"));
+    }
+
+    @And("I click on I agree to the BCBS.com Terms & Conditions and Privacy Policy.")
+    public void iClickOnIAgreeToTheBCBSComTermsConditionsAndPrivacyPolicy() throws InterruptedException {
+        homePage.clickOnIAgree();
+    }
+
+    @And("I click on subscribe")
+    public void iClickOnSubscribe() throws InterruptedException {
+        homePage.clickOnSubscribe();
+    }
+
+    @And("I click on subscribe second time")
+    public void iClickOnSubscribeSecondTime() throws InterruptedException {
+        homePage.clickOnSubscribeSecondTime();
+
+    }
+
+    @Then("I verify the subscription")
+    public void iVerifyTheSubscription() throws InterruptedException {
+        homePage.verifyTheSubscription();
+
+    }
+
+    @And("I verify if I am authorized to access this page.")
+    public void iVerifyIfIAmAuthorizedToAccessThisPage() throws InterruptedException {
+        homePage.verifyIfIAmAuthorizedToAccessThisPage();
+
+    }
+
+    @When("I click Image")
+    public void iClickImage() throws InterruptedException, AWTException {
+        homePage.clickImage();
+    }
+
+    @And("I save the image in my computer")
+    public void iSaveTheImageInMyComputer() throws AWTException, InterruptedException {
+       homePage. saveTheImageInMyComputer();
+
+    }
+
+    @Then("I verify that I downloaded the image")
+    public void iVerifyThatIDownloadedTheImage() {
+    }
+
+    @And("I click on device comparison link")
+    public void iClickOnDeviceComparisonLink() throws AWTException, InterruptedException {
+        homePage.clickOnDeviceComparisonLink();
+    }
+
+    @And("I click on Take a Quiz")
+    public void iClickOnTakeAQuiz() throws AWTException, InterruptedException {
+        homePage.clickOnTakeAQuiz();
+    }
+
+    @And("I select {string} How would you describe your current exercise activities?")
+    public void iSelectHowWouldYouDescribeYourCurrentExerciseActivities() throws AWTException, InterruptedException {
+        homePage.selectWhatKindOfProductAreYouLookingFor();
+        windowAndTabsnum3();
+        homePage.selectTheGoal.click();
+    }
+
+    @And("I select {string} What kind of product are you looking for?")
+    public void iSelectWhatKindOfProductAreYouLookingFor() throws AWTException, InterruptedException {
+
+    }
+
+    @And("I select {string} Pick up to 3 product features you'd like.")
+    public void iSelectPickUpToProductFeaturesYouDLike(String features) {
+//        homePage.selectPickUpToProductFeaturesYouDLike(features);
+    }
+
+    @And("I click on show my results")
+    public void iClickOnShowMyResults() {
+    }
+
+    @Then("I verify the product you will love")
+    public void iVerifyTheProductYouWillLove() {
+    }
+
+    @When("I click on fitbit deals")
+    public void iClickOnFitbitDeals() throws AWTException, InterruptedException {
+        homePage.clickOnFitbitDeals();
     }
 
     public static class Users {

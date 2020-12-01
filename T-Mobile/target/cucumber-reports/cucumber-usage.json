@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am at T-Mobile home page",
+    "steps": [
+      {
+        "name": "I am at T-Mobile home page",
+        "aggregatedDurations": {
+          "median": 10.5207953,
+          "average": 10.5207953
+        },
+        "durations": [
+          {
+            "duration": 10.5207953,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/Tv_home_page.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on TV link",
+    "steps": [
+      {
+        "name": "I click on TV link",
+        "aggregatedDurations": {
+          "median": 0.7957216,
+          "average": 0.7957216
+        },
+        "durations": [
+          {
+            "duration": 0.7957216,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/Tv_home_page.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Ask an expert",
+    "steps": [
+      {
+        "name": "I click Ask an expert",
+        "aggregatedDurations": {
+          "median": 2.1644115,
+          "average": 2.1644115
+        },
+        "durations": [
+          {
+            "duration": 2.1644115,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/Tv_home_page.feature:35"
+          }
+        ]
+      }
+    ]
+  }
+]

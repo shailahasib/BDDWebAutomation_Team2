@@ -5,36 +5,40 @@
       {
         "name": "I am at expedia home page",
         "aggregatedDurations": {
-          "median": 10.9210496,
-          "average": 11.301060071
+          "median": 12.37526915,
+          "average": 13.89396595
         },
         "durations": [
           {
-            "duration": 16.6120387,
+            "duration": 11.6759766,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
           },
           {
-            "duration": 10.4300794,
+            "duration": 13.576045,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
           },
           {
-            "duration": 10.9210496,
+            "duration": 10.7588001,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
           },
           {
-            "duration": 12.3067566,
+            "duration": 15.4793676,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
           },
           {
-            "duration": 8.6510068,
+            "duration": 23.7418327,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
           },
           {
-            "duration": 9.1550832,
+            "duration": 12.7387242,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
           },
           {
-            "duration": 11.0314062,
+            "duration": 11.1691673,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
+          },
+          {
+            "duration": 12.0118141,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:5"
           }
         ]
@@ -47,37 +51,95 @@
       {
         "name": "I click on jobs",
         "aggregatedDurations": {
-          "median": 18.6463854,
-          "average": 19.363282457
+          "median": 32.63384125,
+          "average": 32.402964187
         },
         "durations": [
           {
-            "duration": 29.774261,
+            "duration": 30.4727599,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
           },
           {
-            "duration": 26.3728411,
+            "duration": 31.3841271,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
           },
           {
-            "duration": 19.1971134,
+            "duration": 31.0887851,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
           },
           {
-            "duration": 8.4879985,
+            "duration": 35.1086063,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
           },
           {
-            "duration": 18.6463854,
+            "duration": 34.5446575,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
           },
           {
-            "duration": 18.2672076,
+            "duration": 33.8835554,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
           },
           {
-            "duration": 14.7971702,
+            "duration": 25.7513203,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
+          },
+          {
+            "duration": 36.9899019,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in search openings",
+    "steps": [
+      {
+        "name": "I enter \"QA\" in search openings",
+        "aggregatedDurations": {
+          "median": 0.0542301,
+          "average": 0.0542301
+        },
+        "durations": [
+          {
+            "duration": 0.0542301,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on The Arrow logo search signe",
+    "steps": [
+      {
+        "name": "I click on The Arrow logo search signe",
+        "aggregatedDurations": {
+          "median": 8.9727156,
+          "average": 8.9727156
+        },
+        "durations": [
+          {
+            "duration": 8.9727156,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:79"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the search page open",
+    "steps": [
+      {
+        "name": "I verify the search page open",
+        "aggregatedDurations": {
+          "median": 5.0353223,
+          "average": 5.0353223
+        },
+        "durations": [
+          {
+            "duration": 5.0353223,
+            "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:80"
           }
         ]
       }
@@ -89,12 +151,12 @@
       {
         "name": "I enter the \"developer\" in search openings",
         "aggregatedDurations": {
-          "median": 0.0648297,
-          "average": 0.0648297
+          "median": 0.0538344,
+          "average": 0.0538344
         },
         "durations": [
           {
-            "duration": 0.0648297,
+            "duration": 0.0538344,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:84"
           }
         ]
@@ -102,12 +164,12 @@
       {
         "name": "I enter the \"Marketing\" in search openings",
         "aggregatedDurations": {
-          "median": 0.0514539,
-          "average": 0.0514539
+          "median": 0.0787098,
+          "average": 0.0787098
         },
         "durations": [
           {
-            "duration": 0.0514539,
+            "duration": 0.0787098,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:84"
           }
         ]
@@ -115,12 +177,12 @@
       {
         "name": "I enter the \"software engineer\" in search openings",
         "aggregatedDurations": {
-          "median": 0.079963,
-          "average": 0.079963
+          "median": 0.0684458,
+          "average": 0.0684458
         },
         "durations": [
           {
-            "duration": 0.079963,
+            "duration": 0.0684458,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:84"
           }
         ]
@@ -128,12 +190,12 @@
       {
         "name": "I enter the \"it\" in search openings",
         "aggregatedDurations": {
-          "median": 0.0583637,
-          "average": 0.0583637
+          "median": 0.0517076,
+          "average": 0.0517076
         },
         "durations": [
           {
-            "duration": 0.0583637,
+            "duration": 0.0517076,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:84"
           }
         ]
@@ -141,12 +203,12 @@
       {
         "name": "I enter the \"technical product manager\" in search openings",
         "aggregatedDurations": {
-          "median": 0.0709664,
-          "average": 0.0709664
+          "median": 0.0640578,
+          "average": 0.0640578
         },
         "durations": [
           {
-            "duration": 0.0709664,
+            "duration": 0.0640578,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:84"
           }
         ]
@@ -154,12 +216,12 @@
       {
         "name": "I enter the \"Audit\" in search openings",
         "aggregatedDurations": {
-          "median": 0.0671408,
-          "average": 0.0671408
+          "median": 0.0518598,
+          "average": 0.0518598
         },
         "durations": [
           {
-            "duration": 0.0671408,
+            "duration": 0.0518598,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:84"
           }
         ]
@@ -167,12 +229,12 @@
       {
         "name": "I enter the \"Software Tester\" in search openings",
         "aggregatedDurations": {
-          "median": 0.0900642,
-          "average": 0.0900642
+          "median": 0.061963,
+          "average": 0.061963
         },
         "durations": [
           {
-            "duration": 0.0900642,
+            "duration": 0.061963,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:84"
           }
         ]
@@ -185,16 +247,16 @@
       {
         "name": "I enter the \"United States - Washington - Seattle\" in location searchbox",
         "aggregatedDurations": {
-          "median": 0.07742505,
-          "average": 0.07742505
+          "median": 0.07064205,
+          "average": 0.07064205
         },
         "durations": [
           {
-            "duration": 0.0827799,
+            "duration": 0.0728064,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:85"
           },
           {
-            "duration": 0.0720702,
+            "duration": 0.0684777,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:85"
           }
         ]
@@ -202,12 +264,12 @@
       {
         "name": "I enter the \"United States - New York\" in location searchbox",
         "aggregatedDurations": {
-          "median": 0.0654174,
-          "average": 0.0654174
+          "median": 0.0629559,
+          "average": 0.0629559
         },
         "durations": [
           {
-            "duration": 0.0654174,
+            "duration": 0.0629559,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:85"
           }
         ]
@@ -215,12 +277,12 @@
       {
         "name": "I enter the \"united kingdom - london\" in location searchbox",
         "aggregatedDurations": {
-          "median": 0.061873,
-          "average": 0.061873
+          "median": 0.0607843,
+          "average": 0.0607843
         },
         "durations": [
           {
-            "duration": 0.061873,
+            "duration": 0.0607843,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:85"
           }
         ]
@@ -228,12 +290,12 @@
       {
         "name": "I enter the \"United States - Texas - Austin\" in location searchbox",
         "aggregatedDurations": {
-          "median": 0.0718091,
-          "average": 0.0718091
+          "median": 0.0756121,
+          "average": 0.0756121
         },
         "durations": [
           {
-            "duration": 0.0718091,
+            "duration": 0.0756121,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:85"
           }
         ]
@@ -241,12 +303,12 @@
       {
         "name": "I enter the \"United States - Washington - Bellevue\" in location searchbox",
         "aggregatedDurations": {
-          "median": 0.0728327,
-          "average": 0.0728327
+          "median": 0.0729242,
+          "average": 0.0729242
         },
         "durations": [
           {
-            "duration": 0.0728327,
+            "duration": 0.0729242,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:85"
           }
         ]
@@ -254,12 +316,12 @@
       {
         "name": "I enter the \"United States - California - San Francisco\" in location searchbox",
         "aggregatedDurations": {
-          "median": 0.0773417,
-          "average": 0.0773417
+          "median": 0.0787267,
+          "average": 0.0787267
         },
         "durations": [
           {
-            "duration": 0.0773417,
+            "duration": 0.0787267,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:85"
           }
         ]
@@ -272,36 +334,36 @@
       {
         "name": "I click on search logo",
         "aggregatedDurations": {
-          "median": 2.83563,
-          "average": 3.386434342
+          "median": 2.8779729,
+          "average": 2.880454271
         },
         "durations": [
           {
-            "duration": 5.2894024,
+            "duration": 2.8783306,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:86"
           },
           {
-            "duration": 3.6507398,
+            "duration": 2.7595236,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:86"
           },
           {
-            "duration": 2.83563,
+            "duration": 2.8779729,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:86"
           },
           {
-            "duration": 2.6325676,
+            "duration": 3.2558644,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:86"
           },
           {
-            "duration": 2.6816114,
+            "duration": 2.4690399,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:86"
           },
           {
-            "duration": 2.3653482,
+            "duration": 2.751269,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:86"
           },
           {
-            "duration": 4.249741,
+            "duration": 3.1711795,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:86"
           }
         ]
@@ -312,53 +374,53 @@
     "source": "I verify {string} as total in the search",
     "steps": [
       {
-        "name": "I verify \"36 Results for: developer, United States - Washington - Seattle\" as total in the search",
+        "name": "I verify \"37 Results for: developer, United States - Washington - Seattle\" as total in the search",
         "aggregatedDurations": {
-          "median": 5.022782,
-          "average": 5.022782
+          "median": 5.0385702,
+          "average": 5.0385702
         },
         "durations": [
           {
-            "duration": 5.022782,
+            "duration": 5.0385702,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87"
           }
         ]
       },
       {
-        "name": "I verify \"4 Results for: marketing, United States - New York\" as total in the search",
+        "name": "I verify \"5 Results for: technical product manager, United States - Washington - Seattle\" as total in the search",
         "aggregatedDurations": {
-          "median": 5.0227363,
-          "average": 5.0227363
+          "median": 5.0433071,
+          "average": 5.0433071
         },
         "durations": [
           {
-            "duration": 5.0227363,
+            "duration": 5.0433071,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87"
           }
         ]
       },
       {
-        "name": "I verify \"14 Results for: software engineer, United Kingdom - London\" as total in the search",
+        "name": "I verify \"1 Results for: audit, United States - Washington - Bellevue\" as total in the search",
         "aggregatedDurations": {
-          "median": 5.0248847,
-          "average": 5.0248847
+          "median": 5.044565,
+          "average": 5.044565
         },
         "durations": [
           {
-            "duration": 5.0248847,
+            "duration": 5.044565,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87"
           }
         ]
       },
       {
-        "name": "I verify \"70 Results for: it, United States - Texas - Austin\" as total in the search",
+        "name": "I verify \"0 Results for: software tester, United States - California - San Francisco\" as total in the search",
         "aggregatedDurations": {
-          "median": 5.0285143,
-          "average": 5.0285143
+          "median": 5.0449465,
+          "average": 5.0449465
         },
         "durations": [
           {
-            "duration": 5.0285143,
+            "duration": 5.0449465,
             "location": "file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87"
           }
         ]

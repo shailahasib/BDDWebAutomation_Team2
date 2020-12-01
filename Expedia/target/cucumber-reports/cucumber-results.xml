@@ -1,84 +1,92 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="279.698">
-    <testcase classname="Unknown" name="Search Jobs Functionality" time="57.629">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="448.204">
+    <testcase classname="Unknown" name="User can ba able to search the available options" time="56.98">
+        <system-out><![CDATA[Given I am at expedia home page.............................................passed
+And I click on jobs.........................................................passed
+When I enter "QA" in search openings........................................passed
+And I click on The Arrow logo search signe..................................passed
+Then I verify the search page open..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="Search Jobs Functionality" time="53.641">
         <system-out><![CDATA[Given I am at expedia home page.............................................passed
 And I click on jobs.........................................................passed
 When I enter the "developer" in search openings.............................passed
 And I enter the "United States - Washington - Seattle" in location searchbox.passed
 And I click on search logo..................................................passed
-And I verify "36 Results for: developer, United States - Washington - Seattle" as total in the search.passed
+And I verify "37 Results for: developer, United States - Washington - Seattle" as total in the search.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Unknown" name="Search Jobs Functionality 2" time="46.249">
-        <system-out><![CDATA[Given I am at expedia home page.............................................passed
+    <testcase classname="Unknown" name="Search Jobs Functionality 2" time="51.083">
+        <failure message="Test Fail, Expected Not Match With Actual  expected:&lt;[4] Results for: market...&gt; but was:&lt;[3] Results for: market...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at expedia home page.............................................passed
 And I click on jobs.........................................................passed
 When I enter the "Marketing" in search openings.............................passed
 And I enter the "United States - New York" in location searchbox............passed
 And I click on search logo..................................................passed
-And I verify "4 Results for: marketing, United States - New York" as total in the search.passed
-]]></system-out>
+And I verify "4 Results for: marketing, United States - New York" as total in the search.failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<[4] Results for: market...> but was:<[3] Results for: market...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:179)
+	at ✽.I verify "4 Results for: marketing, United States - New York" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
+]]></failure>
     </testcase>
-    <testcase classname="Unknown" name="Search Jobs Functionality 3" time="38.788">
-        <system-out><![CDATA[Given I am at expedia home page.............................................passed
+    <testcase classname="Unknown" name="Search Jobs Functionality 3" time="59.805">
+        <failure message="Test Fail, Expected Not Match With Actual  expected:&lt;1[4] Results for: softwa...&gt; but was:&lt;1[1] Results for: softwa...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at expedia home page.............................................passed
 And I click on jobs.........................................................passed
 When I enter the "software engineer" in search openings.....................passed
 And I enter the "united kingdom - london" in location searchbox.............passed
 And I click on search logo..................................................passed
-And I verify "14 Results for: software engineer, United Kingdom - London" as total in the search.passed
-]]></system-out>
+And I verify "14 Results for: software engineer, United Kingdom - London" as total in the search.failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<1[4] Results for: softwa...> but was:<1[1] Results for: softwa...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:179)
+	at ✽.I verify "14 Results for: software engineer, United Kingdom - London" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
+]]></failure>
     </testcase>
-    <testcase classname="Unknown" name="Search Jobs Functionality 4" time="29.249">
-        <system-out><![CDATA[Given I am at expedia home page.............................................passed
+    <testcase classname="Unknown" name="Search Jobs Functionality 4" time="67.88">
+        <failure message="Test Fail, Expected Not Match With Actual  expected:&lt;7[0] Results for: it, Un...&gt; but was:&lt;7[2] Results for: it, Un...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at expedia home page.............................................passed
 And I click on jobs.........................................................passed
 When I enter the "it" in search openings....................................passed
 And I enter the "United States - Texas - Austin" in location searchbox......passed
 And I click on search logo..................................................passed
-And I verify "70 Results for: it, United States - Texas - Austin" as total in the search.passed
-]]></system-out>
+And I verify "70 Results for: it, United States - Texas - Austin" as total in the search.failed
+
+StackTrace:
+org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<7[0] Results for: it, Un...> but was:<7[2] Results for: it, Un...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:179)
+	at ✽.I verify "70 Results for: it, United States - Texas - Austin" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
+]]></failure>
     </testcase>
-    <testcase classname="Unknown" name="Search Jobs Functionality 5" time="35.829">
-        <failure message="Test Fail, Expected Not Match With Actual  expected:&lt;4 Results for: [it, United States - Texas - Austin]&gt; but was:&lt;4 Results for: [technical product manager, United States - Washington - Seattle]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at expedia home page.............................................passed
+    <testcase classname="Unknown" name="Search Jobs Functionality 5" time="54.918">
+        <system-out><![CDATA[Given I am at expedia home page.............................................passed
 And I click on jobs.........................................................passed
 When I enter the "technical product manager" in search openings.............passed
 And I enter the "United States - Washington - Seattle" in location searchbox.passed
 And I click on search logo..................................................passed
-And I verify "4 Results for: it, United States - Texas - Austin" as total in the search.failed
-
-StackTrace:
-org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<4 Results for: [it, United States - Texas - Austin]> but was:<4 Results for: [technical product manager, United States - Washington - Seattle]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:222)
-	at ✽.I verify "4 Results for: it, United States - Texas - Austin" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
-]]></failure>
+And I verify "5 Results for: technical product manager, United States - Washington - Seattle" as total in the search.passed
+]]></system-out>
     </testcase>
-    <testcase classname="Unknown" name="Search Jobs Functionality 6" time="35.61">
-        <failure message="Test Fail, Expected Not Match With Actual  expected:&lt;1 Results for: [A]udit, United States ...&gt; but was:&lt;1 Results for: [a]udit, United States ...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at expedia home page.............................................passed
+    <testcase classname="Unknown" name="Search Jobs Functionality 6" time="45.495">
+        <system-out><![CDATA[Given I am at expedia home page.............................................passed
 And I click on jobs.........................................................passed
 When I enter the "Audit" in search openings.................................passed
 And I enter the "United States - Washington - Bellevue" in location searchbox.passed
 And I click on search logo..................................................passed
-And I verify "1 Results for: Audit, United States - Washington - Bellevue" as total in the search.failed
-
-StackTrace:
-org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<1 Results for: [A]udit, United States ...> but was:<1 Results for: [a]udit, United States ...>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:222)
-	at ✽.I verify "1 Results for: Audit, United States - Washington - Bellevue" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
-]]></failure>
+And I verify "1 Results for: audit, United States - Washington - Bellevue" as total in the search.passed
+]]></system-out>
     </testcase>
-    <testcase classname="Unknown" name="Search Jobs Functionality 7" time="35.945">
-        <failure message="Test Fail, Expected Not Match With Actual  expected:&lt;0 Results for: [Software T]ester, United States...&gt; but was:&lt;0 Results for: [software t]ester, United States...&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at expedia home page.............................................passed
+    <testcase classname="Unknown" name="Search Jobs Functionality 7" time="58.004">
+        <system-out><![CDATA[Given I am at expedia home page.............................................passed
 And I click on jobs.........................................................passed
 When I enter the "Software Tester" in search openings.......................passed
 And I enter the "United States - California - San Francisco" in location searchbox.passed
 And I click on search logo..................................................passed
-And I verify "0 Results for: Software Tester, United States - California - San Francisco" as total in the search.failed
-
-StackTrace:
-org.junit.ComparisonFailure: Test Fail, Expected Not Match With Actual  expected:<0 Results for: [Software T]ester, United States...> but was:<0 Results for: [software t]ester, United States...>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at stepDefinitions.HomePageStepDefinitions.iVerifyAsTotalInTheSearch(HomePageStepDefinitions.java:222)
-	at ✽.I verify "0 Results for: Software Tester, United States - California - San Francisco" as total in the search(file:///C:/Users/alaed/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/HomePage.feature:87)
-]]></failure>
+And I verify "0 Results for: software tester, United States - California - San Francisco" as total in the search.passed
+]]></system-out>
     </testcase>
 </testsuite>

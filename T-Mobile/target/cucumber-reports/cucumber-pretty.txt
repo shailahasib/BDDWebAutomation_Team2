@@ -1,0 +1,6 @@
+
+@TestTV
+Scenario: send a test in the chat box and close it # src/test/java/features/Tv_home_page.feature:34
+  Given I am at T-Mobile home page                 # stepDefinitions.TV_HomePage_StepDefinitions.iAmAtTMobileHomePage()
+  And I click on TV link                           # stepDefinitions.TV_HomePage_StepDefinitions.iClickOnTVLink()
+  When I click Ask an expert                       # stepDefinitions.TV_HomePage_StepDefinitions.iClickAskAnExpert()

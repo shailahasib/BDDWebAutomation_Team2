@@ -132,7 +132,7 @@ public class WebAPI {
     @Parameters({"useCloudEnv", "cloudEnvName", "OS", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("sauceLabs") String cloudEnvName, @Optional("windows") String OS, @Optional("10") String os_version, @Optional("chrome") String browserName,
-                      @Optional("86") String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
+                      @Optional("87.0.4280.66") String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
         // Platform: Local Machine/ cloud machine
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserStack")) {
@@ -145,7 +145,7 @@ public class WebAPI {
         }
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        WebDriverWait wait = new WebDriverWait(driver,5);
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.get(url);
@@ -566,6 +566,14 @@ public class WebAPI {
         String childWindows = iter.next();
         driver.switchTo().window(childWindows);
     }
+public void windowAndTabsnum3() {
+    Set<String> windows = driver.getWindowHandles();
+    Iterator<String> iter = windows.iterator();
+    String mainWindows = iter.next();
+    String childWindows = iter.next();
+    String childWindows2 = iter.next();
+    driver.switchTo().window(childWindows2);
+    }
 
 
     // Customer Made Helper Methods for Amex.com
@@ -726,10 +734,16 @@ public class WebAPI {
     // Slider Handlaing
     // https://stackoverflow.com/questions/15171745/how-to-slidemove-slider-in-selenium-webdriver
 
-    public void waitTimeExplicit(String locator) {
+    public void waitTimeExplicitClickable(String locator) {
         // Explicit wait
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+    }
+
+    public void waitTimeExplicitVisibilityOf(String locator) {
+        // Explicit wait
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locator)));
     }
 
     public void waitTimeUsingFluent(String locator) {
@@ -738,7 +752,7 @@ public class WebAPI {
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(2))
                 .withMessage("Time out after 30 seconds")
-                .ignoring(NoSuchElementException.class);
+                .ignoring(ElementNotInteractableException.class);
     }
 
 

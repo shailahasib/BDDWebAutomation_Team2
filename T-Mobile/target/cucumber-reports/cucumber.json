@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10520795300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 42886400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1994900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePage_FunctionsStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3989400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.Internet_HomePage_StepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2991800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TV_HomePage_StepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile home page",
+            "match": {
+              "location": "stepDefinitions.TV_HomePage_StepDefinitions.iAmAtTMobileHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 795721600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1995500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1994600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePage_FunctionsStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1992100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.Internet_HomePage_StepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TV_HomePage_StepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on TV link",
+            "match": {
+              "location": "stepDefinitions.TV_HomePage_StepDefinitions.iClickOnTVLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-28T01:00:29.795Z",
+        "line": 34,
+        "name": "send a test in the chat box and close it",
+        "description": "",
+        "id": ";send-a-test-in-the-chat-box-and-close-it",
+        "after": [
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TV_HomePage_StepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 648264500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TV_HomePage_StepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Internet_HomePage_StepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Internet_HomePage_StepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePage_FunctionsStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePage_FunctionsStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2164411500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1994100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePage_FunctionsStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.Internet_HomePage_StepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TV_HomePage_StepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 35,
+            "name": "I click Ask an expert",
+            "match": {
+              "location": "stepDefinitions.TV_HomePage_StepDefinitions.iClickAskAnExpert()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestTV"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  users should be able yo login and logout ,\n  users are able to use the chatBox to communicate with robot functions",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Tv_home_page.feature",
+    "tags": []
+  }
+]
