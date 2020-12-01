@@ -112,6 +112,15 @@ public class PhonesAndDevicesPage extends WebAPI {
     @FindBy(how = How.XPATH, using = searchBoxInput)
     public WebElement searchBox;
 
+    @FindBy(how = How.XPATH, using = helpBubbleBottom)
+    public WebElement helpBubble;
+
+    @FindBy(how = How.XPATH, using = enterMessageForBubble)
+    public WebElement enterMessage;
+
+    @FindBy(how = How.XPATH, using = toolTipDisplayEle)
+    public WebElement toolTip;
+
 
 
     public String getTextGeneric(WebElement element) {
@@ -269,5 +278,8 @@ public class PhonesAndDevicesPage extends WebAPI {
         element.clear();
         element.sendKeys(keys);
     }
+
+
+
 
 }

@@ -47,6 +47,9 @@ public class PhonesAndDevicesWebElements {
     public static final String nextButton = "//button[contains(text(),'Next')]";
     public static final String errorMessageForId = "//span[contains(text(),'Sorry, something you entered does not match our re')]";
     public static final String searchBoxInput = "//input[@id='nav_search_input-desktop']";
+    public static final String helpBubbleBottom = "//div[@class='lp_header lpc_minimized-header lpc_desktop']//div[@class='lp_header-content-wrapper']";
+    public static final String enterMessageForBubble = "//div[@class='lp_input_area lpc_composer__text-area-wrapper lpc_desktop']";
+    public static final String toolTipDisplayEle = "span[title='text tooltip']";
 
 
 

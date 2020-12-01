@@ -116,4 +116,11 @@ Feature: Phones and Devices can be filtered, sorted and then added to cart
       | alaDdin90 |
       | yamina123 |
 
+Scenario:I am receive a tooltip after entering a message in the help chat bubble
+  Given I am on T-Mobile home page
+  And I scroll down the page
+  And I click the Im here to help bubble
+  And I type in a message
+  When I click enter on the keyboard
+  Then I verify that the tooltip displays
 

@@ -2,14 +2,6 @@ Feature: Marriott HomePage Header Functionality
 
   //Background: Given I am on the Marriott homepage
 
-  Scenario: I am not able to sign in using invalid email and password
-    Given I am on the Marriot homepage
-    And I click on Sign in or Join
-    And I enter and invalid email
-    And I enter an invalid password
-    When I click Sign in
-    Then I am not able to sign in and error message is displayed
-
 
   Scenario Outline:I can type common destination terms and get related or appropriate results
     Given I am on the Marriot homepage
@@ -41,6 +33,15 @@ Feature: Marriott HomePage Header Functionality
     Given I am on the Marriot homepage
     When I click Vacations on header
     Then I verify that the Vacations dropdown opens
+
+  Scenario:I can type destination and search using homepage option
+    Given I am on the Marriot homepage
+    And scroll down and find the destination box
+    And I type in NYC
+    And I click on the start from calendar
+    And I select start date
+    When I click find hotels
+    Then I verify the search returns appropriate results for NYC
 
   Scenario: OurBrands on header opens appropriate dropdown
     Given I am on the Marriot homepage
@@ -74,16 +75,6 @@ Feature: Marriott HomePage Header Functionality
       | DECEMBER 2020 | 29   | Tue, Dec 29, 2020 - Wed, Dec 30, 2020  |
 
 
-  Scenario:I can type destination and search using homepage option
-    Given I am on the Marriot homepage
-    And scroll down and find the destination box
-    And I type in NYC
-    And I click on the start from calendar
-    And I select start date
-    When I click find hotels
-    Then I verify the search returns appropriate results for NYC
-
-
   Scenario:The list view option is inactive under list viewing
     Given I am on the Marriot homepage
     And scroll down and find the destination box
@@ -108,7 +99,15 @@ Feature: Marriott HomePage Header Functionality
     When I select Espanol from under Americas
     Then I verify that the page title matches the chosen language
 
-  Scenario:sdnfgb
+  Scenario:I can find all of the social media links at the bottom
     Given I am on the Marriot homepage
     When I scroll down to the bottom of the page
     Then I verify that the social media links are displayed
+
+  Scenario: I am not able to sign in using invalid email and password
+    Given I am on the Marriot homepage
+    And I click on Sign in or Join
+    And I enter and invalid email
+    And I enter an invalid password
+    When I click Sign in
+    Then I am not able to sign in and error message is displayed

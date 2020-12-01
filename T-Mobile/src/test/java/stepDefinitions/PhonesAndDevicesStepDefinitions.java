@@ -14,6 +14,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import phonesAndDevices.PhonesAndDevicesPage;
 import phonesAndDevices.PhonesAndDevicesWebElements;
@@ -208,4 +209,35 @@ public class PhonesAndDevicesStepDefinitions extends WebAPI {
     public void iVerifyThatTheErrorMessageIsDisplayed() {
         phonesAndDevicesPage.elementDisplayed(phonesAndDevicesPage.errorMessageId);
     }
+
+    @Then("I validate that the correct product is displayed")
+    public void iValidateThatTheCorrectProductIsDisplayed() {
+    }
+
+    @And("I scroll down the page")
+    public void iScrollDownThePage() {
+        phonesAndDevicesPage.scrollDownToBottom();
+        sleepFor(3);
+    }
+
+    @And("I click the Im here to help bubble")
+    public void iClickTheImHereToHelpBubble() {
+        phonesAndDevicesPage.clickGeneric(phonesAndDevicesPage.helpBubble);
+    }
+
+    @When("I click enter on the keyboard")
+    public void iClickEnterOnTheKeyboard() {
+        phonesAndDevicesPage.enterMessage.sendKeys(Keys.ENTER);
+    }
+
+    @Then("I verify that the tooltip displays")
+    public void iVerifyThatTheTooltipDisplays() {
+        isElementPresent(phonesAndDevicesPage.toolTip);
+    }
+
+    @And("I type in a message")
+    public void iTypeInAMessage() {
+        phonesAndDevicesPage.sendKeysGeneric(phonesAndDevicesPage.enterMessage,"Hello");
+    }
+
 }
