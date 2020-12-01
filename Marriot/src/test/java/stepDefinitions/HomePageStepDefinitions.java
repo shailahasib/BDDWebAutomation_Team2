@@ -5,6 +5,7 @@ package stepDefinitions;
 
 import common.WebAPI;
 import home.HomePage;
+import home.HomePageWebElements;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
@@ -14,6 +15,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 
 import javax.swing.plaf.ScrollBarUI;
@@ -26,6 +28,8 @@ public class HomePageStepDefinitions extends WebAPI {
     @BeforeStep
     public static void getInit() {
         homePage = PageFactory.initElements(driver, HomePage.class);
+        ChromeOptions option = new ChromeOptions();
+        option.addArguments("disable-notifications");
     }
 
     @Given("I am on the Marriot homepage")
@@ -102,10 +106,10 @@ public class HomePageStepDefinitions extends WebAPI {
         }
     }
 
-//    @After
-//    public void closeBrowser() {
-//        cleanUp();
-//    }
+    @After
+    public void closeBrowser() {
+        cleanUp();
+    }
 
 
     @Then("I type location name")
@@ -136,7 +140,95 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @And("I select start date")
     public void iSelectStartDate() {
-        homePage.pickStartDate("NOVEMBER 2020","25");
+        homePage.pickStartDate("DECEMBER 2020", "15");
         sleepFor(4);
+    }
+
+    @When("I click find hotels")
+    public void iClickFindHotels() {
+        homePage.searchHotels();
+    }
+
+    @Then("I verify the search returns appropriate results for NYC")
+    public void iVerifyTheSearchReturnsAppropriateResultsForNYC() {
+        homePage.verifyNycHotels();
+    }
+
+    @Then("I verify that the list view option is hidden and inactive")
+    public void iVerifyThatTheListViewOptionIsHiddenAndInactive() {
+        homePage.classContains(homePage.listView, HomePageWebElements.listViewClass);
+    }
+
+    @Then("I verify that the appropriate message is displayed")
+    public void iVerifyThatTheAppropriateMessageIsDisplayed() {
+        homePage.trueAssertion(homePage.errorMessageForLocation);
+    }
+
+
+    @And("I type in {string}")
+    public void iTypeIn(String location) {
+        homePage.sendKeysGeneric(homePage.destinationTyping, location);
+    }
+
+    @Then("I verify the search returns appropriate {string} for given location")
+    public void iVerifyTheSearchReturnsAppropriateForGivenLocation(String results) {
+        homePage.equalAssertion(results, homePage.getTextGeneric(homePage.destinationTextOnPage));
+
+    }
+
+    @And("I select start {string} and {string}")
+    public void iSelectStartAnd(String month, String date) {
+        homePage.pickStartDate(month, date);
+    }
+
+    @Then("I verify the correct {string} on result page")
+    public void iVerifyTheCorrectOnResultPage(String dateResult) {
+        homePage.equalAssertion(dateResult, homePage.getTextGeneric(homePage.stayDatesText));
+    }
+
+
+    @And("I click on the global language button")
+    public void iClickOnTheGlobalLanguageButton() {
+        homePage.changeLanguage();
+    }
+
+    @When("I select Espanol from under Americas")
+    public void iSelectEspanolFromUnderAmericas() {
+        homePage.selectAmericasEspanol();
+        sleepFor(4);
+    }
+
+    @Then("I verify that the page title matches the chosen language")
+    public void iVerifyThatThePageTitleMatchesTheChosenLanguage() {
+        homePage.equalAssertion(HomePageWebElements.espanolExpectedText, homePage.getTextGeneric(homePage.espanolAmericasText));
+    }
+
+    @And("I click on Sign in or Join")
+    public void iClickOnSignInOrJoin() {
+    }
+
+    @And("I enter and invalid email")
+    public void iEnterAndInvalidEmail() {
+    }
+
+    @And("I enter an invalid password")
+    public void iEnterAnInvalidPassword() {
+    }
+
+    @When("I click Sign in")
+    public void iClickSignIn() {
+    }
+
+    @Then("I am not able to sign in and error message is displayed")
+    public void iAmNotAbleToSignInAndErrorMessageIsDisplayed() {
+    }
+
+    @When("I scroll down to the bottom of the page")
+    public void iScrollDownToTheBottomOfThePage() {
+        homePage.scrollDownToBottom();
+    }
+
+    @Then("I verify that the social media links are displayed")
+    public void iVerifyThatTheSocialMediaLinksAreDisplayed() {
     }
 }

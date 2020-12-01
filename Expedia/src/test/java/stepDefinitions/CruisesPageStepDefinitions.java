@@ -2,37 +2,43 @@ package stepDefinitions;
 
 import common.WebAPI;
 import cruises.CruisesPage;
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
 import static cruises.CruisesWebElements.*;
 
-public class CruisesPageStepDefinitions extends WebAPI{
+public class CruisesPageStepDefinitions extends WebAPI {
 
     static CruisesPage cruisesPage;
 
     @Before
-    public static void getInit(){
-        cruisesPage = PageFactory.initElements(driver,CruisesPage.class);
+    public static void getInit() {
+        cruisesPage = PageFactory.initElements(driver, CruisesPage.class);
+        ChromeOptions option = new ChromeOptions();
+        option.addArguments("disable-notifications");
     }
-
-
 
 
     @Given("I am on Expedia home page")
     public void iAmOnExpediaHomePage() throws IOException, InterruptedException {
-        openBrowser(url);
+        openBrowser(homePageUrl);
         Thread.sleep(8000);
     }
 
     @And("I click on Packages")
     public void iClickOnPackages() {
+        sleepFor(5);
         cruisesPage.clickPackages();
     }
 
@@ -54,12 +60,12 @@ public class CruisesPageStepDefinitions extends WebAPI{
 
     @And("I choose Departing")
     public void iChooseDeparting() {
-        cruisesPage.pickDepart("December 2020","25");
+        cruisesPage.pickDepart("December 2020", "25");
     }
 
     @And("I choose Returning")
     public void iChooseReturning() {
-        cruisesPage.pickReturn("December 2020","30");
+        cruisesPage.pickReturn("December 2020", "30");
     }
 
     @When("I click Search")
@@ -89,6 +95,7 @@ public class CruisesPageStepDefinitions extends WebAPI{
 
     @And("I click on going to")
     public void iClickOnGoingTo() {
+        sleepFor(5);
         cruisesPage.clickElement(cruisesPage.goingTo);
     }
 
@@ -96,4 +103,53 @@ public class CruisesPageStepDefinitions extends WebAPI{
     @And("I verify that {string}> matches to location")
     public void iVerifyThatMatchesToLocation(String flyingTo) {
     }
+
+    @When("I check gather all the a tags and iterate thr links")
+    public void iCheckGatherAllTheATagsAndIterateThrLinks() {
+        cruisesPage.findBrokenLinks();
+    }
+
+    @And("I select Stays")
+    public void iSelectStays() {
+        cruisesPage.clickGeneric(cruisesPage.stays);
+    }
+
+    @And("then I click on going to")
+    public void thenIClickOnGoingTo() {
+        cruisesPage.sendKeysGeneric(cruisesPage.goingToStay, locationsDallas);
+    }
+
+    @Then("I enter a destination")
+    public void iEnterADestination() {
+    }
+
+    @Then("I verify that the links are not broken")
+    public void iVerifyThatTheLinksAreNotBroken() {
+    }
+
+    @When("I scroll down to the footer and click on a {string}")
+    public void iScrollDownToTheFooterAndClickOnA(String linkText) {
+        cruisesPage.scrollHeight();
+        cruisesPage.clickLinkText(linkText);
+    }
+
+    @Then("I verify that the links navigate to correct {string}")
+    public void iVerifyThatTheLinksNavigateToCorrect(String pageTitle) {
+        cruisesPage.equalAssertion(pageTitle, cruisesPage.getTitleGeneric());
+    }
+
+    @After
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", "Marriot Homepage");
+        }
+    }
+
+    @After
+    public void closeBrowser() {
+        cleanUp();
+    }
+
+
 }

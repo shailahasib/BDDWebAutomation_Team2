@@ -29,7 +29,7 @@ import org.openqa.selenium.TakesScreenshot;
         //to check the mapping is proper between feature file and step def file
         dryRun = false,
         publish = true,
-        tags = "(@TestDataTable) and (not @pending)"
+        tags = "@SmokeTest"
 //        tags = "(@SmokeTest or @RegressionTest or @Test) and (not @pending)"
 //        tags = "(@SmokeTest or @Regression) and (not @pending)"
 //        //        tags = " (    @Regression or  @smokeTest    ) and not @pending    "

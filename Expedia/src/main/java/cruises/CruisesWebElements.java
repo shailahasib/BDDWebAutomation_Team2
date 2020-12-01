@@ -2,11 +2,11 @@ package cruises;
 
 public class CruisesWebElements {
 
-    public static final String url="https://www.expedia.com/";
-    public static final String packagesOnHeader ="#uitk-tabs-button-container > li:nth-child(4) > a > svg > svg > path";
+    public static final String homePageUrl="https://www.expedia.com/";
+    public static final String packagesOnHeader ="//span[contains(text(),'Packages')]";
     public static final String chooseOneOrMoreItemsToBuild ="//div[contains(text(),'Choose one or more items to build your trip:')]";
     public static final String chooseOptionsExpected ="Choose one or more items to build your trip:";
-    public static final String leavingFromInsertBox ="button[aria-label='Leaving from']";
+    public static final String leavingFromInsertBox ="//*[@id=\"wizard-hotel-pwa-v2-1\"]/div[2]/div[1]/div/div/div/div/div/button";
     public static final String goingToInsertBox ="button[aria-label='Going to']";
 
     public static final String departingDateBox ="//button[@id='d1-btn']";
@@ -23,6 +23,17 @@ public class CruisesWebElements {
     public static final String leavingFromTextBox = "//label[contains(text(),'Leaving from')]";
     public static final String goingToButton = "//body/div[@id='app']/div[@id='app-layer-manager']/div[@id='app-layer-base']/div[1]/div[1]/div[1]/div[3]/div[1]/figure[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]";
     public static final String flyingFromBox = "//input[@id='typeahead-originInput-0']";
+    public static final String whereAreYouGoingBox = "//button[@aria-label='Going to']";
+    public static final String links = "a";
+
+    public static final String staysXpathElement = "//li[contains(@class,'active')]//*[contains(@class,'uitk-icon uitk-icon-medium')]//*[local-name()='svg']//*[name()='path' and contains(@d,'M21.61 21.')]";
+    public static final String goingToStaysXpathElement = "//button[contains(@aria-label,'Going to')]"; //Click to open "where are you going?"
+    public static final String goingtoStaysWhereXpathElement = "//input[@id='location-field-destination']"; //sendKeys to this element
+
+    public static final String flightsXpathElements = "//span[normalize-space()='Flights']";
+    public static final String locationsDallas = "Dallas";
+
+
 
 
 
