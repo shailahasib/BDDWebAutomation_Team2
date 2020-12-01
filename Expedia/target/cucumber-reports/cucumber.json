@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-01T05:38:22.353Z",
+        "line": 28,
+        "name": "expedia search box functionality",
+        "description": "",
+        "id": "expedia-homepage-functionality-check;expedia-search-box-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 2302016300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.ExpediaStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2991200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.ExpediaStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10600012200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 102581200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ExpediaStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I am at Expedia Home Page",
+            "match": {
+              "location": "stepDefinitions.ExpediaStepDefinitions.i_am_at_expedia_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2285960900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1801200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ExpediaStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I enter data base in search Box",
+            "match": {
+              "location": "stepDefinitions.ExpediaStepDefinitions.iEnterDataBaseInSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168938700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 13113400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ExpediaStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I click search Button",
+            "match": {
+              "location": "stepDefinitions.ExpediaStepDefinitions.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 985700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1840500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ExpediaStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "I verify my data appear properly",
+            "match": {
+              "location": "stepDefinitions.ExpediaStepDefinitions.iVerifyMyDataAppearProperly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataTest"
+          }
+        ]
+      }
+    ],
+    "name": "Expedia HomePage Functionality check",
+    "description": "  Expedia Account functionality",
+    "id": "expedia-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ExpediaPage.feature",
+    "tags": []
+  }
+]

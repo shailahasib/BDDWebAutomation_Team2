@@ -413,23 +413,44 @@ public class WebAPI {
         Select select = new Select(element);
         select.selectByVisibleText(value);
     }
+    public static void verifyLinkActive(String linkUrl) {
+        try {
+            URL url = new URL(linkUrl);
+
+            HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
+
+            httpURLConnect.setConnectTimeout(3000);
+
+            httpURLConnect.connect();
+
+            if (httpURLConnect.getResponseCode() == 200) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage());
+            }
+            if (httpURLConnect.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage() + " - " + HttpURLConnection.HTTP_NOT_FOUND);
+            }
+        } catch (Exception e) {
+
+        }
+    }
 
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
-    public static void mouseHover(WebElement element) {
+    public static void mouseHover(WebElement elements) {
         try {
             Actions hover = new Actions(driver);
-            hover.moveToElement(element).perform();
+            hover.moveToElement(elements).perform();
         } catch (Exception ex) {
             driver.navigate().refresh();
             System.out.println("1st mouse-hover attempt failed - Attempting 2nd time");
             WebDriverWait wait = new WebDriverWait(driver, 10);
             Actions hover = new Actions(driver);
-            wait.until(ExpectedConditions.visibilityOf(element));
-            hover.moveToElement(element).perform();
+            wait.until(ExpectedConditions.visibilityOf(elements));
+            hover.moveToElement(elements).perform();
         }
     }
+
 
     public void mouseHoverByCSS(String locator) {
         try {
@@ -1051,11 +1072,43 @@ public class WebAPI {
     }
 
 
+    public void ByCssSelector() {
+    }
+    public void ByXPATH() {
+    }
+    public void validateEssentials() {
+    }
+    public void ByXPath() {
+    }
+    public void ById() {
+    }
 
+    public void ByCssSelector1() {
+    }
 
+    public void ByXPATH1() {
+    }
 
+    public void ByXPATH2() {
+    }
 
+    public void ByXPATH3() {
+    }
 
+    public void governmentHover() {
+    }
+
+    public void hoverOnBusinessAndSolu() throws InterruptedException {
+    }
+
+    public void ByCssSelector4() {
+    }
+
+    public void ByCssSelector3() {
+    }
+
+    public void checkWithDataReader() {
+    }
 }
 
 

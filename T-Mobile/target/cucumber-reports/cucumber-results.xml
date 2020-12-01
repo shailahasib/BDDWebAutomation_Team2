@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="26" time="712.49">
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Cell Phones button functionality check with valid name" time="23.156">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+When I click on Cell Phones.................................................passed
+Then I verify Phones is exist...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Tablets and devices functionality check with valid name" time="20.27">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I click on Tablets and devices..........................................passed
+Then I verify Tablets and devices is appear properly........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Smart Watches button functionality check with valid name" time="21.325">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I click on Smart Watches................................................passed
+Then I verify Smart Watches is appear properly..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Accessories button functionality check with valid name" time="34.005">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#mat-expansion-panel-header-0 &gt; span &gt; mat-panel-title &gt; div &gt; a &gt; span.hide-on-mobile.filter-button.font-weight-bold.margin-0.ng-tns-c208-2&quot;}&#10;  (Session info: chrome=87.0.4280.66)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2a0543a1299458123ef5d2a514782c14&#10;*** Element info: {Using=css selector, value=#mat-expansion-panel-header-0 &gt; span &gt; mat-panel-title &gt; div &gt; a &gt; span.hide-on-mobile.filter-button.font-weight-bold.margin-0.ng-tns-c208-2}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I click on Accessories..................................................failed
+Then I verify Accessories is appear properly................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#mat-expansion-panel-header-0 > span > mat-panel-title > div > a > span.hide-on-mobile.filter-button.font-weight-bold.margin-0.ng-tns-c208-2"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2a0543a1299458123ef5d2a514782c14
+*** Element info: {Using=css selector, value=#mat-expansion-panel-header-0 > span > mat-panel-title > div > a > span.hide-on-mobile.filter-button.font-weight-bold.margin-0.ng-tns-c208-2}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tmobile.TMobileHomePage.clickAccessories(TMobileHomePage.java:79)
+	at stepDefinitions.TMobilePageStepDefinitions.i_click_on_accessories(TMobilePageStepDefinitions.java:96)
+	at ✽.I click on Accessories(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:28)
+]]></failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Cases And Cavers functionality check with valid product" time="29.552">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I hover Accessories.....................................................passed
+When I click on Cases and Cavers............................................passed
+Then I verify Cases and Cavers is appear properly...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Cases And Cavers functionality check with valid product 2" time="39.151">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;mat-checkbox-1&quot;]/label/div&quot;}&#10;  (Session info: chrome=87.0.4280.66)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 35bc3d3df8fffddb0c4397a7e5542076&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;mat-checkbox-1&quot;]/label/div}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I hover Deals...........................................................passed
+When I click on New check Box...............................................failed
+Then I verify New Phones is appear properly.................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mat-checkbox-1"]/label/div"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35bc3d3df8fffddb0c4397a7e5542076
+*** Element info: {Using=xpath, value=//*[@id="mat-checkbox-1"]/label/div}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tmobile.TMobileHomePage.checkNewBox(TMobileHomePage.java:176)
+	at stepDefinitions.TMobilePageStepDefinitions.i_click_on_new_check_box(TMobilePageStepDefinitions.java:132)
+	at ✽.I click on New check Box(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:40)
+]]></failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Cases And Cavers functionality check with valid product 3" time="22.608">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I hover Plans...........................................................passed
+When I click on Essentials..................................................passed
+Then I verify Essentials is appear properly.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Cases And Cavers functionality check with valid product 4" time="20.876">
+        <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=&quot;nav-link-contaniner-1&quot;]/div/div/div/a[6] (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b71b22f8c3de9b71ebfc242360412e32" type="org.openqa.selenium.TimeoutException"><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I hover Phones and Devices..............................................failed
+When I click on Bring your own phone........................................skipped
+Then I verify Bring your own phone is appear properly.......................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="nav-link-contaniner-1"]/div/div/div/a[6] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b71b22f8c3de9b71ebfc242360412e32
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at tmobile.TMobileHomePage.phonesAndDevicesHover(TMobileHomePage.java:257)
+	at stepDefinitions.TMobilePageStepDefinitions.i_hover_phones_and_devices(TMobilePageStepDefinitions.java:292)
+	at ✽.I hover Phones and Devices(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:52)
+]]></failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Cases And Cavers functionality check with valid product 5" time="22.345">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I hover Phones and Devices..............................................passed
+When I click on Bring your own phone........................................passed
+Then I verify Bring your own phone is appear properly.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Plans functionality check with valid credential" time="23.049">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Cell Phones.................................................passed
+Then I verify Phones is exist...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Plans functionality check with valid credential 2" time="20.356">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I click on Tablets and devices..........................................passed
+Then I verify Tablets and devices is appear properly........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Plans functionality check with valid credential 3" time="19.162">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+When I click on Phones And Devices..........................................passed
+And I click on Smart Watches................................................passed
+Then I verify Smart Watches is appear properly..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile SearchBox functionality check with valid product" time="24.722">
+        <failure message="Search Item not match expected:&lt;laptop [LG]&gt; but was:&lt;laptop [(61)]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at T-Mobile And Prepaid Home Page................................passed
+And I open search Box.......................................................passed
+And I enter headset in search box...........................................passed
+When I click on Search Button...............................................passed
+And I inspect headset.......................................................passed
+Then I verify headset is appear properly....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<laptop [LG]> but was:<laptop [(61)]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at tmobile.TMobileHomePage.validateSearchText(TMobileHomePage.java:122)
+	at stepDefinitions.TMobilePageStepDefinitions.i_verify_headset_is_appear_properly(TMobilePageStepDefinitions.java:212)
+	at ✽.I verify headset is appear properly(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:33)
+]]></failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile SearchBox functionality check with valid product 2" time="21.287">
+        <failure message="Search Item not match expected:&lt;samsung galaxy [11 (181])&gt; but was:&lt;samsung galaxy [note 20 ultra (66])&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I am at T-Mobile And Prepaid Home Page................................passed
+And I open search Box.......................................................passed
+And I enter samsung galaxy 11 in search box.................................passed
+When I click on Search Button...............................................passed
+And I inspect on samsung galaxy 11..........................................passed
+Then I verify samsung galaxy 11 is appear properly..........................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<samsung galaxy [11 (181])> but was:<samsung galaxy [note 20 ultra (66])>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at tmobile.TMobileHomePage.validateSearchText1(TMobileHomePage.java:138)
+	at stepDefinitions.TMobilePageStepDefinitions.i_verify_samsung_galaxy_is_appear_properly(TMobilePageStepDefinitions.java:256)
+	at ✽.I verify samsung galaxy 11 is appear properly(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:42)
+]]></failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Cases And Cavers functionality check with valid product" time="33.692">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+And I click on Phones And Devices...........................................passed
+When I hover SortBy.........................................................passed
+And I check Price Low to High...............................................passed
+Then I verify Price Low to High is appear properly..........................passed
+And I verify page title as Cell Phones & Smartphones Shop the Newest Mobile Phones T-Mobile.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="TMobile home page active check links" time="164.012">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+Then I verify all active links..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile Deals functionality check with valid credential" time="20.077">
+        <system-out><![CDATA[Given I am at T-Mobile Home Page............................................passed
+And I hover on Deals........................................................passed
+When I click on Samsung.....................................................passed
+Then I verify Samsung is appear properly....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile mouseHover functionality check with valid credential" time="9.936">
+        <system-out><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover On business solutions...........................................passed
+When I click on trends and insights.........................................passed
+Then I verify trends and insights is appear properly........................passed
+But I should not see success stories........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential" time="10.405">
+        <system-out><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover contact us......................................................passed
+When I click on get help....................................................passed
+Then I verify popup window make a call is appear properly...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential 2" time="14.511">
+        <system-out><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover On business.....................................................passed
+When I click on HealthCare..................................................passed
+Then I verify HealthCare is appear properly.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential 3" time="14.18">
+        <system-out><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover On business And solutions.......................................passed
+When I click education......................................................passed
+Then I verify education is appear properly..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential 4" time="13.698">
+        <system-out><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover On business And solution........................................passed
+When I click Fleet Management...............................................passed
+Then I verify FLEET MANAGEMENT SOLUTIONS is appear properly.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential 5" time="30.127">
+        <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException"><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover On Plan.........................................................failed
+When I click on Magenta Military plan for service...........................skipped
+Then I verify MAGENTA® MILITARY FOR BUSINESS is appear properly.............skipped
+
+StackTrace:
+org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at tmobile.TMobileHomePage.hoverOnPlan(TMobileHomePage.java:372)
+	at stepDefinitions.TMobilePageStepDefinitions.i_hover_on_plan(TMobilePageStepDefinitions.java:396)
+	at ✽.I hover On Plan(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:133)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+		at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+		at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+		at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+		at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+		at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+		at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+		at tmobile.TMobileHomePage.hoverOnPlan(TMobileHomePage.java:372)
+		at stepDefinitions.TMobilePageStepDefinitions.i_hover_on_plan(TMobilePageStepDefinitions.java:396)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+		at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+		at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+		at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+		at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+		at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+		at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+		at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+		at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+		at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+		at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+		at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+		at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+		at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+		at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+		at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+		at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+		at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+		at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+		at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+		at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+		at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+		at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+		at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+		at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+		at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+		at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+		at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+		at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+		at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+		at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+		at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+		at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+		at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+		at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+		at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+		at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at tmobile.TMobileHomePage.hoverOnPlan(TMobileHomePage.java:372)
+	at stepDefinitions.TMobilePageStepDefinitions.i_hover_on_plan(TMobilePageStepDefinitions.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted > div.navbar__item.ng-tns-c61-7.tmo"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 527e16b724c645d9456f3999810eedd1
+*** Element info: {Using=css selector, value=div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted > div.navbar__item.ng-tns-c61-7.tmo}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 68 more
+]]></failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential 6" time="27.754">
+        <failure message="Expected condition failed: waiting for visibility of element located by By.cssSelector: div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted div.navbar__item.ng-tns-c61-7.tmo.is-active div.nav__link-container.ng-tns-c61-7.ng-star-inserted div.dropdown__menu.dropdown__menu--multicolum.ng-tns-c61-7.ng-trigger.ng-trigger-centerX.ng-star-inserted.is-active:nth-child(4) div.dropdown__multicolumn.ng-tns-c61-7.ng-star-inserted:nth-child(1) div.ng-tns-c61-7:nth-child(2) div.dropdown-subitems.ng-tns-c61-7.ng-star-inserted:nth-child(2) &gt; div.main-link.ng-tns-c61-7 (tried for 5 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover Plan............................................................failed
+When I click on Magenta for Business........................................skipped
+Then I verify Magenta for Business is appear properly.......................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted div.navbar__item.ng-tns-c61-7.tmo.is-active div.nav__link-container.ng-tns-c61-7.ng-star-inserted div.dropdown__menu.dropdown__menu--multicolum.ng-tns-c61-7.ng-trigger.ng-trigger-centerX.ng-star-inserted.is-active:nth-child(4) div.dropdown__multicolumn.ng-tns-c61-7.ng-star-inserted:nth-child(1) div.ng-tns-c61-7:nth-child(2) div.dropdown-subitems.ng-tns-c61-7.ng-star-inserted:nth-child(2) > div.main-link.ng-tns-c61-7 (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at tmobile.TMobileHomePage.hoverOnPlan1(TMobileHomePage.java:392)
+	at stepDefinitions.TMobilePageStepDefinitions.i_hover_plan(TMobilePageStepDefinitions.java:411)
+	at ✽.I hover Plan(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:140)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted div.navbar__item.ng-tns-c61-7.tmo.is-active div.nav__link-container.ng-tns-c61-7.ng-star-inserted div.dropdown__menu.dropdown__menu--multicolum.ng-tns-c61-7.ng-trigger.ng-trigger-centerX.ng-star-inserted.is-active:nth-child(4) div.dropdown__multicolumn.ng-tns-c61-7.ng-star-inserted:nth-child(1) div.ng-tns-c61-7:nth-child(2) div.dropdown-subitems.ng-tns-c61-7.ng-star-inserted:nth-child(2) > div.main-link.ng-tns-c61-7"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEN12UN', ip: '192.168.191.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Owner\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 91b6af550ec13ef3342e600534fea207
+*** Element info: {Using=css selector, value=div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted div.navbar__item.ng-tns-c61-7.tmo.is-active div.nav__link-container.ng-tns-c61-7.ng-star-inserted div.dropdown__menu.dropdown__menu--multicolum.ng-tns-c61-7.ng-trigger.ng-trigger-centerX.ng-star-inserted.is-active:nth-child(4) div.dropdown__multicolumn.ng-tns-c61-7.ng-star-inserted:nth-child(1) div.ng-tns-c61-7:nth-child(2) div.dropdown-subitems.ng-tns-c61-7.ng-star-inserted:nth-child(2) > div.main-link.ng-tns-c61-7}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at tmobile.TMobileHomePage.hoverOnPlan1(TMobileHomePage.java:392)
+	at stepDefinitions.TMobilePageStepDefinitions.i_hover_plan(TMobilePageStepDefinitions.java:411)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+]]></failure>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential 7" time="14.187">
+        <system-out><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover on coverage.....................................................passed
+When I click on International Coverage......................................passed
+Then I verify Keep your team covered internationally is appear..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="T-Mobile HomePage Functionality check" name="T-Mobile hover functionality check with valid credential 8" time="17.222">
+        <system-out><![CDATA[Given I am at T-Mobile And business Home Page...............................passed
+And I hover Coverage........................................................passed
+When I click on 5G coverage map.............................................passed
+Then I verify We’re transforming wireless for government is appear..........passed
+]]></system-out>
+    </testcase>
+</testsuite>

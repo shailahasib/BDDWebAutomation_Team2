@@ -1,0 +1,3 @@
+stepDefinitions\HomePageStepDefinitions.class
+runner\TMobileTestRunner.class
+stepDefinitions\TMobilePageStepDefinitions.class

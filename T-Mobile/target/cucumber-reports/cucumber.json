@@ -1,0 +1,3574 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12643445800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 31244100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1316479400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2991700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:20:43.728Z",
+        "line": 12,
+        "name": "T-Mobile Cell Phones button functionality check with valid name",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-cell-phones-button-functionality-check-with-valid-name",
+        "after": [
+          {
+            "result": {
+              "duration": 1326777700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4497580500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3987600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I click on Cell Phones",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_cell_phones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3214065300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2991200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I verify Phones is exist",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_phones_is_exist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13066753900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1082114300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2992800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:21:06.947Z",
+        "line": 17,
+        "name": "T-Mobile Tablets and devices functionality check with valid name",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-tablets-and-devices-functionality-check-with-valid-name",
+        "after": [
+          {
+            "result": {
+              "duration": 1209174700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4842113000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1995200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I click on Tablets and devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_tablets_and_devices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61334600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1993400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I verify Tablets and devices is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_tablets_and_devices_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13036153000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2296023100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 994700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:21:27.248Z",
+        "line": 22,
+        "name": "T-Mobile Smart Watches button functionality check with valid name",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-smart-watches-button-functionality-check-with-valid-name",
+        "after": [
+          {
+            "result": {
+              "duration": 1107550900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4732243800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1994800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I click on Smart Watches",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_smart_watches()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146410500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1994000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I verify Smart Watches is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_smart_watches_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11826947900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 929515100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:21:48.589Z",
+        "line": 27,
+        "name": "T-Mobile Accessories button functionality check with valid name",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-accessories-button-functionality-check-with-valid-name",
+        "after": [
+          {
+            "result": {
+              "duration": 1158532400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.tearDown(TMobilePageStepDefinitions.java:30)\r\n",
+              "duration": 995400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#mat-expansion-panel-header-0 \u003e span \u003e mat-panel-title \u003e div \u003e a \u003e span.hide-on-mobile.filter-button.font-weight-bold.margin-0.ng-tns-c208-2\"}\n  (Session info: chrome\u003d87.0.4280.66)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\Owner\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2a0543a1299458123ef5d2a514782c14\n*** Element info: {Using\u003dcss selector, value\u003d#mat-expansion-panel-header-0 \u003e span \u003e mat-panel-title \u003e div \u003e a \u003e span.hide-on-mobile.filter-button.font-weight-bold.margin-0.ng-tns-c208-2}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\r\n\tat tmobile.TMobileHomePage.clickAccessories(TMobileHomePage.java:79)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_click_on_accessories(TMobilePageStepDefinitions.java:96)\r\n\tat ✽.I click on Accessories(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:28)\r\n",
+              "duration": 20077798100,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I click on Accessories",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_accessories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998600,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I verify Accessories is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_accessories_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13980456300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 956442000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1991900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:22:22.634Z",
+        "line": 32,
+        "name": "T-Mobile Cases And Cavers functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-cases-and-cavers-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1425836200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7735105000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "I hover Accessories",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_accessories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5379187600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "I click on Cases and Cavers",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_cases_and_cavers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55850300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 35,
+            "name": "I verify Cases and Cavers is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_cases_and_cavers_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13630289400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 719363200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:22:52.209Z",
+        "line": 38,
+        "name": "T-Mobile Cases And Cavers functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-cases-and-cavers-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1024101100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.tearDown(TMobilePageStepDefinitions.java:30)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3714643000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "I hover Deals",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"mat-checkbox-1\"]/label/div\"}\n  (Session info: chrome\u003d87.0.4280.66)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\Owner\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 35bc3d3df8fffddb0c4397a7e5542076\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"mat-checkbox-1\"]/label/div}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy25.click(Unknown Source)\r\n\tat tmobile.TMobileHomePage.checkNewBox(TMobileHomePage.java:176)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_click_on_new_check_box(TMobilePageStepDefinitions.java:132)\r\n\tat ✽.I click on New check Box(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:40)\r\n",
+              "duration": 20050736800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "I click on New check Box",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_new_check_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "I verify New Phones is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_new_phones_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12129930600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1408234500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:23:31.376Z",
+        "line": 45,
+        "name": "T-Mobile Cases And Cavers functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-cases-and-cavers-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1096876700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4913887400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "I hover Plans",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_plans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 47,
+            "name": "I click on Essentials",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_essentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3052105900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "I verify Essentials is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_essentials_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13298995500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1992900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1052225800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:23:54.004Z",
+        "line": 51,
+        "name": "T-Mobile Cases And Cavers functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-cases-and-cavers-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 660777100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.tearDown(TMobilePageStepDefinitions.java:30)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id\u003d\"nav-link-contaniner-1\"]/div/div/div/a[6] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\Owner\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b71b22f8c3de9b71ebfc242360412e32\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat tmobile.TMobileHomePage.phonesAndDevicesHover(TMobileHomePage.java:257)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_hover_phones_and_devices(TMobilePageStepDefinitions.java:292)\r\n\tat ✽.I hover Phones and Devices(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:52)\r\n",
+              "duration": 5854836000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 52,
+            "name": "I hover Phones and Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_phones_and_devices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "I click on Bring your own phone",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_bring_your_own_phone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "I verify Bring your own phone is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_bring_your_own_phone_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12104276400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1189819200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:24:14.896Z",
+        "line": 57,
+        "name": "T-Mobile Cases And Cavers functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-cases-and-cavers-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1057651400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6988080100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "I hover Phones and Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_phones_and_devices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "I click on Bring your own phone",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_bring_your_own_phone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999327200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "I verify Bring your own phone is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_bring_your_own_phone_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "T-Mobile HomePage Functionality check",
+    "description": "  T-Mobile search functionality\n  T-Mobile header functionality",
+    "id": "t-mobile-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TMobileBackground.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-01T20:24:37.260Z",
+        "line": 7,
+        "name": "T-Mobile Plans functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-plans-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 708855400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12999256800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6236335400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on Cell Phones",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_cell_phones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3076121100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I verify Phones is exist",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_phones_is_exist()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:25:00.323Z",
+        "line": 13,
+        "name": "T-Mobile Plans functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-plans-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1058930700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13377404800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 765472100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 968300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5125647800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I click on Tablets and devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_tablets_and_devices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22444700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I verify Tablets and devices is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_tablets_and_devices_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:25:20.695Z",
+        "line": 20,
+        "name": "T-Mobile Plans functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-plans-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 724246500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13118491900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 823329700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3878474600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1014400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I click on Smart Watches",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_smart_watches()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615443100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I verify Smart Watches is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_smart_watches_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:25:39.868Z",
+        "line": 27,
+        "name": "T-Mobile SearchBox functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-searchbox-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 928685500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.tearDown(TMobilePageStepDefinitions.java:30)\r\n",
+              "duration": 994100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7918567500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I am at T-Mobile And Prepaid Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_prepaid_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 579449800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I open search Box",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_open_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366122500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I enter headset in search box",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_enter_headset_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9134617700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I click on Search Button",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5751396000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 720200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "I inspect headset",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.iInspectHeadset()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Item not match expected:\u003claptop [LG]\u003e but was:\u003claptop [(61)]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat tmobile.TMobileHomePage.validateSearchText(TMobileHomePage.java:122)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_verify_headset_is_appear_properly(TMobilePageStepDefinitions.java:212)\r\n\tat ✽.I verify headset is appear properly(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:33)\r\n",
+              "duration": 30520800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 712700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "I verify headset is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_headset_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:26:04.624Z",
+        "line": 36,
+        "name": "T-Mobile SearchBox functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-searchbox-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 762604100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.tearDown(TMobilePageStepDefinitions.java:30)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7182956400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "I am at T-Mobile And Prepaid Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_prepaid_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 936496600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "I open search Box",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_open_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269280100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "I enter samsung galaxy 11 in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_enter_samsung_galaxy_in_search_box(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9162058500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "I click on Search Button",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 563676300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "I inspect on samsung galaxy 11",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.iInspect_on_samsung_galaxy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Item not match expected:\u003csamsung galaxy [11 (181])\u003e but was:\u003csamsung galaxy [note 20 ultra (66])\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat tmobile.TMobileHomePage.validateSearchText1(TMobileHomePage.java:138)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_verify_samsung_galaxy_is_appear_properly(TMobilePageStepDefinitions.java:256)\r\n\tat ✽.I verify samsung galaxy 11 is appear properly(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:42)\r\n",
+              "duration": 2402405800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "I verify samsung galaxy 11 is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_samsung_galaxy_is_appear_properly(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:26:25.926Z",
+        "line": 58,
+        "name": "T-Mobile Cases And Cavers functionality check with valid product",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-cases-and-cavers-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1087678100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 957800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11663540000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 982100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 983369300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "I click on Phones And Devices",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_phones_and_devices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9273013200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "I hover SortBy",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_sort_by()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 296550900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "I check Price Low to High",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_check_price_low_to_high()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10298242800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "I verify Price Low to High is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_price_low_to_high_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81803000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "I verify page title as Cell Phones \u0026 Smartphones Shop the Newest Mobile Phones T-Mobile",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_page_title_as_cell_phones_smartphones_shop_the_newest_mobile_phones_t_mobile()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:26:59.631Z",
+        "line": 82,
+        "name": "TMobile home page active check links",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;tmobile-home-page-active-check-links",
+        "after": [
+          {
+            "result": {
+              "duration": 1001073600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13410122900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149597351900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 916300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 84,
+            "name": "I verify all active links",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.iVerifyAllActiveLinks()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:29:43.643Z",
+        "line": 87,
+        "name": "T-Mobile Deals functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-deals-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1104951800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14176458700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 88,
+            "name": "I am at T-Mobile Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2623222800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 685300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "I hover on Deals",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_on_deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "I click on Samsung",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_samsung()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2169783200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 91,
+            "name": "I verify Samsung is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_samsung_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:30:03.720Z",
+        "line": 94,
+        "name": "T-Mobile mouseHover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-mousehover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 655680500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6234631500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 95,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2116011700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 96,
+            "name": "I hover On business solutions",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_on_business_solutions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 97,
+            "name": "I click on trends and insights",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_trends_and_insights()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 924422900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 98,
+            "name": "I verify trends and insights is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_trends_and_insights_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 995900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 99,
+            "name": "I should not see success stories",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_should_not_see_success_stories()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:30:13.657Z",
+        "line": 103,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1443501200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6813183600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 15154800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 104,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2131049200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 105,
+            "name": "I hover contact us",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 106,
+            "name": "I click on get help",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_get_help()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 107,
+            "name": "I verify popup window make a call is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_popup_window_make_a_call_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:30:24.063Z",
+        "line": 110,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 799037600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6745772900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 111,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6926528100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 112,
+            "name": "I hover On business",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_on_business()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 113,
+            "name": "I click on HealthCare",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_health_care()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37260500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1003400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 114,
+            "name": "I verify HealthCare is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_health_care_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:30:38.581Z",
+        "line": 117,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1128238800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6110770200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 118,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6899968600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 119,
+            "name": "I hover On business And solutions",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_on_business_and_solutions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 120,
+            "name": "I click education",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_education()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38912300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 121,
+            "name": "I verify education is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_education_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:30:52.771Z",
+        "line": 124,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1042676900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6241338600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 125,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5779377800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 126,
+            "name": "I hover On business And solution",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_on_business_and_solution()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 127,
+            "name": "I click Fleet Management",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_fleet_management()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 625970600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 128,
+            "name": "I verify FLEET MANAGEMENT SOLUTIONS is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_fleet_management_solutions_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:31:06.485Z",
+        "line": 131,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 985385700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.tearDown(TMobilePageStepDefinitions.java:30)\r\n",
+              "duration": 765800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9126926300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 132,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)\r\n\tat java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)\r\n\tat com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)\r\n\tat org.openqa.selenium.json.Json.toJson(Json.java:42)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:595)\r\n\tat tmobile.TMobileHomePage.hoverOnPlan(TMobileHomePage.java:372)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_hover_on_plan(TMobilePageStepDefinitions.java:396)\r\n\tat ✽.I hover On Plan(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:133)\r\n\tSuppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\t\tat org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)\r\n\t\tat org.openqa.selenium.json.Json.toJson(Json.java:44)\r\n\t\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)\r\n\t\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)\r\n\t\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)\r\n\t\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\t\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\t\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\t\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\t\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:595)\r\n\t\tat tmobile.TMobileHomePage.hoverOnPlan(TMobileHomePage.java:372)\r\n\t\tat stepDefinitions.TMobilePageStepDefinitions.i_hover_on_plan(TMobilePageStepDefinitions.java:396)\r\n\t\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\t\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\t\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\t\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\t\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\t\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\t\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\t\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\t\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\t\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\t\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\t\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\t\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\t\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\t\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\t\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\t\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\t\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\t\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\t\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\t\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\t\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\t\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\t\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\t\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\t\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\t\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\t\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\t\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\t\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\t\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\t\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\t\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\t\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\t\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\t\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\t\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\t\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\t\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\t\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\t\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)\r\n\tat java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)\r\n\tat com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)\r\n\tat org.openqa.selenium.json.Json.toJson(Json.java:42)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:595)\r\n\tat tmobile.TMobileHomePage.hoverOnPlan(TMobileHomePage.java:372)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_hover_on_plan(TMobilePageStepDefinitions.java:396)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted \u003e div.navbar__item.ng-tns-c61-7.tmo\"}\n  (Session info: chrome\u003d87.0.4280.66)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\Owner\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 527e16b724c645d9456f3999810eedd1\n*** Element info: {Using\u003dcss selector, value\u003ddiv.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted \u003e div.navbar__item.ng-tns-c61-7.tmo}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy25.getWrappedElement(Unknown Source)\r\n\tat org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)\r\n\tat org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)\r\n\tat org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)\r\n\tat org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)\r\n\t... 68 more\r\n",
+              "duration": 20006671500,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 133,
+            "name": "I hover On Plan",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_on_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 134,
+            "name": "I click on Magenta Military plan for service",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_magenta_military_plan_for_service()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 135,
+            "name": "I verify MAGENTA® MILITARY FOR BUSINESS is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_magenta_military_for_business_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:31:36.641Z",
+        "line": 138,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 950744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.tearDown(TMobilePageStepDefinitions.java:30)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6512963100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 139,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted div.navbar__item.ng-tns-c61-7.tmo.is-active div.nav__link-container.ng-tns-c61-7.ng-star-inserted div.dropdown__menu.dropdown__menu--multicolum.ng-tns-c61-7.ng-trigger.ng-trigger-centerX.ng-star-inserted.is-active:nth-child(4) div.dropdown__multicolumn.ng-tns-c61-7.ng-star-inserted:nth-child(1) div.ng-tns-c61-7:nth-child(2) div.dropdown-subitems.ng-tns-c61-7.ng-star-inserted:nth-child(2) \u003e div.main-link.ng-tns-c61-7 (tried for 5 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat tmobile.TMobileHomePage.hoverOnPlan1(TMobileHomePage.java:392)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_hover_plan(TMobilePageStepDefinitions.java:411)\r\n\tat ✽.I hover Plan(file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:140)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted div.navbar__item.ng-tns-c61-7.tmo.is-active div.nav__link-container.ng-tns-c61-7.ng-star-inserted div.dropdown__menu.dropdown__menu--multicolum.ng-tns-c61-7.ng-trigger.ng-trigger-centerX.ng-star-inserted.is-active:nth-child(4) div.dropdown__multicolumn.ng-tns-c61-7.ng-star-inserted:nth-child(1) div.ng-tns-c61-7:nth-child(2) div.dropdown-subitems.ng-tns-c61-7.ng-star-inserted:nth-child(2) \u003e div.main-link.ng-tns-c61-7\"}\n  (Session info: chrome\u003d87.0.4280.66)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UEN12UN\u0027, ip: \u0027192.168.191.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\Owner\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 91b6af550ec13ef3342e600534fea207\n*** Element info: {Using\u003dcss selector, value\u003ddiv.wrapper:nth-child(23) div.iparys_inherited div.enterprise-unav-header-component.iparsys.parsys div.enterprise-unav-header.section tmo-digital-header.ng-tns-c64-0:nth-child(1) div.ng-tns-c64-0.ng-star-inserted header.ntm-navbar.ng-tns-c64-0.ntm-navbar--dark:nth-child(1) div.ng-tns-c64-0 div.ntm-navbar__menu-bar.ng-tns-c64-0 div.navbar__collapse.navbar__collapse--default-menu.ng-tns-c64-0.notSticky.ng-trigger.ng-trigger-centerX:nth-child(3) div.navbar__collapse--slide.ng-tns-c64-0 div.navbar__collapse--container.ng-tns-c64-0.ng-star-inserted:nth-child(1) tmo-unav-dropdown-container.ng-tns-c64-0 div.ntm-navbar__nav.ntm-navbar__nav--left tmo-unav-dropdown.ng-tns-c61-7.ng-tns-c64-0.ntm-navbar--dark.ng-star-inserted div.navbar__item.ng-tns-c61-7.tmo.is-active div.nav__link-container.ng-tns-c61-7.ng-star-inserted div.dropdown__menu.dropdown__menu--multicolum.ng-tns-c61-7.ng-trigger.ng-trigger-centerX.ng-star-inserted.is-active:nth-child(4) div.dropdown__multicolumn.ng-tns-c61-7.ng-star-inserted:nth-child(1) div.ng-tns-c61-7:nth-child(2) div.dropdown-subitems.ng-tns-c61-7.ng-star-inserted:nth-child(2) \u003e div.main-link.ng-tns-c61-7}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat tmobile.TMobileHomePage.hoverOnPlan1(TMobileHomePage.java:392)\r\n\tat stepDefinitions.TMobilePageStepDefinitions.i_hover_plan(TMobilePageStepDefinitions.java:411)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\n",
+              "duration": 20281362400,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 140,
+            "name": "I hover Plan",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 141,
+            "name": "I click on Magenta for Business",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_magenta_for_business()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 142,
+            "name": "I verify Magenta for Business is appear properly",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_magenta_for_business_is_appear_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:32:04.426Z",
+        "line": 145,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 770056400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6676290900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 146,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6708984100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 147,
+            "name": "I hover on coverage",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_on_coverage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 148,
+            "name": "I click on International Coverage",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_international_coverage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30795200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 149,
+            "name": "I verify Keep your team covered internationally is appear",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_verify_keep_your_team_covered_internationally_is_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-01T20:32:18.621Z",
+        "line": 152,
+        "name": "T-Mobile hover functionality check with valid credential",
+        "description": "",
+        "id": "t-mobile-homepage-functionality-check;t-mobile-hover-functionality-check-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1002270700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8953314200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 153,
+            "name": "I am at T-Mobile And business Home Page",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_am_at_t_mobile_and_business_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7262870800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 154,
+            "name": "I hover Coverage",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_hover_coverage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 623000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 155,
+            "name": "I click on 5G coverage map",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.i_click_on_5g_coverage_map()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.TMobilePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 156,
+            "name": "I verify We’re transforming wireless for government is appear",
+            "match": {
+              "location": "stepDefinitions.TMobilePageStepDefinitions.iVerifyWeReTransformingWirelessForGovernmentIsAppear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "T-Mobile HomePage Functionality check",
+    "description": "  T-Mobile search functionality\n  T-Mobile header functionality",
+    "id": "t-mobile-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TMobileHomePage.feature",
+    "tags": []
+  }
+]

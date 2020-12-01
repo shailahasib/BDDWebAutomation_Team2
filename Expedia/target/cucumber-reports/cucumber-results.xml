@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.426">
+    <testcase classname="Expedia HomePage Functionality check" name="expedia search box functionality" time="15.7">
+        <system-out><![CDATA[Given I am at Expedia Home Page.............................................passed
+And I enter data base in search Box.........................................passed
+When I click search Button..................................................passed
+Then I verify my data appear properly.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

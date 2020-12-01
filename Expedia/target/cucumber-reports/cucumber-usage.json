@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am at Expedia Home Page",
+    "steps": [
+      {
+        "name": "I am at Expedia Home Page",
+        "aggregatedDurations": {
+          "median": 10.6000122,
+          "average": 10.6000122
+        },
+        "durations": [
+          {
+            "duration": 10.6000122,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/ExpediaPage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter data base in search Box",
+    "steps": [
+      {
+        "name": "I enter data base in search Box",
+        "aggregatedDurations": {
+          "median": 2.2859609,
+          "average": 2.2859609
+        },
+        "durations": [
+          {
+            "duration": 2.2859609,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/ExpediaPage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click search Button",
+    "steps": [
+      {
+        "name": "I click search Button",
+        "aggregatedDurations": {
+          "median": 0.1689387,
+          "average": 0.1689387
+        },
+        "durations": [
+          {
+            "duration": 0.1689387,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/ExpediaPage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify my data appear properly",
+    "steps": [
+      {
+        "name": "I verify my data appear properly",
+        "aggregatedDurations": {
+          "median": 9.857E-4,
+          "average": 9.857E-4
+        },
+        "durations": [
+          {
+            "duration": 9.857E-4,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/Expedia/src/test/java/features/ExpediaPage.feature:32"
+          }
+        ]
+      }
+    ]
+  }
+]

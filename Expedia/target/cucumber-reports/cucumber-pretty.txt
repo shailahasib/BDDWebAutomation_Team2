@@ -1,0 +1,7 @@
+
+@DataTest
+Scenario: expedia search box functionality # src/test/java/features/ExpediaPage.feature:28
+  Given I am at Expedia Home Page          # stepDefinitions.ExpediaStepDefinitions.i_am_at_expedia_home_page()
+  And I enter data base in search Box      # stepDefinitions.ExpediaStepDefinitions.iEnterDataBaseInSearchBox()
+  When I click search Button               # stepDefinitions.ExpediaStepDefinitions.i_click_search_button()
+  Then I verify my data appear properly    # stepDefinitions.ExpediaStepDefinitions.iVerifyMyDataAppearProperly()

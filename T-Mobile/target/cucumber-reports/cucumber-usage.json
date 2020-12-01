@@ -1,0 +1,1178 @@
+[
+  {
+    "source": "I am at T-Mobile Home Page",
+    "steps": [
+      {
+        "name": "I am at T-Mobile Home Page",
+        "aggregatedDurations": {
+          "median": 13.0667539,
+          "average": 12.96416826
+        },
+        "durations": [
+          {
+            "duration": 12.6434458,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 13.0667539,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 13.036153,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 11.8269479,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 13.9804563,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 13.6302894,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 12.1299306,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 13.2989955,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 12.1042764,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:6"
+          },
+          {
+            "duration": 12.9992568,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:8"
+          },
+          {
+            "duration": 13.3774048,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:14"
+          },
+          {
+            "duration": 13.1184919,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:21"
+          },
+          {
+            "duration": 11.66354,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:59"
+          },
+          {
+            "duration": 13.4101229,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:83"
+          },
+          {
+            "duration": 14.1764587,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Phones And Devices",
+    "steps": [
+      {
+        "name": "I click on Phones And Devices",
+        "aggregatedDurations": {
+          "median": 1.01779755,
+          "average": 1.126865641
+        },
+        "durations": [
+          {
+            "duration": 1.3164794,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 1.0821143,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 2.2960231,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 0.9295151,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 0.956442,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 0.7193632,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 1.4082345,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 1.0522258,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 1.1898192,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:7"
+          },
+          {
+            "duration": 0.7654721,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:15"
+          },
+          {
+            "duration": 0.8233297,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:22"
+          },
+          {
+            "duration": 0.9833693,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Cell Phones",
+    "steps": [
+      {
+        "name": "I click on Cell Phones",
+        "aggregatedDurations": {
+          "median": 5.36695795,
+          "average": 5.36695795
+        },
+        "durations": [
+          {
+            "duration": 4.4975805,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:13"
+          },
+          {
+            "duration": 6.2363354,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Phones is exist",
+    "steps": [
+      {
+        "name": "I verify Phones is exist",
+        "aggregatedDurations": {
+          "median": 3.1450932,
+          "average": 3.1450932
+        },
+        "durations": [
+          {
+            "duration": 3.2140653,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:14"
+          },
+          {
+            "duration": 3.0761211,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Tablets and devices",
+    "steps": [
+      {
+        "name": "I click on Tablets and devices",
+        "aggregatedDurations": {
+          "median": 4.9838804,
+          "average": 4.9838804
+        },
+        "durations": [
+          {
+            "duration": 4.842113,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:18"
+          },
+          {
+            "duration": 5.1256478,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Tablets and devices is appear properly",
+    "steps": [
+      {
+        "name": "I verify Tablets and devices is appear properly",
+        "aggregatedDurations": {
+          "median": 0.04188965,
+          "average": 0.04188965
+        },
+        "durations": [
+          {
+            "duration": 0.0613346,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:19"
+          },
+          {
+            "duration": 0.0224447,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Smart Watches",
+    "steps": [
+      {
+        "name": "I click on Smart Watches",
+        "aggregatedDurations": {
+          "median": 4.3053592,
+          "average": 4.3053592
+        },
+        "durations": [
+          {
+            "duration": 4.7322438,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:23"
+          },
+          {
+            "duration": 3.8784746,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Smart Watches is appear properly",
+    "steps": [
+      {
+        "name": "I verify Smart Watches is appear properly",
+        "aggregatedDurations": {
+          "median": 0.3809268,
+          "average": 0.3809268
+        },
+        "durations": [
+          {
+            "duration": 0.1464105,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:24"
+          },
+          {
+            "duration": 0.6154431,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover Accessories",
+    "steps": [
+      {
+        "name": "I hover Accessories",
+        "aggregatedDurations": {
+          "median": 7.735105,
+          "average": 7.735105
+        },
+        "durations": [
+          {
+            "duration": 7.735105,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Cases and Cavers",
+    "steps": [
+      {
+        "name": "I click on Cases and Cavers",
+        "aggregatedDurations": {
+          "median": 5.3791876,
+          "average": 5.3791876
+        },
+        "durations": [
+          {
+            "duration": 5.3791876,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Cases and Cavers is appear properly",
+    "steps": [
+      {
+        "name": "I verify Cases and Cavers is appear properly",
+        "aggregatedDurations": {
+          "median": 0.0558503,
+          "average": 0.0558503
+        },
+        "durations": [
+          {
+            "duration": 0.0558503,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover Deals",
+    "steps": [
+      {
+        "name": "I hover Deals",
+        "aggregatedDurations": {
+          "median": 3.714643,
+          "average": 3.714643
+        },
+        "durations": [
+          {
+            "duration": 3.714643,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover Plans",
+    "steps": [
+      {
+        "name": "I hover Plans",
+        "aggregatedDurations": {
+          "median": 4.9138874,
+          "average": 4.9138874
+        },
+        "durations": [
+          {
+            "duration": 4.9138874,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Essentials",
+    "steps": [
+      {
+        "name": "I click on Essentials",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Essentials is appear properly",
+    "steps": [
+      {
+        "name": "I verify Essentials is appear properly",
+        "aggregatedDurations": {
+          "median": 3.0521059,
+          "average": 3.0521059
+        },
+        "durations": [
+          {
+            "duration": 3.0521059,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover Phones and Devices",
+    "steps": [
+      {
+        "name": "I hover Phones and Devices",
+        "aggregatedDurations": {
+          "median": 6.9880801,
+          "average": 6.9880801
+        },
+        "durations": [
+          {
+            "duration": 6.9880801,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Bring your own phone",
+    "steps": [
+      {
+        "name": "I click on Bring your own phone",
+        "aggregatedDurations": {
+          "median": 9.976E-4,
+          "average": 9.976E-4
+        },
+        "durations": [
+          {
+            "duration": 9.976E-4,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Bring your own phone is appear properly",
+    "steps": [
+      {
+        "name": "I verify Bring your own phone is appear properly",
+        "aggregatedDurations": {
+          "median": 0.9993272,
+          "average": 0.9993272
+        },
+        "durations": [
+          {
+            "duration": 0.9993272,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileBackground.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am at T-Mobile And Prepaid Home Page",
+    "steps": [
+      {
+        "name": "I am at T-Mobile And Prepaid Home Page",
+        "aggregatedDurations": {
+          "median": 7.55076195,
+          "average": 7.55076195
+        },
+        "durations": [
+          {
+            "duration": 7.9185675,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:28"
+          },
+          {
+            "duration": 7.1829564,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I open search Box",
+    "steps": [
+      {
+        "name": "I open search Box",
+        "aggregatedDurations": {
+          "median": 0.7579732,
+          "average": 0.7579732
+        },
+        "durations": [
+          {
+            "duration": 0.5794498,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:29"
+          },
+          {
+            "duration": 0.9364966,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter headset in search box",
+    "steps": [
+      {
+        "name": "I enter headset in search box",
+        "aggregatedDurations": {
+          "median": 0.3661225,
+          "average": 0.3661225
+        },
+        "durations": [
+          {
+            "duration": 0.3661225,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Search Button",
+    "steps": [
+      {
+        "name": "I click on Search Button",
+        "aggregatedDurations": {
+          "median": 9.1483381,
+          "average": 9.1483381
+        },
+        "durations": [
+          {
+            "duration": 9.1346177,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:31"
+          },
+          {
+            "duration": 9.1620585,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I inspect headset",
+    "steps": [
+      {
+        "name": "I inspect headset",
+        "aggregatedDurations": {
+          "median": 5.751396,
+          "average": 5.751396
+        },
+        "durations": [
+          {
+            "duration": 5.751396,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter samsung galaxy {int} in search box",
+    "steps": [
+      {
+        "name": "I enter samsung galaxy 11 in search box",
+        "aggregatedDurations": {
+          "median": 0.2692801,
+          "average": 0.2692801
+        },
+        "durations": [
+          {
+            "duration": 0.2692801,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I inspect on samsung galaxy 11",
+    "steps": [
+      {
+        "name": "I inspect on samsung galaxy 11",
+        "aggregatedDurations": {
+          "median": 0.5636763,
+          "average": 0.5636763
+        },
+        "durations": [
+          {
+            "duration": 0.5636763,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover SortBy",
+    "steps": [
+      {
+        "name": "I hover SortBy",
+        "aggregatedDurations": {
+          "median": 9.2730132,
+          "average": 9.2730132
+        },
+        "durations": [
+          {
+            "duration": 9.2730132,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I check Price Low to High",
+    "steps": [
+      {
+        "name": "I check Price Low to High",
+        "aggregatedDurations": {
+          "median": 0.2965509,
+          "average": 0.2965509
+        },
+        "durations": [
+          {
+            "duration": 0.2965509,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Price Low to High is appear properly",
+    "steps": [
+      {
+        "name": "I verify Price Low to High is appear properly",
+        "aggregatedDurations": {
+          "median": 10.2982428,
+          "average": 10.2982428
+        },
+        "durations": [
+          {
+            "duration": 10.2982428,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Cell Phones \u0026 Smartphones Shop the Newest Mobile Phones T-Mobile",
+    "steps": [
+      {
+        "name": "I verify page title as Cell Phones \u0026 Smartphones Shop the Newest Mobile Phones T-Mobile",
+        "aggregatedDurations": {
+          "median": 0.081803,
+          "average": 0.081803
+        },
+        "durations": [
+          {
+            "duration": 0.081803,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify all active links",
+    "steps": [
+      {
+        "name": "I verify all active links",
+        "aggregatedDurations": {
+          "median": 149.5973519,
+          "average": 149.5973519
+        },
+        "durations": [
+          {
+            "duration": 149.5973519,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover on Deals",
+    "steps": [
+      {
+        "name": "I hover on Deals",
+        "aggregatedDurations": {
+          "median": 2.6232228,
+          "average": 2.6232228
+        },
+        "durations": [
+          {
+            "duration": 2.6232228,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Samsung",
+    "steps": [
+      {
+        "name": "I click on Samsung",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Samsung is appear properly",
+    "steps": [
+      {
+        "name": "I verify Samsung is appear properly",
+        "aggregatedDurations": {
+          "median": 2.1697832,
+          "average": 2.1697832
+        },
+        "durations": [
+          {
+            "duration": 2.1697832,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am at T-Mobile And business Home Page",
+    "steps": [
+      {
+        "name": "I am at T-Mobile And business Home Page",
+        "aggregatedDurations": {
+          "median": 6.6762909,
+          "average": 7.046132366
+        },
+        "durations": [
+          {
+            "duration": 6.2346315,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:95"
+          },
+          {
+            "duration": 6.8131836,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:104"
+          },
+          {
+            "duration": 6.7457729,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:111"
+          },
+          {
+            "duration": 6.1107702,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:118"
+          },
+          {
+            "duration": 6.2413386,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:125"
+          },
+          {
+            "duration": 9.1269263,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:132"
+          },
+          {
+            "duration": 6.5129631,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:139"
+          },
+          {
+            "duration": 6.6762909,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:146"
+          },
+          {
+            "duration": 8.9533142,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:153"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover On business solutions",
+    "steps": [
+      {
+        "name": "I hover On business solutions",
+        "aggregatedDurations": {
+          "median": 2.1160117,
+          "average": 2.1160117
+        },
+        "durations": [
+          {
+            "duration": 2.1160117,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on trends and insights",
+    "steps": [
+      {
+        "name": "I click on trends and insights",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify trends and insights is appear properly",
+    "steps": [
+      {
+        "name": "I verify trends and insights is appear properly",
+        "aggregatedDurations": {
+          "median": 0.9244229,
+          "average": 0.9244229
+        },
+        "durations": [
+          {
+            "duration": 0.9244229,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should not see success stories",
+    "steps": [
+      {
+        "name": "I should not see success stories",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover contact us",
+    "steps": [
+      {
+        "name": "I hover contact us",
+        "aggregatedDurations": {
+          "median": 2.1310492,
+          "average": 2.1310492
+        },
+        "durations": [
+          {
+            "duration": 2.1310492,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on get help",
+    "steps": [
+      {
+        "name": "I click on get help",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify popup window make a call is appear properly",
+    "steps": [
+      {
+        "name": "I verify popup window make a call is appear properly",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:107"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover On business",
+    "steps": [
+      {
+        "name": "I hover On business",
+        "aggregatedDurations": {
+          "median": 6.9265281,
+          "average": 6.9265281
+        },
+        "durations": [
+          {
+            "duration": 6.9265281,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:112"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HealthCare",
+    "steps": [
+      {
+        "name": "I click on HealthCare",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:113"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify HealthCare is appear properly",
+    "steps": [
+      {
+        "name": "I verify HealthCare is appear properly",
+        "aggregatedDurations": {
+          "median": 0.0372605,
+          "average": 0.0372605
+        },
+        "durations": [
+          {
+            "duration": 0.0372605,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:114"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover On business And solutions",
+    "steps": [
+      {
+        "name": "I hover On business And solutions",
+        "aggregatedDurations": {
+          "median": 6.8999686,
+          "average": 6.8999686
+        },
+        "durations": [
+          {
+            "duration": 6.8999686,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:119"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click education",
+    "steps": [
+      {
+        "name": "I click education",
+        "aggregatedDurations": {
+          "median": 9.979E-4,
+          "average": 9.979E-4
+        },
+        "durations": [
+          {
+            "duration": 9.979E-4,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:120"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify education is appear properly",
+    "steps": [
+      {
+        "name": "I verify education is appear properly",
+        "aggregatedDurations": {
+          "median": 0.0389123,
+          "average": 0.0389123
+        },
+        "durations": [
+          {
+            "duration": 0.0389123,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:121"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover On business And solution",
+    "steps": [
+      {
+        "name": "I hover On business And solution",
+        "aggregatedDurations": {
+          "median": 5.7793778,
+          "average": 5.7793778
+        },
+        "durations": [
+          {
+            "duration": 5.7793778,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:126"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Fleet Management",
+    "steps": [
+      {
+        "name": "I click Fleet Management",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:127"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify FLEET MANAGEMENT SOLUTIONS is appear properly",
+    "steps": [
+      {
+        "name": "I verify FLEET MANAGEMENT SOLUTIONS is appear properly",
+        "aggregatedDurations": {
+          "median": 0.6259706,
+          "average": 0.6259706
+        },
+        "durations": [
+          {
+            "duration": 0.6259706,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:128"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover on coverage",
+    "steps": [
+      {
+        "name": "I hover on coverage",
+        "aggregatedDurations": {
+          "median": 6.7089841,
+          "average": 6.7089841
+        },
+        "durations": [
+          {
+            "duration": 6.7089841,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:147"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on International Coverage",
+    "steps": [
+      {
+        "name": "I click on International Coverage",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Keep your team covered internationally is appear",
+    "steps": [
+      {
+        "name": "I verify Keep your team covered internationally is appear",
+        "aggregatedDurations": {
+          "median": 0.0307952,
+          "average": 0.0307952
+        },
+        "durations": [
+          {
+            "duration": 0.0307952,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:149"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover Coverage",
+    "steps": [
+      {
+        "name": "I hover Coverage",
+        "aggregatedDurations": {
+          "median": 7.2628708,
+          "average": 7.2628708
+        },
+        "durations": [
+          {
+            "duration": 7.2628708,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:154"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on 5G coverage map",
+    "steps": [
+      {
+        "name": "I click on 5G coverage map",
+        "aggregatedDurations": {
+          "median": 6.23E-4,
+          "average": 6.23E-4
+        },
+        "durations": [
+          {
+            "duration": 6.23E-4,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:155"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify We’re transforming wireless for government is appear",
+    "steps": [
+      {
+        "name": "I verify We’re transforming wireless for government is appear",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/Owner/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/TMobileHomePage.feature:156"
+          }
+        ]
+      }
+    ]
+  }
+]

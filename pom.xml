@@ -245,7 +245,7 @@
                         <testFailureIgnore>true</testFailureIgnore>
                         <!--Test Runner Files-->
                         <includes>
-                            <exclude>**/AmazonTestRunner.java</exclude>
+                            <exclude>**/BCBSTestRunner.java</exclude>
                             <!-- <exclude>**/CNNTestRunner.java</exclude>-->
                         </includes>
                         <!--                    <suiteXmlFiles>-->
