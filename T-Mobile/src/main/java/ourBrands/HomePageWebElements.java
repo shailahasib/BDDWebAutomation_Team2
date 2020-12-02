@@ -1,4 +1,4 @@
-package home;
+package ourBrands;
 
 public class HomePageWebElements {
 }
