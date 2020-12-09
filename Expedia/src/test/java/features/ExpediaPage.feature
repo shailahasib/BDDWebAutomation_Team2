@@ -15,14 +15,15 @@ Feature: Expedia HomePage Functionality check
     Given I am at Expedia Home Page
     And I enter "<serviceName>" in searchBox
     When I click search Button
-    And I verify "<URL>"
+    And I verify "<validServiceName>" is appear properly
+    And I verify "<pageTitle>" as based on product name
 
     Examples:
-      | serviceName | URL                                               |
-      | Booking     | https://www.expedia.com/service/#/search/Booking  |
-      | Hotels      | https://www.expedia.com/service/#/search/Hotels   |
-      | Tickets     | https://www.expedia.com/service/#/search/Hotels   |
-      | Packages    | https://www.expedia.com/service/#/search/Packages |
+      | serviceName | validServiceName                       |pageTitle|
+      | Booking     | Refund timelines, policies & processes | Customer Service Portal        |
+      | Hotels      | Hotel payment options                  | Customer Service Portal        |
+      | Tickets     | Change your flight                     | Customer Service Portal        |
+      | Packages    | About Unreal Deals and package savings | Customer Service Portal        |
 
   @DataTest
   Scenario: expedia search box functionality with excel wri

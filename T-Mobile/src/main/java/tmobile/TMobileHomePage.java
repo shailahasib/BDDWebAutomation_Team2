@@ -254,7 +254,7 @@ public class TMobileHomePage extends WebAPI {
         Actions action = new Actions(driver);
         action.moveToElement(hoverPhonesAndDevices).perform();
         WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(new By.ByXPath("//*[@id=\"nav-link-contaniner-1\"]/div/div/div/a[6]"))).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(new By.ByXPath("//span[contains(text(),'Bring your own phone')]"))).click();
     }
     public void validateYourPhone(String expectedResult) {
         String actualResult = validatePhonesAndDevices.getText();

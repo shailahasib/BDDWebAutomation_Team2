@@ -210,6 +210,16 @@ public class ExpediaStepDefinitions extends WebAPI {
     public void theDataWillEnterFromExcelToSearchBoxAutomatically() throws IOException {
         expediaHomePage.checkWithDataReader();
     }
+
+    @And("I verify {string} as based on product name")
+    public void iVerifyAsBasedOnProductName(String arg0) {
+        
+    }
+
+    @And("I click on Things To do")
+    public void iClickOnThingsToDo() {
+
+    }
 }
 
 

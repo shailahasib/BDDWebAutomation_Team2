@@ -50,9 +50,9 @@ Feature: T-Mobile HomePage Functionality check
     And I inspect "<PopularSearches>"
     Then I verify "<validProductName>" is appear properly
     Examples:
-      | productName       | PopularSearches   | validProductName       |
-      | laptop LG         | laptop            | laptop (61)            |
-      | samsung galaxy 11 | samsung galaxy 11 | |
+      | productName       | PopularSearches   | validProductName |
+      | laptop LG         | laptop            | laptop (61)      |
+      | samsung galaxy 11 | samsung galaxy 11 |                  |
 
   @Test
   Scenario: T-Mobile Cases And Cavers functionality check with valid product
@@ -71,11 +71,11 @@ Feature: T-Mobile HomePage Functionality check
     When I click "<listName>"
     Then I get "<URL>" is exist properly
     Examples:
-      | listName          | URL              |
+      | listName          | URL                                                      |
       | Price Low to High | https://www.t-mobile.com/cell-phones?sort=priceLowToHigh |
       | Price High to Low | https://www.t-mobile.com/cell-phones?sort=priceHighToLow |
-      | Highest Rating    | https://www.t-mobile.com/cell-phones?sort=rating    |
-      | Featured          | https://www.t-mobile.com/cell-phones?sort=featured         |
+      | Highest Rating    | https://www.t-mobile.com/cell-phones?sort=rating         |
+      | Featured          | https://www.t-mobile.com/cell-phones?sort=featured       |
 
 
   @Test
