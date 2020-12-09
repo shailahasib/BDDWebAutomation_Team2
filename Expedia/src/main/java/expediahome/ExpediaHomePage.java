@@ -140,10 +140,5 @@ public class ExpediaHomePage extends WebAPI {
         obj.readExcelFile("dataTest/ExpediaSearchBox.xlsx", 0);
 
     }
-//        public void checkWithDataReader() throws IOException {
-//            DataReader obj = new DataReader();
-//            String[] searchItem= obj.fileReaderStringXSSF("C:\\Users\\Owner\\IdeaProjects\\BDDWebAutomation_Team2\\Expedia\\DataTest\\ExpediaSearchBox.xlsx",1);
-//            enterBooking.click();
-//            typeOnElement(enterBookingWebElement,searchItem[1]);
-//        }
     }
+
