@@ -4,11 +4,11 @@ Feature: BCBS healthPage functionality test
     Given I am at BCBS home page
     When I click on health of america
 
-  @test1
+  @hakim
   Scenario: check health of america title
     Then I verify I am at health of america page title
 
-  @test2
+  @hakim
   Scenario Outline: BCBS search box check
     And I enter "<search for>" in search box
     And I click on search button
@@ -20,12 +20,12 @@ Feature: BCBS healthPage functionality test
       | vision care       | https://www.bcbs.com/the-health-of-america/search/vision%20care       |
       | preventative care | https://www.bcbs.com/the-health-of-america/search/preventative%20care |
 
-  @test3
+  @hakim
   Scenario: check about button
     When i click on about
     Then I verify about page title
 
-  @test4
+  @hakim
   Scenario: check BCBS health index
     When click on BCBS health index
     Then I verify health index page title

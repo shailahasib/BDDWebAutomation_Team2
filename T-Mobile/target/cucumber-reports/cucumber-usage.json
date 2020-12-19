@@ -1,0 +1,508 @@
+[
+  {
+    "source": "I am at T-mobile home page",
+    "steps": [
+      {
+        "name": "I am at T-mobile home page",
+        "aggregatedDurations": {
+          "median": 16.9826736,
+          "average": 18.985245572
+        },
+        "durations": [
+          {
+            "duration": 19.1204028,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 16.9826736,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 17.8035084,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 15.6854602,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 18.2400003,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 14.7482908,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 47.919928,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 14.6398635,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.9554195,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 13.87728,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 18.8648742,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify home page title",
+    "steps": [
+      {
+        "name": "I verify home page title",
+        "aggregatedDurations": {
+          "median": 0.328122,
+          "average": 0.328122
+        },
+        "durations": [
+          {
+            "duration": 0.328122,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I lick on cart sign button",
+    "steps": [
+      {
+        "name": "I lick on cart sign button",
+        "aggregatedDurations": {
+          "median": 4.9411623,
+          "average": 4.9411623
+        },
+        "durations": [
+          {
+            "duration": 4.9411623,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify My cart logo is displayed",
+    "steps": [
+      {
+        "name": "I verify My cart logo is displayed",
+        "aggregatedDurations": {
+          "median": 2.1064769,
+          "average": 2.1064769
+        },
+        "durations": [
+          {
+            "duration": 2.1064769,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 2.1076119,
+          "average": 2.1076119
+        },
+        "durations": [
+          {
+            "duration": 2.1076119,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"iphone\" in searchBox",
+        "aggregatedDurations": {
+          "median": 1.9323561,
+          "average": 1.9323561
+        },
+        "durations": [
+          {
+            "duration": 1.9323561,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "again I click on search button",
+    "steps": [
+      {
+        "name": "again I click on search button",
+        "aggregatedDurations": {
+          "median": 5.5338161,
+          "average": 5.5338161
+        },
+        "durations": [
+          {
+            "duration": 5.5338161,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify  current URL",
+    "steps": [
+      {
+        "name": "I verify  current URL",
+        "aggregatedDurations": {
+          "median": 0.0289239,
+          "average": 0.0289239
+        },
+        "durations": [
+          {
+            "duration": 0.0289239,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse hover plans and I select Essentials",
+    "steps": [
+      {
+        "name": "I mouse hover plans and I select Essentials",
+        "aggregatedDurations": {
+          "median": 13.7243716,
+          "average": 13.7243716
+        },
+        "durations": [
+          {
+            "duration": 13.7243716,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the current url",
+    "steps": [
+      {
+        "name": "I verify the current url",
+        "aggregatedDurations": {
+          "median": 5.132163,
+          "average": 5.132163
+        },
+        "durations": [
+          {
+            "duration": 5.132163,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse over Phones \u0026 devices",
+    "steps": [
+      {
+        "name": "I mouse over Phones \u0026 devices",
+        "aggregatedDurations": {
+          "median": 12.2936158,
+          "average": 12.2936158
+        },
+        "durations": [
+          {
+            "duration": 12.2936158,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i select FiveG phones",
+    "steps": [
+      {
+        "name": "i select FiveG phones",
+        "aggregatedDurations": {
+          "median": 11.0577893,
+          "average": 11.0577893
+        },
+        "durations": [
+          {
+            "duration": 11.0577893,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify FiveG logo displays",
+    "steps": [
+      {
+        "name": "I verify FiveG logo displays",
+        "aggregatedDurations": {
+          "median": 0.0947588,
+          "average": 0.0947588
+        },
+        "durations": [
+          {
+            "duration": 0.0947588,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify all active links",
+    "steps": [
+      {
+        "name": "I verify all active links",
+        "aggregatedDurations": {
+          "median": 135.7844989,
+          "average": 135.7844989
+        },
+        "durations": [
+          {
+            "duration": 135.7844989,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse over deals",
+    "steps": [
+      {
+        "name": "I mouse over deals",
+        "aggregatedDurations": {
+          "median": 8.6961837,
+          "average": 8.6961837
+        },
+        "durations": [
+          {
+            "duration": 8.6961837,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Apple",
+    "steps": [
+      {
+        "name": "I click on Apple",
+        "aggregatedDurations": {
+          "median": 4.2538175,
+          "average": 4.2538175
+        },
+        "durations": [
+          {
+            "duration": 4.2538175,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Apple",
+    "steps": [
+      {
+        "name": "I verify page title as Apple",
+        "aggregatedDurations": {
+          "median": 3.0246143,
+          "average": 3.0246143
+        },
+        "durations": [
+          {
+            "duration": 3.0246143,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on my account",
+    "steps": [
+      {
+        "name": "I click on my account",
+        "aggregatedDurations": {
+          "median": 8.7520951,
+          "average": 8.7520951
+        },
+        "durations": [
+          {
+            "duration": 9.8122322,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:41"
+          },
+          {
+            "duration": 7.691958,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Log in",
+    "steps": [
+      {
+        "name": "I click on Log in",
+        "aggregatedDurations": {
+          "median": 7.66066055,
+          "average": 7.66066055
+        },
+        "durations": [
+          {
+            "duration": 8.1837763,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:42"
+          },
+          {
+            "duration": 7.1375448,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string}",
+    "steps": [
+      {
+        "name": "I enter \"lehamelhakim833@gmail.com\"",
+        "aggregatedDurations": {
+          "median": 3.6323132,
+          "average": 3.6323132
+        },
+        "durations": [
+          {
+            "duration": 3.6754744,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:43"
+          },
+          {
+            "duration": 3.589152,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on next",
+    "steps": [
+      {
+        "name": "i click on next",
+        "aggregatedDurations": {
+          "median": 3.75021305,
+          "average": 3.75021305
+        },
+        "durations": [
+          {
+            "duration": 3.9384944,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:44"
+          },
+          {
+            "duration": 3.5619317,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse over coverage",
+    "steps": [
+      {
+        "name": "I mouse over coverage",
+        "aggregatedDurations": {
+          "median": 3.0003111,
+          "average": 3.0003111
+        },
+        "durations": [
+          {
+            "duration": 3.0003111,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse hover chat sign",
+    "steps": [
+      {
+        "name": "I mouse hover chat sign",
+        "aggregatedDurations": {
+          "median": 3.2156288,
+          "average": 3.2156288
+        },
+        "durations": [
+          {
+            "duration": 3.2156288,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "click feedback",
+    "steps": [
+      {
+        "name": "click feedback",
+        "aggregatedDurations": {
+          "median": 14.07009,
+          "average": 14.07009
+        },
+        "durations": [
+          {
+            "duration": 14.07009,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify feedback tab opens",
+    "steps": [
+      {
+        "name": "I verify feedback tab opens",
+        "aggregatedDurations": {
+          "median": 2.7473935,
+          "average": 2.7473935
+        },
+        "durations": [
+          {
+            "duration": 2.7473935,
+            "location": "file:///C:/Users/hakim/IdeaProjects/BDDWebAutomation_Team2/T-Mobile/src/test/java/features/HomePage.feature:62"
+          }
+        ]
+      }
+    ]
+  }
+]

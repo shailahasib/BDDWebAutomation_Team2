@@ -1,0 +1,5 @@
+
+@hakim
+Scenario: check health of america title              # src/test/java/features/healthPage.feature:8
+  Given I am at BCBS home page                       # stepDefinitions.healthStepDefinitions.i_am_at_bcbs_home_page()
+  When I click on health of america                  # stepDefinitions.healthStepDefinitions.i_click_on_health_of_america()
