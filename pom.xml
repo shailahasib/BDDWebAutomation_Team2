@@ -245,9 +245,10 @@
                         <testFailureIgnore>true</testFailureIgnore>
                         <!--Test Runner Files-->
                         <includes>
-                            <exclude>**/AmazonTestRunner.java</exclude>
+                            <include>**/healthPageRunner.java</include>
                             <!-- <exclude>**/CNNTestRunner.java</exclude>-->
                         </includes>
+
                         <!--                    <suiteXmlFiles>-->
                         <!--                        <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
                         <!--                        &lt;!&ndash;                        <suiteXmlFile></suiteXmlFile>&ndash;&gt;-->
