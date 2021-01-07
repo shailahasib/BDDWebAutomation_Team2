@@ -246,6 +246,9 @@
                         <!--Test Runner Files-->
                         <includes>
                             <exclude>**/AmazonTestRunner.java</exclude>
+                            <exclude>**/HomePageTestRunner.java</exclude>
+                            <exclude>**/creditCardPageTestRunner.java</exclude>
+                            <exclude>**/aldrinsHomePageTestRunner.java</exclude>
                             <!-- <exclude>**/CNNTestRunner.java</exclude>-->
                         </includes>
                         <!--                    <suiteXmlFiles>-->
